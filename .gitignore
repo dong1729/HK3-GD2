@@ -1,0 +1,8 @@
+# Bỏ qua file hệ thống của macOS
+.DS_Store
+
+# Bỏ qua file thực thi sau khi biên dịch C++
+*.out
+*.o
+*.exe
+*.dSYM/
