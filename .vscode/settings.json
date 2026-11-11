@@ -1,0 +1,104 @@
+{
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.colorCustomizations": {
+    "[Dark Modern]": {
+      "activityBar.activeBorder": "#A78BFA",
+      "focusBorder": "#A78BFA",
+      "button.background": "#6D4CC2",
+      "button.hoverBackground": "#7C5BD1",
+      "tab.activeBorderTop": "#A78BFA",
+      "statusBar.background": "#242036",
+      "statusBar.foreground": "#E8E3F5",
+      "titleBar.activeBackground": "#181622",
+      "titleBar.activeForeground": "#E8E3F5"
+    }
+  },
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 25,
+  "editor.minimap.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderWhitespace": "selection",
+  "editor.stickyScroll.enabled": true,
+  "editor.linkedEditing": true,
+  "editor.rulers": [
+    100
+  ],
+  "editor.wordWrap": "off",
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "workbench.editor.enablePreview": false,
+  "workbench.tree.indent": 16,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 10000,
+  "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/*.dSYM": true,
+    "**/*.out": true,
+    "**/.gitkeep": true,
+    "**/run_cpp.py": true
+  },
+  "search.exclude": {
+    "**/*.dSYM/**": true,
+    "**/*.out": true
+  },
+  "[cpp]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": false
+  },
+  "[c]": {
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": false
+  },
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+  "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, IndentWidth: 4, ColumnLimit: 100, BreakBeforeBraces: Allman }",
+  "liveServer.settings.root": "/Web_Dev",
+  "liveServer.settings.host": "127.0.0.1",
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.defaultLocation": "view",
+  "task.saveBeforeRun": "always"
+}

@@ -1,0 +1,56 @@
+{
+  "C++ learning main": {
+    "scope": "cpp",
+    "prefix": "cppmain",
+    "description": "C++17 main with standard input/output",
+    "body": [
+      "#include <iostream>",
+      "",
+      "int main()",
+      "{",
+      "    ${0:// Code here}",
+      "    return 0;",
+      "}"
+    ]
+  },
+  "C++ encapsulated class": {
+    "scope": "cpp",
+    "prefix": "oopclass",
+    "description": "Class with private data, constructor and const getter",
+    "body": [
+      "#include <string>",
+      "",
+      "class ${1:Student}",
+      "{",
+      "private:",
+      "    std::string ${2:name}_;",
+      "",
+      "public:",
+      "    explicit ${1:Student}(const std::string& ${2:name}) : ${2:name}_(${2:name}) {}",
+      "",
+      "    const std::string& getName() const",
+      "    {",
+      "        return ${2:name}_;",
+      "    }",
+      "};",
+      "$0"
+    ]
+  },
+  "JavaScript learning class": {
+    "scope": "javascript",
+    "prefix": "jsclass",
+    "description": "JavaScript class with constructor and method",
+    "body": [
+      "class ${1:Student} {",
+      "  constructor(name) {",
+      "    this.name = name;",
+      "  }",
+      "",
+      "  introduce() {",
+      "    return `Hello, I am \\${this.name}`;",
+      "  }",
+      "}",
+      "$0"
+    ]
+  }
+}

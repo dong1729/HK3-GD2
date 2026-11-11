@@ -1,0 +1,23 @@
+HỌC TẬP HK3-GD2
+
+CHẠY C++
+Mở file .cpp rồi nhấn F6 (hoặc fn + F6 nếu Mac đang dùng phím chức năng cho hệ thống).
+Bạn cũng có thể bấm “Chạy C++” ở thanh dưới cùng.
+File sẽ được lưu trước khi chạy. Nhập cin trực tiếp trong Terminal.
+Terminal chỉ hiện kết quả hoặc lỗi biên dịch; mỗi lần chạy sẽ làm sạch kết quả cũ.
+Mỗi bài đang dùng cách chạy một file .cpp có hàm main riêng.
+Build riêng: Command + Shift + B. Ẩn/hiện Terminal: Command + J.
+
+THƯ MỤC
+Trong mỗi môn, mỗi Buổi có “Trên lớp” và “Về nhà”.
+Các bài CPP cũ nằm trong “Bài cũ chưa phân buổi/Trên lớp”, giữ nguyên tên bài và nội dung.
+Bấm “Tạo buổi học”, chọn môn và nhập tên buổi để tạo hai thư mục con tự động.
+
+GITHUB
+Bấm “Cập nhật GitHub”: lưu các file đã đặt tên, gom thay đổi của toàn thư mục học,
+tạo commit với thời gian hiện tại rồi đẩy lên origin/nhánh đang mở.
+Kho đích: https://github.com/dong1729/HK3-GD2.git
+File mới chưa đặt tên cần được lưu vào thư mục học trước.
+Nếu chưa đăng nhập GitHub hoặc nhánh từ xa có thay đổi, bảng “Cập nhật GitHub” sẽ báo lỗi.
+Không tự ghi đè lịch sử hoặc tự gộp thay đổi từ xa. Nếu push lỗi, commit cục bộ được giữ lại.
+Thư mục rỗng có .gitkeep để khi cập nhật GitHub vẫn giữ cấu trúc.

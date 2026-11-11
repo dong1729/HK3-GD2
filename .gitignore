@@ -6,3 +6,19 @@
 *.o
 *.exe
 *.dSYM/
+
+# Môi trường cục bộ và file thực thi cũ
+.env
+.env.*
+!.env.example
+*.pem
+node_modules/
+.venv/
+/CPP/Bài cũ chưa phân buổi/Trên lớp/1
+/CPP/Bài cũ chưa phân buổi/Trên lớp/1.out
+/CPP/Bài cũ chưa phân buổi/Trên lớp/1.out.dSYM/Contents/Resources/DWARF/1.out
+/CPP/Bài cũ chưa phân buổi/Trên lớp/1.dSYM/Contents/Resources/DWARF/1
+/CPP/Bài cũ chưa phân buổi/Trên lớp/Kiểu Dữ Liệu & Cấu Trúc Rẽ Nhánh/Bài 1: Phần Nguyên, Phần Dư/bai1
+/CPP/Bài cũ chưa phân buổi/Trên lớp/Kiểu Dữ Liệu & Cấu Trúc Rẽ Nhánh/Bài 1: Phần Nguyên, Phần Dư/bai1.dSYM/Contents/Resources/DWARF/bai1
+/CPP/Bài cũ chưa phân buổi/Trên lớp/Kiểu Dữ Liệu & Cấu Trúc Rẽ Nhánh/Bài 2: Tính Toán Giá Trị Biểu Thức/bai2
+/CPP/Bài cũ chưa phân buổi/Trên lớp/Kiểu Dữ Liệu & Cấu Trúc Rẽ Nhánh/Bài 2: Tính Toán Giá Trị Biểu Thức/bai2.dSYM/Contents/Resources/DWARF/bai2
