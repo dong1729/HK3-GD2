@@ -13,3 +13,6 @@
 [Mở lời giải trong dự án](../du-an/trang-chu.html). nguon/head.html và scripts/build.py áp DOCTYPE/lang/charset/viewport, title/description/canonical riêng, favicon và Open Graph cho sáu trang. Ảnh chia sẻ assets/chia-se.jpg có 1200×630.
 
 Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+
+
+Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.

@@ -13,3 +13,6 @@
 [Mở lời giải trong dự án](../du-an/chi-tiet.html). bao-cao/QUY_UOC.md định nghĩa thẻ; chi tiết dùng del/ins/strong, dfn/abbr/data, blockquote/q/cite và address. Không br để dàn bố cục.
 
 Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+
+
+Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.

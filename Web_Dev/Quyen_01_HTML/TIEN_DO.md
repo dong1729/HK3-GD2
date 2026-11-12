@@ -8,6 +8,13 @@
 
 - Phần mở đầu, phụ lục, chương 1 và 2: đã có nhãn đã đọc xong.
 - Chương 3: web hiển thị Đã đọc xong, 11/10 phút, cuộn 100% tại lần kiểm.
-- Chương 4: đang đọc. Chương 5–11: chưa xác nhận hoàn thành.
+- Chương 4: LMS ghi Đã đọc xong, 10/10 phút, cuộn 100%.
+- Chương 5: LMS ghi Đã đọc xong, 12/10 phút, cuộn 100%.
+- Chương 6–11: chưa chốt đợt đọc/bài trong lần ưu tiên chương trước.
 
 Không chỉnh bộ đếm, gọi API tiến độ trực tiếp hoặc giả lập phút đọc. Trạng thái web có thể thay đổi sau bản ghi này; chỉ cập nhật theo quan sát mới.
+
+
+## Đợt chốt chương 1–5
+
+40 câu ôn tập có câu hỏi và lời giải; 10 bài HTML cơ bản/trung bình được W3C Nu kiểm không lỗi; 5 ticket nâng cao và 5 mốc dự án có ánh xạ mã nguồn. 20 bài kiểm chức năng/trợ năng chạy thành công ở commit 70d3957; bằng chứng trong báo cáo. Không đồng nhất việc hoàn thiện mã với đã thực hiện buổi đánh giá chéo hoặc nghe VoiceOver/NVDA.

@@ -1,0 +1,188 @@
+[
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Lập trình Web căn bản",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Thêm Lập trình Web căn bản vào giỏ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Xem nhanh Lập trình Web căn bản",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Tư duy giải thuật",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Thêm Tư duy giải thuật vào giỏ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Xem nhanh Tư duy giải thuật",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Dữ liệu cho người mới",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Thêm Dữ liệu cho người mới vào giỏ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Xem nhanh Dữ liệu cho người mới",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Lập trình",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Dữ liệu",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "VIDEO",
+    "id": "",
+    "name": "Tải video giới thiệu",
+    "outline": "auto 1px"
+  },
+  {
+    "tag": "VIDEO",
+    "id": "",
+    "name": "Tải video giới thiệu",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "VIDEO",
+    "id": "",
+    "name": "Tải video giới thiệu",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "VIDEO",
+    "id": "",
+    "name": "Tải video giới thiệu",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "VIDEO",
+    "id": "",
+    "name": "Tải video giới thiệu",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Đọc bản chép lời",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "hotro@sachsaomai.example",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "HTML Standard (tab mới)",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BODY",
+    "id": "",
+    "name": "Bỏ qua điều hướng đến nội dung\n\n Nhà sách Sao Mai\nTrang chủDanh mụcChi tiết sách",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Bỏ qua điều hướng đến nội dung",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Nhà sách Sao Mai",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Trang chủ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Danh mục",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Chi tiết sách",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Giỏ hàng",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Thanh toán",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Liên hệ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "INPUT",
+    "id": "tim-sach",
+    "name": "",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Tìm kiếm",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Giỏ hàng (0)",
+    "outline": "solid 3px"
+  }
+]

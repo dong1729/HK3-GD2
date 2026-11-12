@@ -1,0 +1,182 @@
+[
+  {
+    "tag": "INPUT",
+    "id": "lh-ten",
+    "name": "",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "INPUT",
+    "id": "lh-email",
+    "name": "",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "INPUT",
+    "id": "lh-tel",
+    "name": "",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "TEXTAREA",
+    "id": "lh-noi-dung",
+    "name": "",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Gửi liên hệ minh họa",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "IFRAME",
+    "id": "",
+    "name": "",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Mở OpenStreetMap (tab mới)",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "hotro@sachsaomai.example",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "HTML Standard (tab mới)",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BODY",
+    "id": "",
+    "name": "Bỏ qua điều hướng đến nội dung\n\n Nhà sách Sao Mai\nTrang chủDanh mụcChi tiết sách",
+    "outline": "none 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Bỏ qua điều hướng đến nội dung",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Nhà sách Sao Mai",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Trang chủ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Danh mục",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Chi tiết sách",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Giỏ hàng",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Thanh toán",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Liên hệ",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "INPUT",
+    "id": "tim-sach",
+    "name": "",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Tìm kiếm",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "BUTTON",
+    "id": "",
+    "name": "Giỏ hàng (0)",
+    "outline": "solid 3px"
+  },
+  {
+    "tag": "A",
+    "id": "",
+    "name": "Trang chủ",
+    "outline": "solid 3px"
+  }
+]

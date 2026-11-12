@@ -1,0 +1,8332 @@
+{
+  "nodes": [
+    {
+      "nodeId": "10",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "RootWebArea"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 144
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách cho sinh viên — Nhà sách Sao Mai",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label",
+            "superseded": true
+          },
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Sách cho sinh viên — Nhà sách Sao Mai"
+            },
+            "nativeSource": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "focused",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/trang-chu#noi-dung"
+          }
+        }
+      ],
+      "childIds": [
+        "42"
+      ],
+      "backendDOMNodeId": 10,
+      "frameId": "AEF0A3BA92FBF1E05551A1FB3F24914B"
+    },
+    {
+      "nodeId": "42",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "10",
+      "childIds": [
+        "43"
+      ],
+      "backendDOMNodeId": 42
+    },
+    {
+      "nodeId": "43",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "42",
+      "childIds": [
+        "44",
+        "46",
+        "18",
+        "207",
+        "33",
+        "37"
+      ],
+      "backendDOMNodeId": 43
+    },
+    {
+      "nodeId": "44",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Bỏ qua điều hướng đến nội dung",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Bỏ qua điều hướng đến nội dung"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/trang-chu#noi-dung"
+          }
+        }
+      ],
+      "parentId": "43",
+      "childIds": [
+        "45"
+      ],
+      "backendDOMNodeId": 44
+    },
+    {
+      "nodeId": "46",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "banner"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 94
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "43",
+      "childIds": [
+        "47",
+        "50",
+        "70",
+        "23"
+      ],
+      "backendDOMNodeId": 46
+    },
+    {
+      "nodeId": "18",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "main"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 118
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "focused",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "43",
+      "childIds": [
+        "80",
+        "82",
+        "24",
+        "137",
+        "150",
+        "163"
+      ],
+      "backendDOMNodeId": 18
+    },
+    {
+      "nodeId": "207",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "contentinfo"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 85
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "43",
+      "childIds": [
+        "208",
+        "210",
+        "213"
+      ],
+      "backendDOMNodeId": 207
+    },
+    {
+      "nodeId": "33",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "status"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 159
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "live",
+          "value": {
+            "type": "token",
+            "value": "polite"
+          }
+        },
+        {
+          "name": "atomic",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "relevant",
+          "value": {
+            "type": "tokenList",
+            "value": "additions text"
+          }
+        }
+      ],
+      "parentId": "43",
+      "childIds": [],
+      "backendDOMNodeId": 33
+    },
+    {
+      "nodeId": "37",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "43",
+      "childIds": [
+        "222"
+      ],
+      "backendDOMNodeId": 37
+    },
+    {
+      "nodeId": "222",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "37",
+      "childIds": [],
+      "backendDOMNodeId": 222
+    },
+    {
+      "nodeId": "45",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Bỏ qua điều hướng đến nội dung",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Bỏ qua điều hướng đến nội dung"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "44",
+      "childIds": [
+        "-1000000002"
+      ],
+      "backendDOMNodeId": 45
+    },
+    {
+      "nodeId": "47",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhà sách Sao Mai",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Nhà sách Sao Mai"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/trang-chu"
+          }
+        }
+      ],
+      "parentId": "46",
+      "childIds": [
+        "48",
+        "49"
+      ],
+      "backendDOMNodeId": 47
+    },
+    {
+      "nodeId": "50",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "navigation"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 130
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Điều hướng chính",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Điều hướng chính"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "Điều hướng chính"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "46",
+      "childIds": [
+        "51"
+      ],
+      "backendDOMNodeId": 50
+    },
+    {
+      "nodeId": "70",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "search"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 152
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "46",
+      "childIds": [
+        "71",
+        "19",
+        "74"
+      ],
+      "backendDOMNodeId": 70
+    },
+    {
+      "nodeId": "23",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Giỏ hàng (0)",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Giỏ hàng (0)"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "expanded",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": false
+          }
+        }
+      ],
+      "parentId": "46",
+      "childIds": [
+        "76",
+        "78",
+        "79"
+      ],
+      "backendDOMNodeId": 23
+    },
+    {
+      "nodeId": "80",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách tốt, khởi đầu mới",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Sách tốt, khởi đầu mới"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "18",
+      "childIds": [
+        "81"
+      ],
+      "backendDOMNodeId": 80
+    },
+    {
+      "nodeId": "82",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "18",
+      "childIds": [
+        "83"
+      ],
+      "backendDOMNodeId": 82
+    },
+    {
+      "nodeId": "24",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "region"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 143
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách bán chạy",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Sách bán chạy"
+            },
+            "attribute": "aria-labelledby",
+            "attributeValue": {
+              "type": "idrefList",
+              "value": "ban-chay",
+              "relatedNodes": [
+                {
+                  "backendDOMNodeId": 25,
+                  "idref": "ban-chay",
+                  "text": "Sách bán chạy"
+                }
+              ]
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 25,
+                "idref": "ban-chay",
+                "text": "Sách bán chạy"
+              }
+            ]
+          }
+        }
+      ],
+      "parentId": "18",
+      "childIds": [
+        "25",
+        "85"
+      ],
+      "backendDOMNodeId": 24
+    },
+    {
+      "nodeId": "137",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 211
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "18",
+      "childIds": [
+        "138",
+        "140"
+      ],
+      "backendDOMNodeId": 137
+    },
+    {
+      "nodeId": "150",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 211
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "18",
+      "childIds": [
+        "151",
+        "153"
+      ],
+      "backendDOMNodeId": 150
+    },
+    {
+      "nodeId": "163",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 211
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "18",
+      "childIds": [
+        "164",
+        "2",
+        "202"
+      ],
+      "backendDOMNodeId": 163
+    },
+    {
+      "nodeId": "208",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "207",
+      "childIds": [
+        "209"
+      ],
+      "backendDOMNodeId": 208
+    },
+    {
+      "nodeId": "210",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "group"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 93
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "207",
+      "childIds": [
+        "211"
+      ],
+      "backendDOMNodeId": 210
+    },
+    {
+      "nodeId": "213",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "HTML Standard (tab mới)",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "HTML Standard (tab mới)"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "https://html.spec.whatwg.org/"
+          }
+        }
+      ],
+      "parentId": "207",
+      "childIds": [
+        "214"
+      ],
+      "backendDOMNodeId": 213
+    },
+    {
+      "nodeId": "-1000000002",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Bỏ qua điều hướng đến nội dung"
+      },
+      "properties": [],
+      "parentId": "45",
+      "childIds": []
+    },
+    {
+      "nodeId": "48",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "emptyAlt",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "47",
+      "childIds": [],
+      "backendDOMNodeId": 48
+    },
+    {
+      "nodeId": "49",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhà sách Sao Mai",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Nhà sách Sao Mai"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "47",
+      "childIds": [
+        "-1000000003"
+      ],
+      "backendDOMNodeId": 49
+    },
+    {
+      "nodeId": "51",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "list"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 111
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "50",
+      "childIds": [
+        "52",
+        "55",
+        "58",
+        "61",
+        "64",
+        "67"
+      ],
+      "backendDOMNodeId": 51
+    },
+    {
+      "nodeId": "71",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "LabelText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 104
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "70",
+      "childIds": [
+        "72"
+      ],
+      "backendDOMNodeId": 71
+    },
+    {
+      "nodeId": "19",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "searchbox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 153
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tìm sách",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "value": {
+              "type": "computedString",
+              "value": "Tìm sách"
+            },
+            "nativeSource": "labelfor",
+            "nativeSourceValue": {
+              "type": "nodeList",
+              "relatedNodes": [
+                {
+                  "backendDOMNodeId": 71,
+                  "text": "Tìm sách"
+                }
+              ]
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          },
+          {
+            "type": "placeholder",
+            "attribute": "placeholder",
+            "superseded": true
+          },
+          {
+            "type": "placeholder",
+            "attribute": "aria-placeholder",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "editable",
+          "value": {
+            "type": "token",
+            "value": "plaintext"
+          }
+        },
+        {
+          "name": "settable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "labelledby",
+          "value": {
+            "type": "nodeList",
+            "relatedNodes": [
+              {
+                "backendDOMNodeId": 71,
+                "text": "Tìm sách"
+              }
+            ]
+          }
+        }
+      ],
+      "parentId": "70",
+      "childIds": [
+        "20"
+      ],
+      "backendDOMNodeId": 19
+    },
+    {
+      "nodeId": "74",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tìm kiếm",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tìm kiếm"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "70",
+      "childIds": [
+        "75"
+      ],
+      "backendDOMNodeId": 74
+    },
+    {
+      "nodeId": "76",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Giỏ hàng (",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Giỏ hàng ("
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "23",
+      "childIds": [
+        "-1000000012"
+      ],
+      "backendDOMNodeId": 76
+    },
+    {
+      "nodeId": "78",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "0",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "0"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "23",
+      "childIds": [
+        "-1000000013"
+      ],
+      "backendDOMNodeId": 78
+    },
+    {
+      "nodeId": "79",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": ")",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": ")"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "23",
+      "childIds": [
+        "-1000000014"
+      ],
+      "backendDOMNodeId": 79
+    },
+    {
+      "nodeId": "81",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách tốt, khởi đầu mới",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Sách tốt, khởi đầu mới"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "80",
+      "childIds": [
+        "-1000000015"
+      ],
+      "backendDOMNodeId": 81
+    },
+    {
+      "nodeId": "83",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Một cuốn sách. Nhiều điều có thể.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Một cuốn sách. Nhiều điều có thể."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "82",
+      "childIds": [
+        "-1000000016"
+      ],
+      "backendDOMNodeId": 83
+    },
+    {
+      "nodeId": "25",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách bán chạy",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Sách bán chạy"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 2
+          }
+        }
+      ],
+      "parentId": "24",
+      "childIds": [
+        "84"
+      ],
+      "backendDOMNodeId": 25
+    },
+    {
+      "nodeId": "85",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "list"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 111
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "24",
+      "childIds": [
+        "86",
+        "103",
+        "120"
+      ],
+      "backendDOMNodeId": 85
+    },
+    {
+      "nodeId": "138",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Danh mục"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 2
+          }
+        }
+      ],
+      "parentId": "137",
+      "childIds": [
+        "139"
+      ],
+      "backendDOMNodeId": 138
+    },
+    {
+      "nodeId": "140",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "navigation"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 130
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục sách",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Danh mục sách"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "Danh mục sách"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "137",
+      "childIds": [
+        "141"
+      ],
+      "backendDOMNodeId": 140
+    },
+    {
+      "nodeId": "151",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Cách đặt hàng",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Cách đặt hàng"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 2
+          }
+        }
+      ],
+      "parentId": "150",
+      "childIds": [
+        "152"
+      ],
+      "backendDOMNodeId": 151
+    },
+    {
+      "nodeId": "153",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "list"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 111
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "150",
+      "childIds": [
+        "154",
+        "157",
+        "160"
+      ],
+      "backendDOMNodeId": 153
+    },
+    {
+      "nodeId": "164",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tham quan nhà sách",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tham quan nhà sách"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 2
+          }
+        }
+      ],
+      "parentId": "163",
+      "childIds": [
+        "165"
+      ],
+      "backendDOMNodeId": 164
+    },
+    {
+      "nodeId": "2",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "Video"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 182
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "163",
+      "childIds": [
+        "166",
+        "167"
+      ],
+      "backendDOMNodeId": 2
+    },
+    {
+      "nodeId": "202",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "163",
+      "childIds": [
+        "203",
+        "204",
+        "206"
+      ],
+      "backendDOMNodeId": 202
+    },
+    {
+      "nodeId": "209",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "208",
+      "childIds": [
+        "-1000000049"
+      ],
+      "backendDOMNodeId": 209
+    },
+    {
+      "nodeId": "211",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "hotro@sachsaomai.example",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "hotro@sachsaomai.example"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "mailto:hotro@sachsaomai.example"
+          }
+        }
+      ],
+      "parentId": "210",
+      "childIds": [
+        "212"
+      ],
+      "backendDOMNodeId": 211
+    },
+    {
+      "nodeId": "214",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "HTML Standard (tab mới)",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "HTML Standard (tab mới)"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "213",
+      "childIds": [
+        "-1000000051"
+      ],
+      "backendDOMNodeId": 214
+    },
+    {
+      "nodeId": "-1000000003",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhà sách Sao Mai"
+      },
+      "properties": [],
+      "parentId": "49",
+      "childIds": []
+    },
+    {
+      "nodeId": "52",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "51",
+      "childIds": [
+        "53"
+      ],
+      "backendDOMNodeId": 52
+    },
+    {
+      "nodeId": "55",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "51",
+      "childIds": [
+        "56"
+      ],
+      "backendDOMNodeId": 55
+    },
+    {
+      "nodeId": "58",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "51",
+      "childIds": [
+        "59"
+      ],
+      "backendDOMNodeId": 58
+    },
+    {
+      "nodeId": "61",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "51",
+      "childIds": [
+        "62"
+      ],
+      "backendDOMNodeId": 61
+    },
+    {
+      "nodeId": "64",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "51",
+      "childIds": [
+        "65"
+      ],
+      "backendDOMNodeId": 64
+    },
+    {
+      "nodeId": "67",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "51",
+      "childIds": [
+        "68"
+      ],
+      "backendDOMNodeId": 67
+    },
+    {
+      "nodeId": "72",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tìm sách",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tìm sách"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "71",
+      "childIds": [
+        "-1000000010"
+      ],
+      "backendDOMNodeId": 72
+    },
+    {
+      "nodeId": "20",
+      "ignored": true,
+      "ignoredReasons": [],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "19",
+      "childIds": [
+        "73"
+      ],
+      "backendDOMNodeId": 20
+    },
+    {
+      "nodeId": "73",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "editable",
+          "value": {
+            "type": "token",
+            "value": "plaintext"
+          }
+        }
+      ],
+      "parentId": "20",
+      "childIds": [],
+      "backendDOMNodeId": 73
+    },
+    {
+      "nodeId": "75",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tìm kiếm",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tìm kiếm"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "74",
+      "childIds": [
+        "-1000000011"
+      ],
+      "backendDOMNodeId": 75
+    },
+    {
+      "nodeId": "-1000000012",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Giỏ hàng ("
+      },
+      "properties": [],
+      "parentId": "76",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000013",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "0"
+      },
+      "properties": [],
+      "parentId": "78",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000014",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": ")"
+      },
+      "properties": [],
+      "parentId": "79",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000015",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách tốt, khởi đầu mới"
+      },
+      "properties": [],
+      "parentId": "81",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000016",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Một cuốn sách. Nhiều điều có thể."
+      },
+      "properties": [],
+      "parentId": "83",
+      "childIds": []
+    },
+    {
+      "nodeId": "84",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách bán chạy",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Sách bán chạy"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "25",
+      "childIds": [
+        "-1000000017"
+      ],
+      "backendDOMNodeId": 84
+    },
+    {
+      "nodeId": "86",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "85",
+      "childIds": [
+        "87"
+      ],
+      "backendDOMNodeId": 86
+    },
+    {
+      "nodeId": "103",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "85",
+      "childIds": [
+        "104"
+      ],
+      "backendDOMNodeId": 103
+    },
+    {
+      "nodeId": "120",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "85",
+      "childIds": [
+        "121"
+      ],
+      "backendDOMNodeId": 120
+    },
+    {
+      "nodeId": "139",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Danh mục"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "138",
+      "childIds": [
+        "-1000000033"
+      ],
+      "backendDOMNodeId": 139
+    },
+    {
+      "nodeId": "141",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "list"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 111
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "140",
+      "childIds": [
+        "142",
+        "146"
+      ],
+      "backendDOMNodeId": 141
+    },
+    {
+      "nodeId": "152",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Cách đặt hàng",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Cách đặt hàng"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "151",
+      "childIds": [
+        "-1000000038"
+      ],
+      "backendDOMNodeId": 152
+    },
+    {
+      "nodeId": "154",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "153",
+      "childIds": [
+        "155",
+        "156"
+      ],
+      "backendDOMNodeId": 154
+    },
+    {
+      "nodeId": "157",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "153",
+      "childIds": [
+        "158",
+        "159"
+      ],
+      "backendDOMNodeId": 157
+    },
+    {
+      "nodeId": "160",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "153",
+      "childIds": [
+        "161",
+        "162"
+      ],
+      "backendDOMNodeId": 160
+    },
+    {
+      "nodeId": "165",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tham quan nhà sách",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tham quan nhà sách"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "164",
+      "childIds": [
+        "-1000000045"
+      ],
+      "backendDOMNodeId": 165
+    },
+    {
+      "nodeId": "166",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "2",
+      "childIds": [],
+      "backendDOMNodeId": 166
+    },
+    {
+      "nodeId": "167",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "2",
+      "childIds": [
+        "168",
+        "169",
+        "171",
+        "187",
+        "188",
+        "189",
+        "190",
+        "191"
+      ],
+      "backendDOMNodeId": 167
+    },
+    {
+      "nodeId": "168",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "group"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 93
+      },
+      "name": {
+        "type": "computedString",
+        "value": "buffering",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "buffering"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "buffering"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "live",
+          "value": {
+            "type": "token",
+            "value": "polite"
+          }
+        },
+        {
+          "name": "atomic",
+          "value": {
+            "type": "boolean",
+            "value": false
+          }
+        },
+        {
+          "name": "relevant",
+          "value": {
+            "type": "tokenList",
+            "value": "additions text"
+          }
+        }
+      ],
+      "parentId": "167",
+      "childIds": [
+        "26"
+      ],
+      "backendDOMNodeId": 168
+    },
+    {
+      "nodeId": "169",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "167",
+      "childIds": [
+        "170"
+      ],
+      "backendDOMNodeId": 169
+    },
+    {
+      "nodeId": "171",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "167",
+      "childIds": [
+        "172"
+      ],
+      "backendDOMNodeId": 171
+    },
+    {
+      "nodeId": "172",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "171",
+      "childIds": [
+        "173",
+        "174",
+        "186"
+      ],
+      "backendDOMNodeId": 172
+    },
+    {
+      "nodeId": "173",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "172",
+      "childIds": [],
+      "backendDOMNodeId": 173
+    },
+    {
+      "nodeId": "174",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "172",
+      "childIds": [
+        "175",
+        "177",
+        "178",
+        "182",
+        "184"
+      ],
+      "backendDOMNodeId": 174
+    },
+    {
+      "nodeId": "186",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "slider"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 155
+      },
+      "name": {
+        "type": "computedString",
+        "value": "video time scrubber",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "video time scrubber"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "video time scrubber"
+            }
+          },
+          {
+            "type": "relatedElement",
+            "superseded": true,
+            "nativeSource": "label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "total time: 0:12"
+      },
+      "value": {
+        "type": "number",
+        "value": 0
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "settable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "orientation",
+          "value": {
+            "type": "token",
+            "value": "horizontal"
+          }
+        },
+        {
+          "name": "valuemin",
+          "value": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        {
+          "name": "valuemax",
+          "value": {
+            "type": "number",
+            "value": 12
+          }
+        },
+        {
+          "name": "valuetext",
+          "value": {
+            "type": "string",
+            "value": "0"
+          }
+        }
+      ],
+      "parentId": "172",
+      "childIds": [],
+      "backendDOMNodeId": 186
+    },
+    {
+      "nodeId": "187",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "167",
+      "childIds": [],
+      "backendDOMNodeId": 187
+    },
+    {
+      "nodeId": "188",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "167",
+      "childIds": [],
+      "backendDOMNodeId": 188
+    },
+    {
+      "nodeId": "189",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "167",
+      "childIds": [],
+      "backendDOMNodeId": 189
+    },
+    {
+      "nodeId": "190",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "167",
+      "childIds": [],
+      "backendDOMNodeId": 190
+    },
+    {
+      "nodeId": "191",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "167",
+      "childIds": [
+        "192",
+        "193",
+        "194",
+        "195",
+        "196",
+        "197",
+        "198",
+        "199",
+        "200",
+        "201"
+      ],
+      "backendDOMNodeId": 191
+    },
+    {
+      "nodeId": "192",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 192
+    },
+    {
+      "nodeId": "193",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 193
+    },
+    {
+      "nodeId": "194",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 194
+    },
+    {
+      "nodeId": "195",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 195
+    },
+    {
+      "nodeId": "196",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 196
+    },
+    {
+      "nodeId": "197",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 197
+    },
+    {
+      "nodeId": "198",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 198
+    },
+    {
+      "nodeId": "199",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 199
+    },
+    {
+      "nodeId": "200",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 200
+    },
+    {
+      "nodeId": "201",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "191",
+      "childIds": [],
+      "backendDOMNodeId": 201
+    },
+    {
+      "nodeId": "203",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Video minh họa không lời, gồm ba khung giới thiệu. ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Video minh họa không lời, gồm ba khung giới thiệu. "
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "202",
+      "childIds": [
+        "-1000000046"
+      ],
+      "backendDOMNodeId": 203
+    },
+    {
+      "nodeId": "204",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Đọc bản chép lời",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Đọc bản chép lời"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/assets/ban-chep.txt"
+          }
+        }
+      ],
+      "parentId": "202",
+      "childIds": [
+        "205"
+      ],
+      "backendDOMNodeId": 204
+    },
+    {
+      "nodeId": "206",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": ".",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "202",
+      "childIds": [
+        "-1000000048"
+      ],
+      "backendDOMNodeId": 206
+    },
+    {
+      "nodeId": "-1000000049",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật"
+      },
+      "properties": [],
+      "parentId": "209",
+      "childIds": []
+    },
+    {
+      "nodeId": "212",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "hotro@sachsaomai.example",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "hotro@sachsaomai.example"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "211",
+      "childIds": [
+        "-1000000050"
+      ],
+      "backendDOMNodeId": 212
+    },
+    {
+      "nodeId": "-1000000051",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "HTML Standard (tab mới)"
+      },
+      "properties": [],
+      "parentId": "214",
+      "childIds": []
+    },
+    {
+      "nodeId": "53",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Trang chủ",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Trang chủ"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/trang-chu"
+          }
+        }
+      ],
+      "parentId": "52",
+      "childIds": [
+        "54"
+      ],
+      "backendDOMNodeId": 53
+    },
+    {
+      "nodeId": "56",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Danh mục"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/danh-muc"
+          }
+        }
+      ],
+      "parentId": "55",
+      "childIds": [
+        "57"
+      ],
+      "backendDOMNodeId": 56
+    },
+    {
+      "nodeId": "59",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Chi tiết sách",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Chi tiết sách"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/chi-tiet"
+          }
+        }
+      ],
+      "parentId": "58",
+      "childIds": [
+        "60"
+      ],
+      "backendDOMNodeId": 59
+    },
+    {
+      "nodeId": "62",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Giỏ hàng",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Giỏ hàng"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/gio-hang"
+          }
+        }
+      ],
+      "parentId": "61",
+      "childIds": [
+        "63"
+      ],
+      "backendDOMNodeId": 62
+    },
+    {
+      "nodeId": "65",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thanh toán",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thanh toán"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/thanh-toan"
+          }
+        }
+      ],
+      "parentId": "64",
+      "childIds": [
+        "66"
+      ],
+      "backendDOMNodeId": 65
+    },
+    {
+      "nodeId": "68",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Liên hệ",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Liên hệ"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/lien-he"
+          }
+        }
+      ],
+      "parentId": "67",
+      "childIds": [
+        "69"
+      ],
+      "backendDOMNodeId": 68
+    },
+    {
+      "nodeId": "-1000000010",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tìm sách"
+      },
+      "properties": [],
+      "parentId": "72",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000011",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tìm kiếm"
+      },
+      "properties": [],
+      "parentId": "75",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000017",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Sách bán chạy"
+      },
+      "properties": [],
+      "parentId": "84",
+      "childIds": []
+    },
+    {
+      "nodeId": "87",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "article"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 5
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "86",
+      "childIds": [
+        "88",
+        "91",
+        "94",
+        "96",
+        "99",
+        "101"
+      ],
+      "backendDOMNodeId": 87
+    },
+    {
+      "nodeId": "104",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "article"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 5
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "103",
+      "childIds": [
+        "105",
+        "108",
+        "111",
+        "113",
+        "116",
+        "118"
+      ],
+      "backendDOMNodeId": 104
+    },
+    {
+      "nodeId": "121",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "article"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 5
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "120",
+      "childIds": [
+        "122",
+        "125",
+        "128",
+        "130",
+        "133",
+        "135"
+      ],
+      "backendDOMNodeId": 121
+    },
+    {
+      "nodeId": "-1000000033",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục"
+      },
+      "properties": [],
+      "parentId": "139",
+      "childIds": []
+    },
+    {
+      "nodeId": "142",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "141",
+      "childIds": [
+        "143",
+        "144"
+      ],
+      "backendDOMNodeId": 142
+    },
+    {
+      "nodeId": "146",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "listitem"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 115
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "title"
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 1
+          }
+        }
+      ],
+      "parentId": "141",
+      "childIds": [
+        "147",
+        "148"
+      ],
+      "backendDOMNodeId": 146
+    },
+    {
+      "nodeId": "-1000000038",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Cách đặt hàng"
+      },
+      "properties": [],
+      "parentId": "152",
+      "childIds": []
+    },
+    {
+      "nodeId": "155",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "ListMarker"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 116
+      },
+      "name": {
+        "type": "computedString",
+        "value": "1. ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "1. "
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "154",
+      "childIds": [
+        "-1000000039"
+      ],
+      "backendDOMNodeId": 155
+    },
+    {
+      "nodeId": "156",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Chọn sách và thêm giỏ.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Chọn sách và thêm giỏ."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "154",
+      "childIds": [
+        "-1000000040"
+      ],
+      "backendDOMNodeId": 156
+    },
+    {
+      "nodeId": "158",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "ListMarker"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 116
+      },
+      "name": {
+        "type": "computedString",
+        "value": "2. ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "2. "
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "157",
+      "childIds": [
+        "-1000000041"
+      ],
+      "backendDOMNodeId": 158
+    },
+    {
+      "nodeId": "159",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Kiểm tra số lượng.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Kiểm tra số lượng."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "157",
+      "childIds": [
+        "-1000000042"
+      ],
+      "backendDOMNodeId": 159
+    },
+    {
+      "nodeId": "161",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "ListMarker"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 116
+      },
+      "name": {
+        "type": "computedString",
+        "value": "3. ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "3. "
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "160",
+      "childIds": [
+        "-1000000043"
+      ],
+      "backendDOMNodeId": 161
+    },
+    {
+      "nodeId": "162",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhập thông tin minh họa, xem xác nhận.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Nhập thông tin minh họa, xem xác nhận."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "160",
+      "childIds": [
+        "-1000000044"
+      ],
+      "backendDOMNodeId": 162
+    },
+    {
+      "nodeId": "-1000000045",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tham quan nhà sách"
+      },
+      "properties": [],
+      "parentId": "165",
+      "childIds": []
+    },
+    {
+      "nodeId": "26",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "168",
+      "childIds": [
+        "3"
+      ],
+      "backendDOMNodeId": 26
+    },
+    {
+      "nodeId": "170",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "169",
+      "childIds": [],
+      "backendDOMNodeId": 170
+    },
+    {
+      "nodeId": "175",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "play",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "play"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "play"
+            }
+          },
+          {
+            "type": "relatedElement",
+            "superseded": true,
+            "nativeSource": "label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "value",
+            "superseded": true
+          },
+          {
+            "type": "contents",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "174",
+      "childIds": [
+        "176"
+      ],
+      "backendDOMNodeId": 175
+    },
+    {
+      "nodeId": "177",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "174",
+      "childIds": [],
+      "backendDOMNodeId": 177
+    },
+    {
+      "nodeId": "178",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "174",
+      "childIds": [
+        "179",
+        "180",
+        "181"
+      ],
+      "backendDOMNodeId": 178
+    },
+    {
+      "nodeId": "182",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "enter full screen",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "enter full screen"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "enter full screen"
+            }
+          },
+          {
+            "type": "relatedElement",
+            "superseded": true,
+            "nativeSource": "label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "value",
+            "superseded": true
+          },
+          {
+            "type": "contents",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "174",
+      "childIds": [
+        "183"
+      ],
+      "backendDOMNodeId": 182
+    },
+    {
+      "nodeId": "184",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 137
+      },
+      "name": {
+        "type": "computedString",
+        "value": "show more media controls",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "show more media controls"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "show more media controls"
+            }
+          },
+          {
+            "type": "relatedElement",
+            "superseded": true,
+            "nativeSource": "label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "value",
+            "superseded": true
+          },
+          {
+            "type": "contents",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "more options"
+            },
+            "attribute": "title",
+            "attributeValue": {
+              "type": "string",
+              "value": "more options"
+            },
+            "superseded": true
+          }
+        ]
+      },
+      "description": {
+        "type": "computedString",
+        "value": "more options"
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "hasPopup",
+          "value": {
+            "type": "token",
+            "value": "menu"
+          }
+        }
+      ],
+      "parentId": "174",
+      "childIds": [
+        "185"
+      ],
+      "backendDOMNodeId": 184
+    },
+    {
+      "nodeId": "-1000000046",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Video minh họa không lời, gồm ba khung giới thiệu. "
+      },
+      "properties": [],
+      "parentId": "203",
+      "childIds": []
+    },
+    {
+      "nodeId": "205",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Đọc bản chép lời",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Đọc bản chép lời"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "204",
+      "childIds": [
+        "-1000000047"
+      ],
+      "backendDOMNodeId": 205
+    },
+    {
+      "nodeId": "-1000000048",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "."
+      },
+      "properties": [],
+      "parentId": "206",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000050",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "hotro@sachsaomai.example"
+      },
+      "properties": [],
+      "parentId": "212",
+      "childIds": []
+    },
+    {
+      "nodeId": "54",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Trang chủ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Trang chủ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "53",
+      "childIds": [
+        "-1000000004"
+      ],
+      "backendDOMNodeId": 54
+    },
+    {
+      "nodeId": "57",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Danh mục"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "56",
+      "childIds": [
+        "-1000000005"
+      ],
+      "backendDOMNodeId": 57
+    },
+    {
+      "nodeId": "60",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Chi tiết sách",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Chi tiết sách"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "59",
+      "childIds": [
+        "-1000000006"
+      ],
+      "backendDOMNodeId": 60
+    },
+    {
+      "nodeId": "63",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Giỏ hàng",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Giỏ hàng"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "62",
+      "childIds": [
+        "-1000000007"
+      ],
+      "backendDOMNodeId": 63
+    },
+    {
+      "nodeId": "66",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thanh toán",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thanh toán"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "65",
+      "childIds": [
+        "-1000000008"
+      ],
+      "backendDOMNodeId": 66
+    },
+    {
+      "nodeId": "69",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Liên hệ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Liên hệ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "68",
+      "childIds": [
+        "-1000000009"
+      ],
+      "backendDOMNodeId": 69
+    },
+    {
+      "nodeId": "88",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "87",
+      "childIds": [
+        "9"
+      ],
+      "backendDOMNodeId": 88
+    },
+    {
+      "nodeId": "91",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình Web căn bản",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Lập trình Web căn bản"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 3
+          }
+        }
+      ],
+      "parentId": "87",
+      "childIds": [
+        "92"
+      ],
+      "backendDOMNodeId": 91
+    },
+    {
+      "nodeId": "94",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "87",
+      "childIds": [
+        "95"
+      ],
+      "backendDOMNodeId": 94
+    },
+    {
+      "nodeId": "96",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "87",
+      "childIds": [
+        "98"
+      ],
+      "backendDOMNodeId": 96
+    },
+    {
+      "nodeId": "99",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Lập trình Web căn bản vào giỏ",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thêm Lập trình Web căn bản vào giỏ"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "87",
+      "childIds": [
+        "100"
+      ],
+      "backendDOMNodeId": 99
+    },
+    {
+      "nodeId": "101",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Lập trình Web căn bản",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Xem nhanh Lập trình Web căn bản"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "87",
+      "childIds": [
+        "102"
+      ],
+      "backendDOMNodeId": 101
+    },
+    {
+      "nodeId": "105",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "104",
+      "childIds": [
+        "7"
+      ],
+      "backendDOMNodeId": 105
+    },
+    {
+      "nodeId": "108",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tư duy giải thuật",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tư duy giải thuật"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 3
+          }
+        }
+      ],
+      "parentId": "104",
+      "childIds": [
+        "109"
+      ],
+      "backendDOMNodeId": 108
+    },
+    {
+      "nodeId": "111",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "104",
+      "childIds": [
+        "112"
+      ],
+      "backendDOMNodeId": 111
+    },
+    {
+      "nodeId": "113",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "104",
+      "childIds": [
+        "115"
+      ],
+      "backendDOMNodeId": 113
+    },
+    {
+      "nodeId": "116",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Tư duy giải thuật vào giỏ",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thêm Tư duy giải thuật vào giỏ"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "104",
+      "childIds": [
+        "117"
+      ],
+      "backendDOMNodeId": 116
+    },
+    {
+      "nodeId": "118",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Tư duy giải thuật",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Xem nhanh Tư duy giải thuật"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "104",
+      "childIds": [
+        "119"
+      ],
+      "backendDOMNodeId": 118
+    },
+    {
+      "nodeId": "122",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "121",
+      "childIds": [
+        "8"
+      ],
+      "backendDOMNodeId": 122
+    },
+    {
+      "nodeId": "125",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "heading"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 96
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu cho người mới",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Dữ liệu cho người mới"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "level",
+          "value": {
+            "type": "integer",
+            "value": 3
+          }
+        }
+      ],
+      "parentId": "121",
+      "childIds": [
+        "126"
+      ],
+      "backendDOMNodeId": 125
+    },
+    {
+      "nodeId": "128",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "121",
+      "childIds": [
+        "129"
+      ],
+      "backendDOMNodeId": 128
+    },
+    {
+      "nodeId": "130",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "121",
+      "childIds": [
+        "132"
+      ],
+      "backendDOMNodeId": 130
+    },
+    {
+      "nodeId": "133",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Dữ liệu cho người mới vào giỏ",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thêm Dữ liệu cho người mới vào giỏ"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "121",
+      "childIds": [
+        "134"
+      ],
+      "backendDOMNodeId": 133
+    },
+    {
+      "nodeId": "135",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Dữ liệu cho người mới",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "relatedElement",
+            "nativeSource": "label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Xem nhanh Dữ liệu cho người mới"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        },
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        }
+      ],
+      "parentId": "121",
+      "childIds": [
+        "136"
+      ],
+      "backendDOMNodeId": 135
+    },
+    {
+      "nodeId": "143",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "ListMarker"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 116
+      },
+      "name": {
+        "type": "computedString",
+        "value": "• ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "• "
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "142",
+      "childIds": [
+        "-1000000034"
+      ],
+      "backendDOMNodeId": 143
+    },
+    {
+      "nodeId": "144",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Lập trình"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/danh-muc?category=web"
+          }
+        }
+      ],
+      "parentId": "142",
+      "childIds": [
+        "145"
+      ],
+      "backendDOMNodeId": 144
+    },
+    {
+      "nodeId": "147",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "ListMarker"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 116
+      },
+      "name": {
+        "type": "computedString",
+        "value": "• ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "• "
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "146",
+      "childIds": [
+        "-1000000036"
+      ],
+      "backendDOMNodeId": 147
+    },
+    {
+      "nodeId": "148",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Dữ liệu"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/danh-muc?category=data"
+          }
+        }
+      ],
+      "parentId": "146",
+      "childIds": [
+        "149"
+      ],
+      "backendDOMNodeId": 148
+    },
+    {
+      "nodeId": "-1000000039",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "presentationalRole",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "155",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000040",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Chọn sách và thêm giỏ."
+      },
+      "properties": [],
+      "parentId": "156",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000041",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "presentationalRole",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "158",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000042",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Kiểm tra số lượng."
+      },
+      "properties": [],
+      "parentId": "159",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000043",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "presentationalRole",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "161",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000044",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhập thông tin minh họa, xem xác nhận."
+      },
+      "properties": [],
+      "parentId": "162",
+      "childIds": []
+    },
+    {
+      "nodeId": "3",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "26",
+      "childIds": [
+        "4"
+      ],
+      "backendDOMNodeId": 3
+    },
+    {
+      "nodeId": "4",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "3",
+      "childIds": [
+        "27",
+        "28"
+      ],
+      "backendDOMNodeId": 4
+    },
+    {
+      "nodeId": "176",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "175",
+      "childIds": [],
+      "backendDOMNodeId": 176
+    },
+    {
+      "nodeId": "179",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "178",
+      "childIds": [],
+      "backendDOMNodeId": 179
+    },
+    {
+      "nodeId": "180",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "notRendered",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "178",
+      "childIds": [],
+      "backendDOMNodeId": 180
+    },
+    {
+      "nodeId": "181",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "button"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 9
+      },
+      "name": {
+        "type": "computedString",
+        "value": "mute",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "mute"
+            },
+            "attribute": "aria-label",
+            "attributeValue": {
+              "type": "string",
+              "value": "mute"
+            }
+          },
+          {
+            "type": "relatedElement",
+            "superseded": true,
+            "nativeSource": "label"
+          },
+          {
+            "type": "attribute",
+            "attribute": "value",
+            "superseded": true
+          },
+          {
+            "type": "contents",
+            "superseded": true
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "disabled",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        },
+        {
+          "name": "invalid",
+          "value": {
+            "type": "token",
+            "value": "false"
+          }
+        }
+      ],
+      "parentId": "178",
+      "childIds": [],
+      "backendDOMNodeId": 181
+    },
+    {
+      "nodeId": "183",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "182",
+      "childIds": [],
+      "backendDOMNodeId": 183
+    },
+    {
+      "nodeId": "185",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "184",
+      "childIds": [],
+      "backendDOMNodeId": 185
+    },
+    {
+      "nodeId": "-1000000047",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Đọc bản chép lời"
+      },
+      "properties": [],
+      "parentId": "205",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000004",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Trang chủ"
+      },
+      "properties": [],
+      "parentId": "54",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000005",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Danh mục"
+      },
+      "properties": [],
+      "parentId": "57",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000006",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Chi tiết sách"
+      },
+      "properties": [],
+      "parentId": "60",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000007",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Giỏ hàng"
+      },
+      "properties": [],
+      "parentId": "63",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000008",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thanh toán"
+      },
+      "properties": [],
+      "parentId": "66",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000009",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Liên hệ"
+      },
+      "properties": [],
+      "parentId": "69",
+      "childIds": []
+    },
+    {
+      "nodeId": "9",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "image"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 99
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Bìa Lập trình Web căn bản",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Bìa Lập trình Web căn bản"
+            },
+            "attribute": "alt",
+            "attributeValue": {
+              "type": "string",
+              "value": "Bìa Lập trình Web căn bản"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/assets/web-400.avif"
+          }
+        }
+      ],
+      "parentId": "88",
+      "childIds": [],
+      "backendDOMNodeId": 9
+    },
+    {
+      "nodeId": "92",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình Web căn bản",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Lập trình Web căn bản"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/chi-tiet"
+          }
+        }
+      ],
+      "parentId": "91",
+      "childIds": [
+        "93"
+      ],
+      "backendDOMNodeId": 92
+    },
+    {
+      "nodeId": "95",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhóm Sao Mai",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Nhóm Sao Mai"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "94",
+      "childIds": [
+        "-1000000019"
+      ],
+      "backendDOMNodeId": 95
+    },
+    {
+      "nodeId": "98",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "98.000 đ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "98.000 đ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "96",
+      "childIds": [
+        "-1000000020"
+      ],
+      "backendDOMNodeId": 98
+    },
+    {
+      "nodeId": "100",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Lập trình Web căn bản vào giỏ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thêm Lập trình Web căn bản vào giỏ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "99",
+      "childIds": [
+        "-1000000021"
+      ],
+      "backendDOMNodeId": 100
+    },
+    {
+      "nodeId": "102",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Lập trình Web căn bản",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Xem nhanh Lập trình Web căn bản"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "101",
+      "childIds": [
+        "-1000000022"
+      ],
+      "backendDOMNodeId": 102
+    },
+    {
+      "nodeId": "7",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "image"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 99
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Bìa Tư duy giải thuật",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Bìa Tư duy giải thuật"
+            },
+            "attribute": "alt",
+            "attributeValue": {
+              "type": "string",
+              "value": "Bìa Tư duy giải thuật"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/assets/algo-400.avif"
+          }
+        }
+      ],
+      "parentId": "105",
+      "childIds": [],
+      "backendDOMNodeId": 7
+    },
+    {
+      "nodeId": "109",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tư duy giải thuật",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tư duy giải thuật"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/sach/tu-duy-giai-thuat"
+          }
+        }
+      ],
+      "parentId": "108",
+      "childIds": [
+        "110"
+      ],
+      "backendDOMNodeId": 109
+    },
+    {
+      "nodeId": "112",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhóm Sao Mai",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Nhóm Sao Mai"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "111",
+      "childIds": [
+        "-1000000024"
+      ],
+      "backendDOMNodeId": 112
+    },
+    {
+      "nodeId": "115",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "125.000 đ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "125.000 đ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "113",
+      "childIds": [
+        "-1000000025"
+      ],
+      "backendDOMNodeId": 115
+    },
+    {
+      "nodeId": "117",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Tư duy giải thuật vào giỏ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thêm Tư duy giải thuật vào giỏ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "116",
+      "childIds": [
+        "-1000000026"
+      ],
+      "backendDOMNodeId": 117
+    },
+    {
+      "nodeId": "119",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Tư duy giải thuật",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Xem nhanh Tư duy giải thuật"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "118",
+      "childIds": [
+        "-1000000027"
+      ],
+      "backendDOMNodeId": 119
+    },
+    {
+      "nodeId": "8",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "image"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 99
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Bìa Dữ liệu cho người mới",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "attribute",
+            "value": {
+              "type": "computedString",
+              "value": "Bìa Dữ liệu cho người mới"
+            },
+            "attribute": "alt",
+            "attributeValue": {
+              "type": "string",
+              "value": "Bìa Dữ liệu cho người mới"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/assets/data-400.avif"
+          }
+        }
+      ],
+      "parentId": "122",
+      "childIds": [],
+      "backendDOMNodeId": 8
+    },
+    {
+      "nodeId": "126",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "link"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 110
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu cho người mới",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          },
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Dữ liệu cho người mới"
+            }
+          },
+          {
+            "type": "attribute",
+            "attribute": "title",
+            "superseded": true
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "focusable",
+          "value": {
+            "type": "booleanOrUndefined",
+            "value": true
+          }
+        },
+        {
+          "name": "url",
+          "value": {
+            "type": "string",
+            "value": "http://127.0.0.1:8765/du-an/sach/du-lieu-cho-nguoi-moi"
+          }
+        }
+      ],
+      "parentId": "125",
+      "childIds": [
+        "127"
+      ],
+      "backendDOMNodeId": 126
+    },
+    {
+      "nodeId": "129",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhóm Sao Mai",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Nhóm Sao Mai"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "128",
+      "childIds": [
+        "-1000000029"
+      ],
+      "backendDOMNodeId": 129
+    },
+    {
+      "nodeId": "132",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "110.000 đ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "110.000 đ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "130",
+      "childIds": [
+        "-1000000030"
+      ],
+      "backendDOMNodeId": 132
+    },
+    {
+      "nodeId": "134",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Dữ liệu cho người mới vào giỏ",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Thêm Dữ liệu cho người mới vào giỏ"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "133",
+      "childIds": [
+        "-1000000031"
+      ],
+      "backendDOMNodeId": 134
+    },
+    {
+      "nodeId": "136",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Dữ liệu cho người mới",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Xem nhanh Dữ liệu cho người mới"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "135",
+      "childIds": [
+        "-1000000032"
+      ],
+      "backendDOMNodeId": 136
+    },
+    {
+      "nodeId": "-1000000034",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "presentationalRole",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "143",
+      "childIds": []
+    },
+    {
+      "nodeId": "145",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Lập trình"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "144",
+      "childIds": [
+        "-1000000035"
+      ],
+      "backendDOMNodeId": 145
+    },
+    {
+      "nodeId": "-1000000036",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "presentationalRole",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "147",
+      "childIds": []
+    },
+    {
+      "nodeId": "149",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Dữ liệu"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "148",
+      "childIds": [
+        "-1000000037"
+      ],
+      "backendDOMNodeId": 149
+    },
+    {
+      "nodeId": "27",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "4",
+      "childIds": [
+        "5"
+      ],
+      "backendDOMNodeId": 27
+    },
+    {
+      "nodeId": "28",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "4",
+      "childIds": [
+        "6"
+      ],
+      "backendDOMNodeId": 28
+    },
+    {
+      "nodeId": "93",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình Web căn bản",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Lập trình Web căn bản"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "92",
+      "childIds": [
+        "-1000000018"
+      ],
+      "backendDOMNodeId": 93
+    },
+    {
+      "nodeId": "-1000000019",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhóm Sao Mai"
+      },
+      "properties": [],
+      "parentId": "95",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000020",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "98.000 đ"
+      },
+      "properties": [],
+      "parentId": "98",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000021",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Lập trình Web căn bản vào giỏ"
+      },
+      "properties": [],
+      "parentId": "100",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000022",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Lập trình Web căn bản"
+      },
+      "properties": [],
+      "parentId": "102",
+      "childIds": []
+    },
+    {
+      "nodeId": "110",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tư duy giải thuật",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Tư duy giải thuật"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "109",
+      "childIds": [
+        "-1000000023"
+      ],
+      "backendDOMNodeId": 110
+    },
+    {
+      "nodeId": "-1000000024",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhóm Sao Mai"
+      },
+      "properties": [],
+      "parentId": "112",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000025",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "125.000 đ"
+      },
+      "properties": [],
+      "parentId": "115",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000026",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Tư duy giải thuật vào giỏ"
+      },
+      "properties": [],
+      "parentId": "117",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000027",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Tư duy giải thuật"
+      },
+      "properties": [],
+      "parentId": "119",
+      "childIds": []
+    },
+    {
+      "nodeId": "127",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu cho người mới",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Dữ liệu cho người mới"
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "126",
+      "childIds": [
+        "-1000000028"
+      ],
+      "backendDOMNodeId": 127
+    },
+    {
+      "nodeId": "-1000000029",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Nhóm Sao Mai"
+      },
+      "properties": [],
+      "parentId": "129",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000030",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "110.000 đ"
+      },
+      "properties": [],
+      "parentId": "132",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000031",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Thêm Dữ liệu cho người mới vào giỏ"
+      },
+      "properties": [],
+      "parentId": "134",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000032",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Xem nhanh Dữ liệu cho người mới"
+      },
+      "properties": [],
+      "parentId": "136",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000035",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình"
+      },
+      "properties": [],
+      "parentId": "145",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000037",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu"
+      },
+      "properties": [],
+      "parentId": "149",
+      "childIds": []
+    },
+    {
+      "nodeId": "5",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "27",
+      "childIds": [],
+      "backendDOMNodeId": 5
+    },
+    {
+      "nodeId": "6",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "28",
+      "childIds": [],
+      "backendDOMNodeId": 6
+    },
+    {
+      "nodeId": "-1000000018",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Lập trình Web căn bản"
+      },
+      "properties": [],
+      "parentId": "93",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000023",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Tư duy giải thuật"
+      },
+      "properties": [],
+      "parentId": "110",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000028",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Dữ liệu cho người mới"
+      },
+      "properties": [],
+      "parentId": "127",
+      "childIds": []
+    }
+  ]
+}

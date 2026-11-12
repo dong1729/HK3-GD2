@@ -1,6 +1,6 @@
 # Kết quả kiểm định thực tế — 12/11/2026
 
-Mã nguồn đã kiểm: commit 18ca48b. [Lần chạy GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43183385627). 10 bài kiểm tra chức năng đều qua; axe không phát hiện vi phạm A/AA trên sáu trang chính trong phạm vi quét.
+Mã nguồn đã kiểm: commit 70d3957. [Lần chạy GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43187715949). 20 bài kiểm tra chức năng đều qua; axe không phát hiện vi phạm A/AA trên sáu trang chính trong phạm vi quét.
 
 | Trang | Performance | Accessibility | SEO | LCP (giây) | CLS | W3C error |
 |---|---:|---:|---:|---:|---:|---:|
@@ -32,6 +32,11 @@ Số quy tắc axe có lỗi khác số phần tử lỗi. Quét Tab tự độn
 - Google index/rich result và thẻ chia sẻ trên tên miền thật cần triển khai công khai; hiện chỉ có địa chỉ dự kiến .example.
 - Chưa nghe VoiceOver/NVDA và chưa có buổi đánh giá chéo với người khác; không coi kiểm tự động là peer review.
 - Rich Results Test/Schema Markup Validator chưa có bằng chứng giao diện của từng website ngoài; phần schema trong nguồn đã được khảo sát.
-- Tiến độ đọc LMS là trạng thái riêng: chương 1–4 đã hoàn tất; chương 5 đang đọc lúc ghi báo cáo này.
+- Tiến độ đọc LMS là trạng thái riêng: chương 1–5 đã được LMS ghi hoàn tất; các chương sau chưa được chốt bài trong đợt ưu tiên này.
 
 Bằng chứng gốc: w3c-nu.json, static-check.json, lighthouse-*.html/json và ảnh trong anh/. Không tạo ảnh giả của công cụ kiểm định.
+
+
+## Kiểm định riêng bài tập 1–5
+
+10 tệp HTML cơ bản/trung bình đã gửi W3C Nu: không có lỗi. Xem w3c-bai-tap-01-05.json. Năm ticket nâng cao được triển khai trong dự án sáu trang; các tệp nguồn và tiêu chí được chỉ rõ trong NANG_CAO.md của từng chương. Cây Accessibility thật và lượt Tab sáu trang ở accessibility/ và keyboard/. Bài trung bình chương 2 đã được điền lại từ cây Chrome, không nhầm DOM ứng viên với landmark thật.

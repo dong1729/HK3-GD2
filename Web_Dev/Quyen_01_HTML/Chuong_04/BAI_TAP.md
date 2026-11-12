@@ -13,3 +13,6 @@
 [Mở lời giải trong dự án](../du-an/danh-muc.html). Skip link đầu body → main tabindex=-1; menu aria-current; breadcrumb ol có mục hiện tại không phải link; phân trang URL thật + prev/next trong head; external có noopener/noreferrer.
 
 Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+
+
+Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.

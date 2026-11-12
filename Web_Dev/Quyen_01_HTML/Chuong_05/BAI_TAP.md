@@ -18,3 +18,6 @@ Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, cò
 ## Kiểm cụ thể bài trung bình
 
 Hai sách: 98.000 × 2 = 196.000 đ; 125.000 × 1 = 125.000 đ; tổng 321.000 đ. Mỗi hàng dữ liệu có th tên sách và ba td. Hàng tổng có th colspan=3 và một td, cùng lưới bốn cột với thead. caption mô tả nội dung; scope=col/row gắn tên hai chiều. Vùng cuộn ngang giữ bảng trong màn hình hẹp. Không dùng bảng để dàn menu hoặc cột trang.
+
+
+Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.

@@ -13,3 +13,6 @@
 [Mở lời giải trong dự án](../du-an/chi-tiet.html). nguon/khung.html áp header/nav/main/footer chung. Chi tiết có article, section, bình luận article/header, aside có tên; mỗi trang một h1, heading liền cấp.
 
 Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+
+
+Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.
