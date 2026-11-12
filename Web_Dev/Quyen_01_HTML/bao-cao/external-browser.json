@@ -1,0 +1,399 @@
+[
+  {
+    "url": "https://pragprog.com/titles/elixir16/programming-elixir-1-6/",
+    "method": "Chromium + axe, keyboard Tab scan up to 120 stops; no purchases/submissions; not screen-reader certification",
+    "status": 200,
+    "title": "Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun by Dave Thomas",
+    "dom": {
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Programming Elixir 1.6"
+        },
+        {
+          "tag": "H2",
+          "text": "Functional |> Concurrent |> Pragmatic |> Fun"
+        },
+        {
+          "tag": "H2",
+          "text": "by Dave Thomas"
+        },
+        {
+          "tag": "H4",
+          "text": "Free ebook of Programming Elixir ≥ 1.6 for Educational Domains"
+        },
+        {
+          "tag": "H3",
+          "text": "eBook Formats:"
+        },
+        {
+          "tag": "H3",
+          "text": "Paperback Formats:"
+        },
+        {
+          "tag": "H3",
+          "text": "What You Need"
+        },
+        {
+          "tag": "H3",
+          "text": "Resources"
+        },
+        {
+          "tag": "H3",
+          "text": "Contents & Extracts"
+        },
+        {
+          "tag": "H3",
+          "text": "Author"
+        },
+        {
+          "tag": "H3",
+          "text": "eBook Formats:"
+        },
+        {
+          "tag": "H3",
+          "text": "Paperback Formats:"
+        },
+        {
+          "tag": "H2",
+          "text": "Releases, Offers & More"
+        },
+        {
+          "tag": "H3",
+          "text": "Related categories:"
+        },
+        {
+          "tag": "H3",
+          "text": "Related Titles:"
+        }
+      ],
+      "landmarks": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        }
+      ],
+      "skip": [],
+      "blank": 7
+    },
+    "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+  },
+  {
+    "url": "https://www.manning.com/books/grokking-algorithms-second-edition",
+    "method": "Chromium + axe, keyboard Tab scan up to 120 stops; no purchases/submissions; not screen-reader certification",
+    "status": 200,
+    "title": "Grokking Algorithms, Second Edition - Aditya Y Bhargava | Manning",
+    "dom": {
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Grokking Algorithms, Second Edition"
+        },
+        {
+          "tag": "H3",
+          "text": "pro $24.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "lite $19.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "team"
+        },
+        {
+          "tag": "H3",
+          "text": "pro $24.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "lite $19.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "about the technology"
+        },
+        {
+          "tag": "H2",
+          "text": "about the book"
+        },
+        {
+          "tag": "H2",
+          "text": "what's inside"
+        },
+        {
+          "tag": "H2",
+          "text": "about the reader"
+        },
+        {
+          "tag": "H2",
+          "text": "about the author"
+        },
+        {
+          "tag": "H3",
+          "text": "pro $24.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "lite $19.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "Add to Reading List"
+        },
+        {
+          "tag": "H3",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "text": "related titles"
+        },
+        {
+          "tag": "H2",
+          "text": "related titles"
+        },
+        {
+          "tag": "H2",
+          "text": "pro"
+        },
+        {
+          "tag": "H2",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "pro"
+        },
+        {
+          "tag": "H2",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "pro"
+        },
+        {
+          "tag": "H2",
+          "text": "team"
+        }
+      ],
+      "landmarks": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "ASIDE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        }
+      ],
+      "canonical": "https://www.manning.com/books/grokking-algorithms-second-edition",
+      "skip": [],
+      "blank": 34
+    },
+    "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+  },
+  {
+    "url": "https://www.manning.com/books/grokking-ai-algorithms-second-edition",
+    "method": "Chromium + axe, keyboard Tab scan up to 120 stops; no purchases/submissions; not screen-reader certification",
+    "status": 200,
+    "title": "Grokking AI Algorithms, Second Edition - Rishal Hurbans | Manning",
+    "dom": {
+      "headings": [
+        {
+          "tag": "H1",
+          "text": "Grokking AI Algorithms, Second Edition"
+        },
+        {
+          "tag": "H3",
+          "text": "pro $24.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "lite $19.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "team"
+        },
+        {
+          "tag": "H3",
+          "text": "pro $24.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "lite $19.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "about the technology"
+        },
+        {
+          "tag": "H2",
+          "text": "about the book"
+        },
+        {
+          "tag": "H2",
+          "text": "what's inside"
+        },
+        {
+          "tag": "H2",
+          "text": "about the reader"
+        },
+        {
+          "tag": "H2",
+          "text": "about the author"
+        },
+        {
+          "tag": "H3",
+          "text": "pro $24.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "lite $19.99 per month"
+        },
+        {
+          "tag": "H3",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "Add to Reading List"
+        },
+        {
+          "tag": "H3",
+          "text": ""
+        },
+        {
+          "tag": "H2",
+          "text": "related titles"
+        },
+        {
+          "tag": "H2",
+          "text": "related titles"
+        },
+        {
+          "tag": "H2",
+          "text": "pro"
+        },
+        {
+          "tag": "H2",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "pro"
+        },
+        {
+          "tag": "H2",
+          "text": "team"
+        },
+        {
+          "tag": "H2",
+          "text": "pro"
+        },
+        {
+          "tag": "H2",
+          "text": "team"
+        }
+      ],
+      "landmarks": [
+        {
+          "tag": "HEADER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "NAV",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "ASIDE",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        },
+        {
+          "tag": "FOOTER",
+          "role": null,
+          "label": null
+        }
+      ],
+      "canonical": "https://www.manning.com/books/grokking-ai-algorithms-second-edition",
+      "skip": [],
+      "blank": 36
+    },
+    "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+  }
+]

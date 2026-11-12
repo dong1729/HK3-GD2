@@ -4,7 +4,7 @@ import fs from 'node:fs/promises';
 const urls=['https://pragprog.com/titles/elixir16/programming-elixir-1-6/','https://www.manning.com/books/grokking-algorithms-second-edition','https://www.manning.com/books/grokking-ai-algorithms-second-edition'];
 const browser=await chromium.launch();const results=[];
 try{for(const [i,url]of urls.entries()){
- const page=await browser.newPage({viewport:{width:1280,height:900}});const row={url,method:'Chromium + axe, keyboard Tab scan up to 120 stops; no purchases/submissions; not screen-reader certification'};
+ const context=await browser.newContext({viewport:{width:1280,height:900}});const page=await context.newPage();const row={url,method:'Chromium + axe, keyboard Tab scan up to 120 stops; no purchases/submissions; not screen-reader certification'};
  try{
   const response=await page.goto(url,{waitUntil:'domcontentloaded',timeout:45000});row.status=response?.status();row.title=await page.title();
   if(row.status>=400||/Just a moment|Access denied|Forbidden|Security verification|Robot Check/i.test(row.title)){row.blocked=true;}else{
@@ -16,5 +16,5 @@ try{for(const [i,url]of urls.entries()){
     const signature=JSON.stringify(stop);if(n>0&&signature===first){row.loopAt=n;break;}if(n===0)first=signature;stops.push(stop);
    }row.keyboard=stops;await page.screenshot({path:'../bao-cao/anh/external-'+(i+1)+'.png',fullPage:false});
   }
- }catch(error){row.error=error.message;}results.push(row);await page.close();
+ }catch(error){row.error=error.message;}results.push(row);await context.close();
 }await fs.writeFile('../bao-cao/external-browser.json',JSON.stringify(results,null,2));console.log(results.map(r=>({url:r.url,status:r.status,blocked:r.blocked,error:r.error,axeViolations:r.axe?.violations.length,tabStops:r.keyboard?.length})));}finally{await browser.close();}
