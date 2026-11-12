@@ -1,43 +1,329 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Danh mục sách — Nhà sách Sao Mai</title>
-<meta name="description" content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://sachsaomai.example/du-an/danh-muc">
-<link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml">
-<meta name="theme-color" content="#173e36">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Danh mục sách — Nhà sách Sao Mai">
-<meta property="og:description" content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai.">
-<meta property="og:url" content="https://sachsaomai.example/du-an/danh-muc">
-<meta property="og:image" content="https://sachsaomai.example/du-an/assets/chia-se.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Danh mục sách — Nhà sách Sao Mai">
-<meta name="twitter:description" content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai.">
-<meta name="twitter:image" content="https://sachsaomai.example/du-an/assets/chia-se.jpg">
-<link rel="stylesheet" href="/du-an/assets/site.css">
-<script src="/du-an/assets/ui.js" defer></script>
-<script src="/du-an/assets/cards.js" type="module"></script>
-<link rel="next" href="https://sachsaomai.example/du-an/danh-muc-trang-2"><link rel="alternate" hreflang="vi" href="https://sachsaomai.example/du-an/danh-muc"><link rel="alternate" hreflang="en" href="https://sachsaomai.example/du-an/en/catalog"><link rel="alternate" hreflang="x-default" href="https://sachsaomai.example/du-an/danh-muc"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://sachsaomai.example/du-an/trang-chu"}, {"@type": "ListItem", "position": 2, "name": "Danh mục sách", "item": "https://sachsaomai.example/du-an/danh-muc"}]}</script>
-
-</head>
-<body>
-<a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
-<header class="site-header">
-<a class="brand" href="/du-an/trang-chu"><img src="/du-an/assets/icon.svg" alt="" width="32" height="32"> Nhà sách Sao Mai</a>
-<nav aria-label="Điều hướng chính"><ul><li><a href="/du-an/trang-chu">Trang chủ</a></li><li><a href="/du-an/danh-muc" aria-current="page">Danh mục</a></li><li><a href="/du-an/chi-tiet">Chi tiết sách</a></li><li><a href="/du-an/gio-hang">Giỏ hàng</a></li><li><a href="/du-an/thanh-toan">Thanh toán</a></li><li><a href="/du-an/lien-he">Liên hệ</a></li></ul></nav>
-<form action="/du-an/danh-muc" method="get" role="search"><label for="tim-sach">Tìm sách</label><input id="tim-sach" name="q" type="search" enterkeyhint="search"><button type="submit">Tìm kiếm</button></form>
-<button type="button" popovertarget="gio-nho">Giỏ hàng (<span data-cart-count>0</span>)</button>
-</header>
-<nav class="breadcrumb" aria-label="Đường dẫn vị trí"><ol><li><a href="/du-an/trang-chu">Trang chủ</a></li><li aria-current="page">Danh mục sách</li></ol></nav>
-<main id="noi-dung" tabindex="-1"><h1>Danh mục sách</h1><p id="ket-qua" role="status"></p><button type="button" id="mo-loc" aria-controls="bo-loc" aria-expanded="false">Bộ lọc</button><section id="bo-loc" hidden><h2>Lọc theo chủ đề</h2><label for="chu-de">Chủ đề</label><select id="chu-de"><option value="all">Tất cả</option><option value="web">Lập trình</option><option value="data">Dữ liệu</option></select><button type="button" id="dong-loc">Đóng bộ lọc</button></section><section><h2>Sách hiện có</h2><ul class="books" id="danh-sach-sach"><li><article class="book-card" data-sm-book-id="web" data-sm-price="98000"><picture><source type="image/avif" srcset="/du-an/assets/web-400.avif 400w, /du-an/assets/web-800.avif 800w, /du-an/assets/web-1200.avif 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px"><source type="image/webp" srcset="/du-an/assets/web-400.webp 400w, /du-an/assets/web-800.webp 800w, /du-an/assets/web-1200.webp 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px"><img src="/du-an/assets/web-800.jpg" srcset="/du-an/assets/web-400.jpg 400w, /du-an/assets/web-800.jpg 800w, /du-an/assets/web-1200.jpg 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px" alt="Bìa Lập trình Web căn bản" width="800" height="1000" loading="lazy" decoding="async"></picture><h3><a href="/du-an/chi-tiet">Lập trình Web căn bản</a></h3><p>Nhóm Sao Mai</p><p><data value="98000">98.000 đ</data></p><button type="button" data-add="web">Thêm Lập trình Web căn bản vào giỏ</button><button type="button" data-quick="web">Xem nhanh Lập trình Web căn bản</button></article></li><li><article class="book-card" data-sm-book-id="algo" data-sm-price="125000"><picture><source type="image/avif" srcset="/du-an/assets/algo-400.avif 400w, /du-an/assets/algo-800.avif 800w, /du-an/assets/algo-1200.avif 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px"><source type="image/webp" srcset="/du-an/assets/algo-400.webp 400w, /du-an/assets/algo-800.webp 800w, /du-an/assets/algo-1200.webp 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px"><img src="/du-an/assets/algo-800.jpg" srcset="/du-an/assets/algo-400.jpg 400w, /du-an/assets/algo-800.jpg 800w, /du-an/assets/algo-1200.jpg 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px" alt="Bìa Tư duy giải thuật" width="800" height="1000" loading="lazy" decoding="async"></picture><h3><a href="/du-an/sach/tu-duy-giai-thuat">Tư duy giải thuật</a></h3><p>Nhóm Sao Mai</p><p><data value="125000">125.000 đ</data></p><button type="button" data-add="algo">Thêm Tư duy giải thuật vào giỏ</button><button type="button" data-quick="algo">Xem nhanh Tư duy giải thuật</button></article></li><li><article class="book-card" data-sm-book-id="data" data-sm-price="110000"><picture><source type="image/avif" srcset="/du-an/assets/data-400.avif 400w, /du-an/assets/data-800.avif 800w, /du-an/assets/data-1200.avif 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px"><source type="image/webp" srcset="/du-an/assets/data-400.webp 400w, /du-an/assets/data-800.webp 800w, /du-an/assets/data-1200.webp 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px"><img src="/du-an/assets/data-800.jpg" srcset="/du-an/assets/data-400.jpg 400w, /du-an/assets/data-800.jpg 800w, /du-an/assets/data-1200.jpg 1200w" sizes="(max-width: 640px) calc(100vw - 40px), 400px" alt="Bìa Dữ liệu cho người mới" width="800" height="1000" loading="lazy" decoding="async"></picture><h3><a href="/du-an/sach/du-lieu-cho-nguoi-moi">Dữ liệu cho người mới</a></h3><p>Nhóm Sao Mai</p><p><data value="110000">110.000 đ</data></p><button type="button" data-add="data">Thêm Dữ liệu cho người mới vào giỏ</button><button type="button" data-quick="data">Xem nhanh Dữ liệu cho người mới</button></article></li></ul></section><nav aria-label="Phân trang"><ul><li><span aria-current="page">Trang 1</span></li><li><a href="/du-an/danh-muc-trang-2" rel="next">Trang 2 →</a></li></ul></nav></main>
-<footer class="site-footer"><p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p><address><a href="mailto:hotro@sachsaomai.example">hotro@sachsaomai.example</a></address><a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer external">HTML Standard (tab mới)</a></footer>
-<p role="status" aria-live="polite" aria-atomic="true" id="thong-bao" class="status"></p>
-<aside id="gio-nho" popover aria-label="Giỏ hàng nhanh"><h2>Giỏ hàng</h2><p data-cart-summary>Chưa có sách</p><a href="/du-an/gio-hang">Xem giỏ hàng</a><button type="button" popovertarget="gio-nho" popovertargetaction="hide">Đóng</button></aside>
-<dialog id="xem-nhanh" aria-labelledby="ten-hop"><h2 id="ten-hop">Xem nhanh</h2><p id="noi-dung-hop"></p><form method="dialog"><button type="submit">Đóng</button></form></dialog>
-</body></html>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Danh mục sách — Nhà sách Sao Mai</title>
+    <meta
+      name="description"
+      content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai."
+    >
+    <meta name="robots" content="index, follow" >
+    <link rel="canonical" href="https://sachsaomai.example/du-an/danh-muc" >
+    <link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml" >
+    <meta name="theme-color" content="#173e36" >
+    <meta property="og:type" content="website" >
+    <meta property="og:title" content="Danh mục sách — Nhà sách Sao Mai" >
+    <meta
+      property="og:description"
+      content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai."
+    >
+    <meta
+      property="og:url"
+      content="https://sachsaomai.example/du-an/danh-muc"
+    >
+    <meta
+      property="og:image"
+      content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
+    >
+    <meta property="og:image:width" content="1200" >
+    <meta property="og:image:height" content="630" >
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:title" content="Danh mục sách — Nhà sách Sao Mai" >
+    <meta
+      name="twitter:description"
+      content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai."
+    >
+    <meta
+      name="twitter:image"
+      content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
+    >
+    <link rel="stylesheet" href="/du-an/assets/site.css" >
+    <script src="/du-an/assets/ui.js" defer></script>
+    <script src="/du-an/assets/cards.js" type="module"></script>
+    <link rel="next" href="https://sachsaomai.example/du-an/danh-muc-trang-2" >
+    <link
+      rel="alternate"
+      hreflang="vi"
+      href="https://sachsaomai.example/du-an/danh-muc"
+    >
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://sachsaomai.example/du-an/en/catalog"
+    >
+    <link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://sachsaomai.example/du-an/danh-muc"
+    >
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trang chủ",
+            "item": "https://sachsaomai.example/du-an/trang-chu"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Danh mục sách",
+            "item": "https://sachsaomai.example/du-an/danh-muc"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
+    <header class="site-header">
+      <a class="brand" href="/du-an/trang-chu"
+        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà
+        sách Sao Mai</a
+      >
+      <nav aria-label="Điều hướng chính">
+        <ul>
+          <li><a href="/du-an/trang-chu">Trang chủ</a></li>
+          <li><a href="/du-an/danh-muc" aria-current="page">Danh mục</a></li>
+          <li><a href="/du-an/chi-tiet">Chi tiết sách</a></li>
+          <li><a href="/du-an/gio-hang">Giỏ hàng</a></li>
+          <li><a href="/du-an/thanh-toan">Thanh toán</a></li>
+          <li><a href="/du-an/lien-he">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <form action="/du-an/danh-muc" method="get" role="search">
+        <label for="tim-sach">Tìm sách</label
+        ><input
+          id="tim-sach"
+          name="q"
+          type="search"
+          enterkeyhint="search"
+        ><button type="submit">Tìm kiếm</button>
+      </form>
+      <button type="button" popovertarget="gio-nho">
+        Giỏ hàng (<span data-cart-count>0</span>)
+      </button>
+    </header>
+    <nav class="breadcrumb" aria-label="Đường dẫn vị trí">
+      <ol>
+        <li><a href="/du-an/trang-chu">Trang chủ</a></li>
+        <li aria-current="page">Danh mục sách</li>
+      </ol>
+    </nav>
+    <main id="noi-dung" tabindex="-1">
+      <h1>Danh mục sách</h1>
+      <p id="ket-qua" role="status"></p>
+      <button
+        type="button"
+        id="mo-loc"
+        aria-controls="bo-loc"
+        aria-expanded="false"
+      >
+        Bộ lọc
+      </button>
+      <section id="bo-loc" hidden>
+        <h2>Lọc theo chủ đề</h2>
+        <label for="chu-de">Chủ đề</label
+        ><select id="chu-de">
+          <option value="all">Tất cả</option>
+          <option value="web">Lập trình</option>
+          <option value="data">Dữ liệu</option></select
+        ><button type="button" id="dong-loc">Đóng bộ lọc</button>
+      </section>
+      <section>
+        <h2>Sách hiện có</h2>
+        <ul class="books" id="danh-sach-sach">
+          <li>
+            <article
+              class="book-card"
+              data-sm-book-id="web"
+              data-sm-price="98000"
+            >
+              <picture
+                ><source
+                  type="image/avif"
+                  srcset="
+                    /du-an/assets/web-400.avif   400w,
+                    /du-an/assets/web-800.avif   800w,
+                    /du-an/assets/web-1200.avif 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px" >
+                <source
+                  type="image/webp"
+                  srcset="
+                    /du-an/assets/web-400.webp   400w,
+                    /du-an/assets/web-800.webp   800w,
+                    /du-an/assets/web-1200.webp 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px" >
+                <img
+                  src="/du-an/assets/web-800.jpg"
+                  srcset="
+                    /du-an/assets/web-400.jpg   400w,
+                    /du-an/assets/web-800.jpg   800w,
+                    /du-an/assets/web-1200.jpg 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px"
+                  alt="Bìa Lập trình Web căn bản"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                  decoding="async"
+              ></picture>
+              <h3><a href="/du-an/chi-tiet">Lập trình Web căn bản</a></h3>
+              <p>Nhóm Sao Mai</p>
+              <p><data value="98000">98.000 đ</data></p>
+              <button type="button" data-add="web">
+                Thêm Lập trình Web căn bản vào giỏ</button
+              ><button type="button" data-quick="web">
+                Xem nhanh Lập trình Web căn bản
+              </button>
+            </article>
+          </li>
+          <li>
+            <article
+              class="book-card"
+              data-sm-book-id="algo"
+              data-sm-price="125000"
+            >
+              <picture
+                ><source
+                  type="image/avif"
+                  srcset="
+                    /du-an/assets/algo-400.avif   400w,
+                    /du-an/assets/algo-800.avif   800w,
+                    /du-an/assets/algo-1200.avif 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px" >
+                <source
+                  type="image/webp"
+                  srcset="
+                    /du-an/assets/algo-400.webp   400w,
+                    /du-an/assets/algo-800.webp   800w,
+                    /du-an/assets/algo-1200.webp 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px" >
+                <img
+                  src="/du-an/assets/algo-800.jpg"
+                  srcset="
+                    /du-an/assets/algo-400.jpg   400w,
+                    /du-an/assets/algo-800.jpg   800w,
+                    /du-an/assets/algo-1200.jpg 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px"
+                  alt="Bìa Tư duy giải thuật"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                  decoding="async"
+              ></picture>
+              <h3>
+                <a href="/du-an/sach/tu-duy-giai-thuat">Tư duy giải thuật</a>
+              </h3>
+              <p>Nhóm Sao Mai</p>
+              <p><data value="125000">125.000 đ</data></p>
+              <button type="button" data-add="algo">
+                Thêm Tư duy giải thuật vào giỏ</button
+              ><button type="button" data-quick="algo">
+                Xem nhanh Tư duy giải thuật
+              </button>
+            </article>
+          </li>
+          <li>
+            <article
+              class="book-card"
+              data-sm-book-id="data"
+              data-sm-price="110000"
+            >
+              <picture
+                ><source
+                  type="image/avif"
+                  srcset="
+                    /du-an/assets/data-400.avif   400w,
+                    /du-an/assets/data-800.avif   800w,
+                    /du-an/assets/data-1200.avif 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px" >
+                <source
+                  type="image/webp"
+                  srcset="
+                    /du-an/assets/data-400.webp   400w,
+                    /du-an/assets/data-800.webp   800w,
+                    /du-an/assets/data-1200.webp 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px" >
+                <img
+                  src="/du-an/assets/data-800.jpg"
+                  srcset="
+                    /du-an/assets/data-400.jpg   400w,
+                    /du-an/assets/data-800.jpg   800w,
+                    /du-an/assets/data-1200.jpg 1200w
+                  "
+                  sizes="(max-width: 640px) calc(100vw - 40px), 400px"
+                  alt="Bìa Dữ liệu cho người mới"
+                  width="800"
+                  height="1000"
+                  loading="lazy"
+                  decoding="async"
+              ></picture>
+              <h3>
+                <a href="/du-an/sach/du-lieu-cho-nguoi-moi"
+                  >Dữ liệu cho người mới</a
+                >
+              </h3>
+              <p>Nhóm Sao Mai</p>
+              <p><data value="110000">110.000 đ</data></p>
+              <button type="button" data-add="data">
+                Thêm Dữ liệu cho người mới vào giỏ</button
+              ><button type="button" data-quick="data">
+                Xem nhanh Dữ liệu cho người mới
+              </button>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <nav aria-label="Phân trang">
+        <ul>
+          <li><span aria-current="page">Trang 1</span></li>
+          <li><a href="/du-an/danh-muc-trang-2" rel="next">Trang 2 →</a></li>
+        </ul>
+      </nav>
+    </main>
+    <footer class="site-footer">
+      <p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p>
+      <address>
+        <a href="mailto:hotro@sachsaomai.example">hotro@sachsaomai.example</a>
+      </address>
+      <a
+        href="https://html.spec.whatwg.org/"
+        target="_blank"
+        rel="noopener noreferrer external"
+        >HTML Standard (tab mới)</a
+      >
+    </footer>
+    <p
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      id="thong-bao"
+      class="status"
+    ></p>
+    <aside id="gio-nho" popover aria-label="Giỏ hàng nhanh">
+      <h2>Giỏ hàng</h2>
+      <p data-cart-summary>Chưa có sách</p>
+      <a href="/du-an/gio-hang">Xem giỏ hàng</a
+      ><button type="button" popovertarget="gio-nho" popovertargetaction="hide">
+        Đóng
+      </button>
+    </aside>
+    <dialog id="xem-nhanh" aria-labelledby="ten-hop">
+      <h2 id="ten-hop">Xem nhanh</h2>
+      <p id="noi-dung-hop"></p>
+      <form method="dialog"><button type="submit">Đóng</button></form>
+    </dialog>
+  </body>
+</html>

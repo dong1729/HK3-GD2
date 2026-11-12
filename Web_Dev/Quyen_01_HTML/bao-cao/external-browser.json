@@ -90,12 +90,10 @@
     "accessibilityTree": {
       "roles": {
         "banner": 1,
-        "contentinfo": 1,
-        "navigation": 1
+        "navigation": 1,
+        "contentinfo": 1
       },
       "headingLevels": [
-        3,
-        3,
         1,
         2,
         2,
@@ -104,10 +102,13 @@
         3,
         3,
         3,
+        3,
+        3,
         2,
         3,
         3
-      ]
+      ],
+      "order": "depth-first traversal from AX root using childIds"
     },
     "navigation": {
       "navCount": 1,
@@ -745,25 +746,26 @@
     "accessibilityTree": {
       "roles": {
         "banner": 1,
-        "contentinfo": 5,
         "navigation": 1,
-        "complementary": 1
+        "complementary": 1,
+        "contentinfo": 5
       },
       "headingLevels": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
         1,
         2,
         2,
         2,
         2,
         2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         2
-      ]
+      ],
+      "order": "depth-first traversal from AX root using childIds"
     },
     "navigation": {
       "navCount": 1,
@@ -835,118 +837,6 @@
             ],
             [
               "#toc-search-button"
-            ]
-          ]
-        },
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "nodes": [
-            [
-              "label[for=\"browse-mobile\"]"
-            ],
-            [
-              ".nav-cart-label"
-            ],
-            [
-              "label[for=\"sign-in\"]"
-            ],
-            [
-              "div:nth-child(1) > .product-cover-wrapper[target=\"_blank\"] > .btn-look-inside.look-inside-btn.product-look-inside"
-            ],
-            [
-              ".hide-for-subscriber > .book-video-edition-link.btn-secondary.btn-block"
-            ],
-            [
-              ".link-like"
-            ],
-            [
-              ".collapsible.list-group-item[target=\"_blank\"]:nth-child(3)"
-            ],
-            [
-              ".product-recommendation-container:nth-child(1) > .product-data-container > .recommender-desktop-link.product-view-more"
-            ],
-            [
-              ".product-recommendation-container:nth-child(2) > .product-data-container > .recommender-desktop-link.product-view-more"
-            ],
-            [
-              ".product-recommendation-container:nth-child(3) > .product-data-container > .recommender-desktop-link.product-view-more"
-            ],
-            [
-              ".product-recommendation-container:nth-child(4) > .product-data-container > .recommender-desktop-link.product-view-more"
-            ],
-            [
-              "a[target=\"_blank\"] > i"
-            ],
-            [
-              ".product-meta-subscription > a[href$=\"subscription\"]"
-            ],
-            [
-              ".available-translations-label"
-            ],
-            [
-              ".category-link[href$=\"catalog\"][target=\"_blank\"]"
-            ],
-            [
-              ".category-link[target=\"_blank\"]:nth-child(2)"
-            ],
-            [
-              ".category-link[target=\"_blank\"]:nth-child(3)"
-            ],
-            [
-              ".category-link[target=\"_blank\"]:nth-child(4)"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(1) > .selected[data-product-type=\"eBook\"][data-product-offering-id=\"4717\"] > ._product-offering-tab-title"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(1) > .selected[data-product-type=\"eBook\"][data-product-offering-id=\"4717\"] > ._product-offering-tab-subtitle"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(2) > ._combo-tab-button[data-product-type=\"print\"][data-product-offering-id=\"4716\"] > ._product-offering-tab-title"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(2) > ._combo-tab-button[data-product-type=\"print\"][data-product-offering-id=\"4716\"] > ._product-offering-tab-subtitle"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(3) > button[data-addon-offering-id=\"8046\"][data-product-type=\"online + audio\"][data-product-offering-id=\"4718\"] > ._product-offering-tab-title"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(3) > button[data-addon-offering-id=\"8046\"][data-product-type=\"online + audio\"][data-product-offering-id=\"4718\"] > ._product-offering-tab-subtitle"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(4) > ._subscription-tab-button[data-product-type=\"with subscription\"][data-product-offering-id=\"4133\"] > ._product-offering-tab-title"
-            ],
-            [
-              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(4) > ._subscription-tab-button[data-product-type=\"with subscription\"][data-product-offering-id=\"4133\"] > ._product-offering-tab-subtitle"
-            ],
-            [
-              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._heading > ._has-extra-audio-offering[data-product-type=\"eBook\"][data-product-offering-id=\"4717\"] > ._title"
-            ],
-            [
-              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._heading > ._has-extra-audio-offering[data-product-type=\"eBook\"][data-product-offering-id=\"4717\"] > ._price[data-price-usd=\"32.99\"][data-list-price-usd=\"54.99\"] > .list-price.price[data-list-price-usd=\"54.99\"]"
-            ],
-            [
-              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._heading > ._has-extra-audio-offering[data-product-type=\"eBook\"][data-product-offering-id=\"4717\"] > .additional-audio-offering-label > ._final-audio-price"
-            ],
-            [
-              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._content > ._add-to-cart-button"
-            ],
-            [
-              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._content > ._subscription-button.hide-for-subscriber"
-            ],
-            [
-              ".large-product-quote > footer"
-            ],
-            [
-              ".small-product-quote.new-small-product-quote:nth-child(1) > footer"
-            ],
-            [
-              ".small-product-quote.new-small-product-quote:nth-child(2) > footer"
-            ],
-            [
-              ".small-product-quote.new-small-product-quote:nth-child(3) > footer"
             ]
           ]
         },
@@ -1027,9 +917,9 @@
           ]
         }
       ],
-      "incomplete": 2
+      "incomplete": 1
     },
-    "loopAt": 101,
+    "loopAt": 100,
     "keyboard": [
       {
         "tag": "A",
@@ -1313,18 +1203,9 @@
       {
         "tag": "A",
         "id": "",
-        "name": "24 reviews",
+        "name": "",
         "href": "#reviews",
         "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "DIV",
-        "id": "sa_grp_9781633438538",
-        "name": "4.79125-star overall rating",
-        "href": null,
-        "outline": "auto 1px",
         "boxShadow": "none",
         "visible": true
       },
@@ -1530,16 +1411,7 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/classic-computer-science-problems-in-python",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/fabulous-adventures-in-data-structures-and-algorithms",
+        "href": "/books/grokking-parallel-programming",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -1557,7 +1429,7 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/advanced-algorithms-and-data-structures",
+        "href": "/books/classic-computer-science-problems-in-java",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -1566,7 +1438,16 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/grokking-parallel-programming",
+        "href": "/books/fabulous-adventures-in-data-structures-and-algorithms",
+        "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "name": "",
+        "href": "/books/grokking-data-structures",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -2099,25 +1980,26 @@
     "accessibilityTree": {
       "roles": {
         "banner": 1,
-        "contentinfo": 6,
         "navigation": 1,
-        "complementary": 1
+        "complementary": 1,
+        "contentinfo": 6
       },
       "headingLevels": [
-        2,
-        2,
-        2,
-        2,
-        2,
-        2,
         1,
         2,
         2,
         2,
         2,
         2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
         2
-      ]
+      ],
+      "order": "depth-first traversal from AX root using childIds"
     },
     "navigation": {
       "navCount": 1,
@@ -2189,6 +2071,118 @@
             ],
             [
               "#toc-search-button"
+            ]
+          ]
+        },
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "nodes": [
+            [
+              "label[for=\"browse-mobile\"]"
+            ],
+            [
+              ".nav-cart-label"
+            ],
+            [
+              "label[for=\"sign-in\"]"
+            ],
+            [
+              "div:nth-child(1) > .product-cover-wrapper[target=\"_blank\"] > .btn-look-inside.look-inside-btn.product-look-inside"
+            ],
+            [
+              ".hide-for-subscriber > .book-video-edition-link.btn-secondary.btn-block"
+            ],
+            [
+              ".link-like"
+            ],
+            [
+              ".collapsible.list-group-item[target=\"_blank\"]:nth-child(3)"
+            ],
+            [
+              ".product-recommendation-container:nth-child(1) > .product-data-container > .recommender-desktop-link.product-view-more"
+            ],
+            [
+              ".product-recommendation-container:nth-child(2) > .product-data-container > .recommender-desktop-link.product-view-more"
+            ],
+            [
+              ".product-recommendation-container:nth-child(3) > .product-data-container > .recommender-desktop-link.product-view-more"
+            ],
+            [
+              ".product-recommendation-container:nth-child(4) > .product-data-container > .recommender-desktop-link.product-view-more"
+            ],
+            [
+              ".product-authors > a[target=\"_blank\"]"
+            ],
+            [
+              ".product-meta-subscription > a[href$=\"subscription\"]"
+            ],
+            [
+              ".available-translations-label"
+            ],
+            [
+              ".category-link[href$=\"catalog\"][target=\"_blank\"]"
+            ],
+            [
+              ".category-link[target=\"_blank\"]:nth-child(2)"
+            ],
+            [
+              ".category-link[target=\"_blank\"]:nth-child(3)"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(1) > .selected[data-product-type=\"eBook\"][data-product-offering-id=\"9362\"] > ._product-offering-tab-title"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(1) > .selected[data-product-type=\"eBook\"][data-product-offering-id=\"9362\"] > ._product-offering-tab-subtitle"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(2) > ._combo-tab-button[data-product-type=\"print\"][data-product-offering-id=\"9361\"] > ._product-offering-tab-title"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(2) > ._combo-tab-button[data-product-type=\"print\"][data-product-offering-id=\"9361\"] > ._product-offering-tab-subtitle"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(3) > button[data-addon-offering-id=\"11668\"][data-product-type=\"online + audio\"][data-product-offering-id=\"9365\"] > ._product-offering-tab-title"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(3) > button[data-addon-offering-id=\"11668\"][data-product-type=\"online + audio\"][data-product-offering-id=\"9365\"] > ._product-offering-tab-subtitle"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(4) > ._subscription-tab-button[data-product-type=\"with subscription\"][data-product-offering-id=\"4133\"] > ._product-offering-tab-title"
+            ],
+            [
+              ".show-when-add-to-cart-box-v1[role=\"tablist\"] > li:nth-child(4) > ._subscription-tab-button[data-product-type=\"with subscription\"][data-product-offering-id=\"4133\"] > ._product-offering-tab-subtitle"
+            ],
+            [
+              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._heading > ._has-extra-audio-offering[data-product-type=\"eBook\"][data-product-offering-id=\"9362\"] > ._title"
+            ],
+            [
+              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._heading > ._has-extra-audio-offering[data-product-type=\"eBook\"][data-product-offering-id=\"9362\"] > ._price[data-price-usd=\"28.79\"][data-list-price-usd=\"47.99\"] > .list-price.price[data-list-price-usd=\"47.99\"]"
+            ],
+            [
+              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._heading > ._has-extra-audio-offering[data-product-type=\"eBook\"][data-product-offering-id=\"9362\"] > .additional-audio-offering-label > ._final-audio-price"
+            ],
+            [
+              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._content > ._add-to-cart-button"
+            ],
+            [
+              "._add-to-cart-box-wrapper > .add-to-cart-box-v1.add-to-cart-box[data-product-type=\"EBOOK\"] > ._content > ._subscription-button.hide-for-subscriber"
+            ],
+            [
+              ".large-product-quote > footer"
+            ],
+            [
+              ".small-product-quote.new-small-product-quote:nth-child(1) > footer"
+            ],
+            [
+              ".small-product-quote.new-small-product-quote:nth-child(2) > footer"
+            ],
+            [
+              ".small-product-quote.new-small-product-quote:nth-child(3) > footer"
+            ],
+            [
+              ".small-product-quote.new-small-product-quote:nth-child(4) > footer"
             ]
           ]
         },
@@ -2269,9 +2263,9 @@
           ]
         }
       ],
-      "incomplete": 1
+      "incomplete": 2
     },
-    "loopAt": 96,
+    "loopAt": 97,
     "keyboard": [
       {
         "tag": "A",
@@ -2564,9 +2558,18 @@
       {
         "tag": "A",
         "id": "",
-        "name": "",
+        "name": "3 reviews",
         "href": "#reviews",
         "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "DIV",
+        "id": "sa_grp_9781633434813",
+        "name": "5-star overall rating",
+        "href": null,
+        "outline": "auto 1px",
         "boxShadow": "none",
         "visible": true
       },
@@ -2727,16 +2730,7 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/data-without-labels",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/machine-learning-with-tensorflow-second-edition",
+        "href": "/books/deep-learning-with-python-third-edition",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -2763,7 +2757,16 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/deep-learning-with-python-third-edition",
+        "href": "/books/machine-learning-with-tensorflow-second-edition",
+        "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "name": "",
+        "href": "/books/grokking-machine-learning-second-edition",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true

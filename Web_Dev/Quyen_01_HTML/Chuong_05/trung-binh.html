@@ -1,1 +1,64 @@
-<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bài trung bình chương 5 — Thực hành HTML</title><link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/du-an/assets/site.css"></head><body><a class="skip-link" href="#main">Bỏ qua điều hướng</a><header><nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav></header><main id="main" tabindex="-1"><h1>Bài trung bình chương 5</h1><div class="table-scroll" role="region" aria-label="Bảng đơn hàng, có thể cuộn ngang" tabindex="0"><table><caption>Đơn hàng mẫu sau khi sửa cấu trúc bảng</caption><thead><tr><th scope="col">Sách</th><th scope="col">Đơn giá</th><th scope="col">Số lượng</th><th scope="col">Thành tiền</th></tr></thead><tbody><tr><th scope="row">Lập trình Web căn bản</th><td>98.000 đ</td><td>2</td><td>196.000 đ</td></tr><tr><th scope="row">Tư duy giải thuật</th><td>125.000 đ</td><td>1</td><td>125.000 đ</td></tr></tbody><tfoot><tr><th scope="row" colspan="3">Tổng cộng</th><td>321.000 đ</td></tr></tfoot></table></div><p>Đã thay tiêu đề td thành th scope=col/row, bổ sung caption và nhóm hàng. Hàng tổng colspan=3 cộng ô tổng=1, đúng 4 cột.</p></main><footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Bài trung bình chương 5 — Thực hành HTML</title>
+    <link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml" >
+    <link rel="stylesheet" href="/du-an/assets/site.css" >
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header>
+      <nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <h1>Bài trung bình chương 5</h1>
+      <div
+        class="table-scroll"
+        role="region"
+        aria-label="Bảng đơn hàng, có thể cuộn ngang"
+        tabindex="0"
+      >
+        <table>
+          <caption>
+            Đơn hàng mẫu sau khi sửa cấu trúc bảng
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Sách</th>
+              <th scope="col">Đơn giá</th>
+              <th scope="col">Số lượng</th>
+              <th scope="col">Thành tiền</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Lập trình Web căn bản</th>
+              <td>98.000 đ</td>
+              <td>2</td>
+              <td>196.000 đ</td>
+            </tr>
+            <tr>
+              <th scope="row">Tư duy giải thuật</th>
+              <td>125.000 đ</td>
+              <td>1</td>
+              <td>125.000 đ</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th scope="row" colspan="3">Tổng cộng</th>
+              <td>321.000 đ</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <p>
+        Đã thay tiêu đề td thành th scope=col/row, bổ sung caption và nhóm hàng.
+        Hàng tổng colspan=3 cộng ô tổng=1, đúng 4 cột.
+      </p>
+    </main>
+    <footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer>
+  </body>
+</html>

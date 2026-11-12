@@ -78,12 +78,6 @@
     "outline": "none 3px"
   },
   {
-    "tag": "IFRAME",
-    "id": "",
-    "name": "",
-    "outline": "none 3px"
-  },
-  {
     "tag": "A",
     "id": "",
     "name": "Mở OpenStreetMap (tab mới)",

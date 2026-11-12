@@ -1,15 +1,15 @@
 # Kết quả kiểm định thực tế — 12/11/2026
 
-Mã nguồn đã kiểm: commit 70d3957. [Lần chạy GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43187715949). 20 bài kiểm tra chức năng đều qua; axe không phát hiện vi phạm A/AA trên sáu trang chính trong phạm vi quét.
+Mã nguồn đã kiểm: commit ea948ff. [Lần chạy GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43188761777). 20 bài kiểm tra chức năng đều qua; axe không phát hiện vi phạm A/AA trên sáu trang chính trong phạm vi quét.
 
 | Trang | Performance | Accessibility | SEO | LCP (giây) | CLS | W3C error |
 |---|---:|---:|---:|---:|---:|---:|
 | trang-chu | 100 | 100 | 100 | 1.66 | 0 | 0 |
 | danh-muc | 100 | 100 | 100 | 1.13 | 0 | 0 |
-| chi-tiet | 100 | 100 | 100 | 1.50 | 0 | 0 |
+| chi-tiet | 100 | 100 | 100 | 1.65 | 0 | 0 |
 | gio-hang | 100 | 100 | 69 | 0.75 | 0 | 0 |
-| thanh-toan | 100 | 100 | 69 | 0.75 | 0 | 0 |
-| lien-he | 100 | 100 | 100 | 1.36 | 0 | 0 |
+| thanh-toan | 100 | 100 | 69 | 0.76 | 0 | 0 |
+| lien-he | 100 | 100 | 100 | 0.75 | 0 | 0 |
 
 Giỏ hàng/thanh toán chủ động noindex nên SEO không đạt 100; đây là cấu hình có chủ đích. LCP/CLS trên môi trường kiểm thử Chromium di động mô phỏng, không phải dữ liệu người dùng thực tế và không đo INP ngoài hiện trường. Điểm 100 không chứng nhận tuân thủ toàn bộ WCAG.
 

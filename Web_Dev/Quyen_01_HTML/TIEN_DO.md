@@ -17,4 +17,4 @@ Không chỉnh bộ đếm, gọi API tiến độ trực tiếp hoặc giả l�
 
 ## Đợt chốt chương 1–5
 
-40 câu ôn tập có câu hỏi và lời giải; 10 bài HTML cơ bản/trung bình được W3C Nu kiểm không lỗi; 5 ticket nâng cao và 5 mốc dự án có ánh xạ mã nguồn. 20 bài kiểm chức năng/trợ năng chạy thành công ở commit 70d3957; bằng chứng trong báo cáo. Không đồng nhất việc hoàn thiện mã với đã thực hiện buổi đánh giá chéo hoặc nghe VoiceOver/NVDA.
+40 câu ôn tập có câu hỏi và lời giải; 10 bài HTML cơ bản/trung bình được W3C Nu kiểm không lỗi; 5 ticket nâng cao và 5 mốc dự án có ánh xạ mã nguồn. 20 bài kiểm chức năng/trợ năng chạy thành công ở commit ea948ff; bằng chứng trong báo cáo. Không đồng nhất việc hoàn thiện mã với đã thực hiện buổi đánh giá chéo hoặc nghe VoiceOver/NVDA.

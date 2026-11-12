@@ -1,43 +1,219 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Liên hệ — Nhà sách Sao Mai</title>
-<meta name="description" content="Biểu mẫu liên hệ và bản đồ vị trí minh họa cho nhà sách Sao Mai.">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://sachsaomai.example/du-an/lien-he">
-<link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml">
-<meta name="theme-color" content="#173e36">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Liên hệ — Nhà sách Sao Mai">
-<meta property="og:description" content="Biểu mẫu liên hệ và bản đồ vị trí minh họa cho nhà sách Sao Mai.">
-<meta property="og:url" content="https://sachsaomai.example/du-an/lien-he">
-<meta property="og:image" content="https://sachsaomai.example/du-an/assets/chia-se.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Liên hệ — Nhà sách Sao Mai">
-<meta name="twitter:description" content="Biểu mẫu liên hệ và bản đồ vị trí minh họa cho nhà sách Sao Mai.">
-<meta name="twitter:image" content="https://sachsaomai.example/du-an/assets/chia-se.jpg">
-<link rel="stylesheet" href="/du-an/assets/site.css">
-<script src="/du-an/assets/ui.js" defer></script>
-<script src="/du-an/assets/cards.js" type="module"></script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://sachsaomai.example/du-an/trang-chu"}, {"@type": "ListItem", "position": 2, "name": "Liên hệ", "item": "https://sachsaomai.example/du-an/lien-he"}]}</script>
-
-</head>
-<body>
-<a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
-<header class="site-header">
-<a class="brand" href="/du-an/trang-chu"><img src="/du-an/assets/icon.svg" alt="" width="32" height="32"> Nhà sách Sao Mai</a>
-<nav aria-label="Điều hướng chính"><ul><li><a href="/du-an/trang-chu">Trang chủ</a></li><li><a href="/du-an/danh-muc">Danh mục</a></li><li><a href="/du-an/chi-tiet">Chi tiết sách</a></li><li><a href="/du-an/gio-hang">Giỏ hàng</a></li><li><a href="/du-an/thanh-toan">Thanh toán</a></li><li><a href="/du-an/lien-he" aria-current="page">Liên hệ</a></li></ul></nav>
-<form action="/du-an/danh-muc" method="get" role="search"><label for="tim-sach">Tìm sách</label><input id="tim-sach" name="q" type="search" enterkeyhint="search"><button type="submit">Tìm kiếm</button></form>
-<button type="button" popovertarget="gio-nho">Giỏ hàng (<span data-cart-count>0</span>)</button>
-</header>
-<nav class="breadcrumb" aria-label="Đường dẫn vị trí"><ol><li><a href="/du-an/trang-chu">Trang chủ</a></li><li aria-current="page">Liên hệ</li></ol></nav>
-<main id="noi-dung" tabindex="-1"><h1>Liên hệ</h1><p>Không phải cửa hàng có thật. Bản đồ dưới là khu vực tham khảo, không xác định địa chỉ kinh doanh.</p><section><h2>Gửi tin nhắn thực hành</h2><form action="/api/lien-he" method="post" data-validate><fieldset><legend>Thông tin liên hệ</legend><p><label for="lh-ten">Họ tên</label><input id="lh-ten" name="name" type="text" minlength="2" maxlength="100" autocomplete="name" required aria-describedby="loi-lh-ten"><span id="loi-lh-ten" class="error"></span></p><p><label for="lh-email">Email</label><input id="lh-email" name="email" type="email" autocomplete="email" required aria-describedby="loi-lh-email"><span id="loi-lh-email" class="error"></span></p><p><label for="lh-tel">Số điện thoại (không bắt buộc)</label><input id="lh-tel" name="tel" type="tel" autocomplete="tel" pattern="(0[0-9]{9}|[+]84[0-9]{9})" title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số" aria-describedby="loi-lh-tel"><span id="loi-lh-tel" class="error"></span></p><p><label for="lh-noi-dung">Nội dung</label><textarea id="lh-noi-dung" name="message" minlength="10" maxlength="2000" required aria-describedby="loi-lh-noi-dung"></textarea><span id="loi-lh-noi-dung" class="error"></span></p></fieldset><p role="alert" id="loi-form"></p><button type="submit">Gửi liên hệ minh họa</button></form></section><section><h2>Bản đồ tham khảo</h2><iframe title="Bản đồ khu vực trung tâm thành phố Hồ Chí Minh, chỉ minh họa" src="https://www.openstreetmap.org/export/embed.html?bbox=106.695%2C10.77%2C106.705%2C10.78&amp;layer=mapnik" width="800" height="350" loading="lazy" sandbox="allow-scripts allow-same-origin" referrerpolicy="no-referrer"></iframe><p><a href="https://www.openstreetmap.org/" target="_blank" rel="noopener noreferrer external">Mở OpenStreetMap (tab mới)</a></p></section></main>
-<footer class="site-footer"><p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p><address><a href="mailto:hotro@sachsaomai.example">hotro@sachsaomai.example</a></address><a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer external">HTML Standard (tab mới)</a></footer>
-<p role="status" aria-live="polite" aria-atomic="true" id="thong-bao" class="status"></p>
-<aside id="gio-nho" popover aria-label="Giỏ hàng nhanh"><h2>Giỏ hàng</h2><p data-cart-summary>Chưa có sách</p><a href="/du-an/gio-hang">Xem giỏ hàng</a><button type="button" popovertarget="gio-nho" popovertargetaction="hide">Đóng</button></aside>
-<dialog id="xem-nhanh" aria-labelledby="ten-hop"><h2 id="ten-hop">Xem nhanh</h2><p id="noi-dung-hop"></p><form method="dialog"><button type="submit">Đóng</button></form></dialog>
-</body></html>
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Liên hệ — Nhà sách Sao Mai</title>
+    <meta
+      name="description"
+      content="Biểu mẫu liên hệ và bản đồ vị trí minh họa cho nhà sách Sao Mai."
+    >
+    <meta name="robots" content="index, follow" >
+    <link rel="canonical" href="https://sachsaomai.example/du-an/lien-he" >
+    <link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml" >
+    <meta name="theme-color" content="#173e36" >
+    <meta property="og:type" content="website" >
+    <meta property="og:title" content="Liên hệ — Nhà sách Sao Mai" >
+    <meta
+      property="og:description"
+      content="Biểu mẫu liên hệ và bản đồ vị trí minh họa cho nhà sách Sao Mai."
+    >
+    <meta
+      property="og:url"
+      content="https://sachsaomai.example/du-an/lien-he"
+    >
+    <meta
+      property="og:image"
+      content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
+    >
+    <meta property="og:image:width" content="1200" >
+    <meta property="og:image:height" content="630" >
+    <meta name="twitter:card" content="summary_large_image" >
+    <meta name="twitter:title" content="Liên hệ — Nhà sách Sao Mai" >
+    <meta
+      name="twitter:description"
+      content="Biểu mẫu liên hệ và bản đồ vị trí minh họa cho nhà sách Sao Mai."
+    >
+    <meta
+      name="twitter:image"
+      content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
+    >
+    <link rel="stylesheet" href="/du-an/assets/site.css" >
+    <script src="/du-an/assets/ui.js" defer></script>
+    <script src="/du-an/assets/cards.js" type="module"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Trang chủ",
+            "item": "https://sachsaomai.example/du-an/trang-chu"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Liên hệ",
+            "item": "https://sachsaomai.example/du-an/lien-he"
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
+    <header class="site-header">
+      <a class="brand" href="/du-an/trang-chu"
+        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà
+        sách Sao Mai</a
+      >
+      <nav aria-label="Điều hướng chính">
+        <ul>
+          <li><a href="/du-an/trang-chu">Trang chủ</a></li>
+          <li><a href="/du-an/danh-muc">Danh mục</a></li>
+          <li><a href="/du-an/chi-tiet">Chi tiết sách</a></li>
+          <li><a href="/du-an/gio-hang">Giỏ hàng</a></li>
+          <li><a href="/du-an/thanh-toan">Thanh toán</a></li>
+          <li><a href="/du-an/lien-he" aria-current="page">Liên hệ</a></li>
+        </ul>
+      </nav>
+      <form action="/du-an/danh-muc" method="get" role="search">
+        <label for="tim-sach">Tìm sách</label
+        ><input
+          id="tim-sach"
+          name="q"
+          type="search"
+          enterkeyhint="search"
+        ><button type="submit">Tìm kiếm</button>
+      </form>
+      <button type="button" popovertarget="gio-nho">
+        Giỏ hàng (<span data-cart-count>0</span>)
+      </button>
+    </header>
+    <nav class="breadcrumb" aria-label="Đường dẫn vị trí">
+      <ol>
+        <li><a href="/du-an/trang-chu">Trang chủ</a></li>
+        <li aria-current="page">Liên hệ</li>
+      </ol>
+    </nav>
+    <main id="noi-dung" tabindex="-1">
+      <h1>Liên hệ</h1>
+      <p>
+        Không phải cửa hàng có thật. Bản đồ dưới là khu vực tham khảo, không xác
+        định địa chỉ kinh doanh.
+      </p>
+      <section>
+        <h2>Gửi tin nhắn thực hành</h2>
+        <form action="/api/lien-he" method="post" data-validate>
+          <fieldset>
+            <legend>Thông tin liên hệ</legend>
+            <p>
+              <label for="lh-ten">Họ tên</label
+              ><input
+                id="lh-ten"
+                name="name"
+                type="text"
+                minlength="2"
+                maxlength="100"
+                autocomplete="name"
+                required
+                aria-describedby="loi-lh-ten"
+              ><span id="loi-lh-ten" class="error"></span>
+            </p>
+            <p>
+              <label for="lh-email">Email</label
+              ><input
+                id="lh-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                aria-describedby="loi-lh-email"
+              ><span id="loi-lh-email" class="error"></span>
+            </p>
+            <p>
+              <label for="lh-tel">Số điện thoại (không bắt buộc)</label
+              ><input
+                id="lh-tel"
+                name="tel"
+                type="tel"
+                autocomplete="tel"
+                pattern="(0[0-9]{9}|[+]84[0-9]{9})"
+                title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số"
+                aria-describedby="loi-lh-tel"
+              ><span id="loi-lh-tel" class="error"></span>
+            </p>
+            <p>
+              <label for="lh-noi-dung">Nội dung</label
+              ><textarea
+                id="lh-noi-dung"
+                name="message"
+                minlength="10"
+                maxlength="2000"
+                required
+                aria-describedby="loi-lh-noi-dung"
+              ></textarea
+              ><span id="loi-lh-noi-dung" class="error"></span>
+            </p>
+          </fieldset>
+          <p role="alert" id="loi-form"></p>
+          <button type="submit">Gửi liên hệ minh họa</button>
+        </form>
+      </section>
+      <section>
+        <h2>Bản đồ tham khảo</h2>
+        <iframe
+          title="Bản đồ khu vực trung tâm thành phố Hồ Chí Minh, chỉ minh họa"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=106.695%2C10.77%2C106.705%2C10.78&amp;layer=mapnik"
+          width="800"
+          height="350"
+          loading="lazy"
+          sandbox="allow-scripts allow-same-origin"
+          referrerpolicy="no-referrer"
+        ></iframe>
+        <p>
+          <a
+            href="https://www.openstreetmap.org/"
+            target="_blank"
+            rel="noopener noreferrer external"
+            >Mở OpenStreetMap (tab mới)</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p>
+      <address>
+        <a href="mailto:hotro@sachsaomai.example">hotro@sachsaomai.example</a>
+      </address>
+      <a
+        href="https://html.spec.whatwg.org/"
+        target="_blank"
+        rel="noopener noreferrer external"
+        >HTML Standard (tab mới)</a
+      >
+    </footer>
+    <p
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+      id="thong-bao"
+      class="status"
+    ></p>
+    <aside id="gio-nho" popover aria-label="Giỏ hàng nhanh">
+      <h2>Giỏ hàng</h2>
+      <p data-cart-summary>Chưa có sách</p>
+      <a href="/du-an/gio-hang">Xem giỏ hàng</a
+      ><button type="button" popovertarget="gio-nho" popovertargetaction="hide">
+        Đóng
+      </button>
+    </aside>
+    <dialog id="xem-nhanh" aria-labelledby="ten-hop">
+      <h2 id="ten-hop">Xem nhanh</h2>
+      <p id="noi-dung-hop"></p>
+      <form method="dialog"><button type="submit">Đóng</button></form>
+    </dialog>
+  </body>
+</html>
