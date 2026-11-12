@@ -1,19 +1,35 @@
-# Ôn tập chương 10
+# Ôn tập chương 10 — HTML hiện đại và API mở rộng
 
-Trả lời theo thứ tự 8 câu trong giáo trình.
+Câu hỏi được diễn đạt gọn theo thứ tự trong giáo trình.
 
-1. Nội dung template nằm trong DocumentFragment ở template.content, chưa trong cây hiển thị: UI/điều khiển chưa hoạt động cho tới clone/chèn.
+## 1. Vì sao template chưa hiển thị?
 
-2. show() non-modal; showModal() lên top layer, nền inert. Chỉ open không tạo modal/khóa nền.
+Nội dung template nằm trong DocumentFragment ở template.content, chưa trong cây hiển thị: UI/điều khiển chưa hoạt động cho tới clone/chèn.
 
-3. ::backdrop là pseudo-element sau phần tử top layer như dialog modal. show() không có backdrop modal; popover/fullscreen cũng có thể liên quan top layer.
+## 2. show, showModal và open?
 
-4. Modal tự chế dễ thoát focus ra nền, nền còn đọc được, đóng xong lạc focus. dialog modal xử lý nền inert/Esc/focus, vẫn cần tên và kiểm focus đầu/khôi phục.
+show() non-modal; showModal() lên top layer, nền inert. Chỉ open không tạo modal/khóa nền.
 
-5. details là gấp mở theo luồng với summary; popover lớp nổi nhẹ, auto có light dismiss/Esc, không khóa nền như modal.
+## 3. ::backdrop hoạt động khi nào?
 
-6. data-sm-book-id → dataset.smBookId. Tên thường/gạch nối; DOM ai cũng đọc được nên không đặt token/mật khẩu/dữ liệu riêng.
+::backdrop là pseudo-element sau phần tử top layer như dialog modal. show() không có backdrop modal; popover/fullscreen cũng có thể liên quan top layer.
 
-7. Classic chặn parser tải/chạy; defer tải song song, chạy theo thứ tự sau parse; async chạy khi tải xong không giữ thứ tự; module trì hoãn mặc định và theo đồ thị phụ thuộc.
+## 4. Ba lỗi modal tự chế và dialog gốc?
 
-8. progress mô tả mức hoàn thành công việc; rating 4.2/5 dùng meter min=0 max=5 value=4.2 kèm nhãn/chữ đọc được.
+Modal tự chế dễ thoát focus ra nền, nền còn đọc được, đóng xong lạc focus. dialog modal xử lý nền inert/Esc/focus, vẫn cần tên và kiểm focus đầu/khôi phục.
+
+## 5. details/summary hay popover?
+
+details là gấp mở theo luồng với summary; popover lớp nổi nhẹ, auto có light dismiss/Esc, không khóa nền như modal.
+
+## 6. data-* và dataset có gì cần tránh?
+
+data-sm-book-id → dataset.smBookId. Tên thường/gạch nối; DOM ai cũng đọc được nên không đặt token/mật khẩu/dữ liệu riêng.
+
+## 7. Thứ tự bốn cách nạp script?
+
+Classic chặn parser tải/chạy; defer tải song song, chạy theo thứ tự sau parse; async chạy khi tải xong không giữ thứ tự; module trì hoãn mặc định và theo đồ thị phụ thuộc.
+
+## 8. Rating nên dùng progress hay meter?
+
+progress mô tả mức hoàn thành công việc; rating 4.2/5 dùng meter min=0 max=5 value=4.2 kèm nhãn/chữ đọc được.

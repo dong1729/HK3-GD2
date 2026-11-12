@@ -1,13 +1,17 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.request import Request,urlopen
-import json,hashlib,datetime
+import json,hashlib,datetime,re
 R=Path(__file__).resolve().parents[1]
 URLS=['https://pragprog.com/titles/elixir16/programming-elixir-1-6/','https://www.manning.com/books/grokking-algorithms-second-edition','https://www.manning.com/books/grokking-ai-algorithms-second-edition']
 class Scan(HTMLParser):
- def __init__(self):super().__init__();self.meta={};self.links=[];self.headings=[];self.roles=[];self.jsons=[];self.injson=False;self.inhead=None;self.skip=False;self.blank=0;self.current=0
+ def __init__(self):super().__init__();self.meta={};self.links=[];self.headings=[];self.roles=[];self.jsons=[];self.injson=False;self.inhead=None;self.skip=False;self.blank=0;self.current=0;self.lang="";self.title="";self.intitle=False;self.doctype=""
+ def handle_decl(self,decl):
+  if decl.lower().startswith("doctype"):self.doctype=decl
  def handle_starttag(self,t,a):
   a=dict(a)
+  if t=="html":self.lang=a.get("lang","")
+  if t=="title":self.intitle=True
   if t=='meta':self.meta[a.get('name',a.get('property',a.get('charset','charset')))]=a.get('content',a.get('charset',''))
   if t=='link':self.links.append(a)
   if t in ['main','nav','aside','header','footer'] or 'role' in a:self.roles.append(t+':'+a.get('role','implicit'))
@@ -18,9 +22,11 @@ class Scan(HTMLParser):
    if a.get('aria-current')=='page':self.current+=1
   if t=='script' and a.get('type')=='application/ld+json':self.injson=True;self.jsons.append('')
  def handle_data(self,s):
+  if self.intitle:self.title+=s
   if self.inhead:self.headings[-1][1]+=s
   if self.injson:self.jsons[-1]+=s
  def handle_endtag(self,t):
+  if t=="title":self.intitle=False
   if t==self.inhead:self.inhead=None
   if t=='script':self.injson=False
 rows=[]
@@ -36,7 +42,7 @@ for url in URLS:
   for text in s.jsons:
    try:walk(json.loads(text))
    except:schemas.append({'error':'JSON-LD không phân tích được'})
-  rows.append({'url':url,'status':response.status,'sha256':hashlib.sha256(raw).hexdigest(),'meta_keys':list(s.meta),'link_rel':[x.get('rel') for x in s.links],'headings':[[a,b.strip()[:80]]for a,b in s.headings],'regions':s.roles,'skip_link_candidate':s.skip,'aria_current_page_count':s.current,'blank_without_explicit_noopener':s.blank,'schemas':schemas})
+  rows.append({'url':url,'status':response.status,'http_content_type':response.headers.get('Content-Type',''),'utf8_bom':raw.startswith(bytes([239,187,191])),'sha256':hashlib.sha256(raw).hexdigest(),'metadata':{'doctype':s.doctype,'lang':s.lang,'title':s.title.strip()[:120],'description':'description' in s.meta,'viewport':'viewport' in s.meta,'charset_offset':(re.search(br'<meta[^>]*charset',raw,re.I).start() if re.search(br'<meta[^>]*charset',raw,re.I) else None),'canonical':[x.get('href') for x in s.links if 'canonical' in x.get('rel','').split()],'icon':any('icon' in x.get('rel','').split() for x in s.links),'open_graph':{k:k in s.meta for k in ['og:title','og:description','og:image','og:url']}},'meta_keys':list(s.meta),'link_rel':[x.get('rel') for x in s.links],'headings':[[a,b.strip()[:80]]for a,b in s.headings],'regions':s.roles,'skip_link_candidate':s.skip,'aria_current_page_count':s.current,'blank_without_explicit_noopener':s.blank,'schemas':schemas})
  except Exception as e:rows.append({'url':url,'error':str(e)})
 (R/'bao-cao').mkdir(exist_ok=True);(R/'bao-cao/audit-web-ngoai.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2))
 lines=['# Khảo sát ba trang bán sách — 12/11/2026','','Phân tích HTML phản hồi máy chủ; không suy diễn đây là DOM sau JavaScript, không xác nhận dùng bàn phím/screen reader hoặc Rich Results Test. Các trang có thể thay đổi.','','| Trang | HTTP | Metadata thấy trong nguồn | h1 | main/nav | Skip candidate | _blank thiếu noopener tường minh | Schema |','|---|---|---|---|---|---|---|---|']

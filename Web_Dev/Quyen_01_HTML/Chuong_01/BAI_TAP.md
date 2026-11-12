@@ -6,7 +6,7 @@
 
 ## Trung bình
 
-Xem [khảo sát web](../bao-cao/KHAO_SAT_WEB.md) và [khảo sát bàn phím/công cụ](../bao-cao/BAN_PHIM.md). HTML nguồn khác DOM chạy thật; chỗ chưa kiểm không ghi đạt.
+[Lời giải chạy được](trung-binh.html). Với bài khảo sát, dữ liệu thực và nhận xét nằm ngay trong trang; nguồn gốc, phương pháp và giới hạn được ghi rõ.
 
 ## Nâng cao — Ticket Q1-01
 

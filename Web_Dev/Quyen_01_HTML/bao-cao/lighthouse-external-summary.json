@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://pragprog.com/titles/elixir16/programming-elixir-1-6/",
+    "scores": {
+      "accessibility": 0.95,
+      "seo": 1
+    }
+  },
+  {
+    "url": "https://www.manning.com/books/grokking-algorithms-second-edition",
+    "scores": {
+      "accessibility": 0.65,
+      "seo": 0.85
+    }
+  },
+  {
+    "url": "https://www.manning.com/books/grokking-ai-algorithms-second-edition",
+    "scores": {
+      "accessibility": 0.6,
+      "seo": 0.77
+    }
+  }
+]

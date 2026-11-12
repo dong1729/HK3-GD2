@@ -2,7 +2,25 @@
   {
     "url": "https://pragprog.com/titles/elixir16/programming-elixir-1-6/",
     "status": 200,
+    "http_content_type": "text/html; charset=utf-8",
+    "utf8_bom": false,
     "sha256": "f8ef771d1994bf76a1965b492e401e37cbef64d8615e729b0d26c3d6de763fc4",
+    "metadata": {
+      "doctype": "DOCTYPE html",
+      "lang": "en",
+      "title": "Programming Elixir 1.6: Functional |> Concurrent |> Pragmatic |> Fun by Dave Thomas",
+      "description": true,
+      "viewport": true,
+      "charset_offset": 41,
+      "canonical": [],
+      "icon": false,
+      "open_graph": {
+        "og:title": true,
+        "og:description": true,
+        "og:image": true,
+        "og:url": true
+      }
+    },
     "meta_keys": [
       "utf-8",
       "charset",
@@ -105,7 +123,27 @@
   {
     "url": "https://www.manning.com/books/grokking-algorithms-second-edition",
     "status": 200,
-    "sha256": "5d101bcc2b8fa2406e5aa1485ef61be593f42075223f2f30e2071b88a5eb95fc",
+    "http_content_type": "text/html;charset=UTF-8",
+    "utf8_bom": false,
+    "sha256": "f96ba9c7ee15a7a00a789ca60cea1acc36eaa4d0362c83a0f159261d8319d20a",
+    "metadata": {
+      "doctype": "DOCTYPE html",
+      "lang": "en",
+      "title": "Grokking Algorithms, Second Edition - Aditya Y Bhargava | Manning",
+      "description": true,
+      "viewport": true,
+      "charset_offset": 2298,
+      "canonical": [
+        "https://www.manning.com/books/grokking-algorithms-second-edition"
+      ],
+      "icon": true,
+      "open_graph": {
+        "og:title": true,
+        "og:description": true,
+        "og:image": true,
+        "og:url": true
+      }
+    },
     "meta_keys": [
       "theme-color",
       "charset",
@@ -368,7 +406,27 @@
   {
     "url": "https://www.manning.com/books/grokking-ai-algorithms-second-edition",
     "status": 200,
-    "sha256": "de7b1ccf1250a3c7dc749636501a384b4226bc9720859acc69f035fb8801bd45",
+    "http_content_type": "text/html;charset=UTF-8",
+    "utf8_bom": false,
+    "sha256": "e8fc9196f5be884e7d1015e317970dd6ad5621ae8eba940a8447f3c7e8323443",
+    "metadata": {
+      "doctype": "DOCTYPE html",
+      "lang": "en",
+      "title": "Grokking AI Algorithms, Second Edition - Rishal Hurbans | Manning",
+      "description": true,
+      "viewport": true,
+      "charset_offset": 2298,
+      "canonical": [
+        "https://www.manning.com/books/grokking-ai-algorithms-second-edition"
+      ],
+      "icon": true,
+      "open_graph": {
+        "og:title": true,
+        "og:description": true,
+        "og:image": true,
+        "og:url": true
+      }
+    },
     "meta_keys": [
       "theme-color",
       "charset",

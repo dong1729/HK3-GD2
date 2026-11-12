@@ -1,19 +1,35 @@
-# Ôn tập chương 3
+# Ôn tập chương 3 — Văn bản và ngữ nghĩa inline
 
-Trả lời theo thứ tự 8 câu trong giáo trình.
+Câu hỏi được diễn đạt gọn theo thứ tự trong giáo trình.
 
-1. Mặc định khối xuống dòng mới và chiếm rộng khả dụng; inline đi trong dòng chữ. CSS display không đổi content model HTML.
+## 1. Block và inline khác nhau?
 
-2. p chỉ chứa phrasing content. div trong p khiến parser đóng p trước div và có thể sinh p rỗng, DOM khác bản nguồn.
+Mặc định khối xuống dòng mới và chiếm rộng khả dụng; inline đi trong dòng chữ. CSS display không đổi content model HTML.
 
-3. br khi ngắt dòng là nội dung như thơ/địa chỉ. Xuống dòng theo màn hình/khoảng cách dùng CSS.
+## 2. Div trong p sẽ ra sao?
 
-4. hr đánh dấu chuyển chủ đề; wbr gợi ý điểm ngắt chuỗi dài, không bắt xuống dòng và không tạo đường kẻ.
+p chỉ chứa phrasing content. div trong p khiến parser đóng p trước div và có thể sinh p rỗng, DOM khác bản nguồn.
 
-5. strong quan trọng; em nhấn giọng; b thu hút chú ý không tăng quan trọng; i giọng/thuật ngữ khác ngữ cảnh. CSS quyết định hình thức.
+## 3. Khi nào dùng br?
 
-6. s thông tin không còn chính xác/liên quan; del phần xóa khi sửa; ins phần thêm. Chữ chèn bằng CSS không có ngữ nghĩa sửa đổi tương đương.
+br khi ngắt dòng là nội dung như thơ/địa chỉ. Xuống dòng theo màn hình/khoảng cách dùng CSS.
 
-7. code mã; kbd đầu vào; samp đầu ra; var biến. pre giữ khoảng trắng/xuống dòng, code đánh dấu mã nên kết hợp.
+## 4. hr khác wbr thế nào?
 
-8. &lt; hiển thị dấu nhỏ hơn không mở thẻ; &amp; biểu diễn &; &quot; cho nháy kép trong thuộc tính cùng dấu bao. Không escape hai lần.
+hr đánh dấu chuyển chủ đề; wbr gợi ý điểm ngắt chuỗi dài, không bắt xuống dòng và không tạo đường kẻ.
+
+## 5. strong/em khác b/i thế nào?
+
+strong quan trọng; em nhấn giọng; b thu hút chú ý không tăng quan trọng; i giọng/thuật ngữ khác ngữ cảnh. CSS quyết định hình thức.
+
+## 6. s, del và ins khác nhau?
+
+s thông tin không còn chính xác/liên quan; del phần xóa khi sửa; ins phần thêm. Chữ chèn bằng CSS không có ngữ nghĩa sửa đổi tương đương.
+
+## 7. code/kbd/samp/var và pre?
+
+code mã; kbd đầu vào; samp đầu ra; var biến. pre giữ khoảng trắng/xuống dòng, code đánh dấu mã nên kết hợp.
+
+## 8. Khi nào cần thực thể HTML?
+
+&lt; hiển thị dấu nhỏ hơn không mở thẻ; &amp; biểu diễn &; &quot; cho nháy kép trong thuộc tính cùng dấu bao. Không escape hai lần.

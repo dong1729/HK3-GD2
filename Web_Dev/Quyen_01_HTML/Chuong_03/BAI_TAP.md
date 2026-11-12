@@ -6,7 +6,7 @@
 
 ## Trung bình
 
-Mở [trung-binh.html](trung-binh.html) bằng máy chủ thực hành; mã nằm trong cùng tệp hoặc module được tham chiếu.
+[Lời giải chạy được](trung-binh.html). Với bài khảo sát, dữ liệu thực và nhận xét nằm ngay trong trang; nguồn gốc, phương pháp và giới hạn được ghi rõ.
 
 ## Nâng cao — Ticket Q1-03
 

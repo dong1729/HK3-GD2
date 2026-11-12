@@ -25,6 +25,9 @@ jobs:
         working-directory: Web_Dev/Quyen_01_HTML/qa
       - run: npx playwright install --with-deps chromium
         working-directory: Web_Dev/Quyen_01_HTML/qa
+      - name: Validate exercises 1 to 5
+        run: npx html-validate --config .htmlvalidate.json '../Chuong_0[1-5]/*.html'
+        working-directory: Web_Dev/Quyen_01_HTML/qa
       - run: npm test
         working-directory: Web_Dev/Quyen_01_HTML/qa
       - name: Audit external examples

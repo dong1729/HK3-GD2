@@ -1,24 +1,37 @@
-# Nghiệm thu Quyển 1 — 12/11/2026
+# Kết quả kiểm định thực tế — 12/11/2026
 
-## Kết quả đã có
+Mã nguồn đã kiểm: commit 18ca48b. [Lần chạy GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43183385627). 10 bài kiểm tra chức năng đều qua; axe không phát hiện vi phạm A/AA trên sáu trang chính trong phạm vi quét.
 
-- Sáu trang chính: W3C Nu trả về không có thông báo loại error; dữ liệu gốc ở w3c-nu.json. Trang liên hệ có một cảnh báo về quyền sandbox iframe, không phải lỗi cú pháp.
-- Kiểm tĩnh: tất cả HTML bài tập và dự án có DOCTYPE, một h1/main, ID duy nhất; ảnh có alt/kích thước, nút có type, liên kết và đích ARIA tồn tại. Xem static-check.json.
-- Các bài HTML thực hành đã qua html-validate.
-- Trình duyệt thật: đã thử thêm giỏ, thông báo trạng thái, mở modal, Tab trong hộp, Esc đóng và trả focus về nút mở. Ảnh bằng chứng ở anh/.
-- Khảo sát HTML ba trang bán sách ở KHAO_SAT_WEB.md và audit-web-ngoai.json.
+| Trang | Performance | Accessibility | SEO | LCP (giây) | CLS | W3C error |
+|---|---:|---:|---:|---:|---:|---:|
+| trang-chu | 100 | 100 | 100 | 1.66 | 0 | 0 |
+| danh-muc | 100 | 100 | 100 | 1.13 | 0 | 0 |
+| chi-tiet | 100 | 100 | 100 | 1.50 | 0 | 0 |
+| gio-hang | 100 | 100 | 69 | 0.75 | 0 | 0 |
+| thanh-toan | 100 | 100 | 69 | 0.75 | 0 | 0 |
+| lien-he | 100 | 100 | 100 | 1.36 | 0 | 0 |
 
-## Kiểm tra đang thực hiện
+Giỏ hàng/thanh toán chủ động noindex nên SEO không đạt 100; đây là cấu hình có chủ đích. LCP/CLS trên môi trường kiểm thử Chromium di động mô phỏng, không phải dữ liệu người dùng thực tế và không đo INP ngoài hiện trường. Điểm 100 không chứng nhận tuân thủ toàn bộ WCAG.
 
-- Workflow GitHub chạy Playwright/axe và Lighthouse cho sáu trang. Chỉ cập nhật đạt sau khi lần chạy xanh. Lighthouse trên máy hiện tại chưa khởi động được trình duyệt kiểm định; không ghi điểm giả.
-- Các bài trung bình đòi bàn phím ba trang bên ngoài, Rich Results Test và Schema Markup Validator: phần nguồn HTML đã khảo sát; các kết quả thủ công/công cụ chưa có phải xem là còn mở.
+## Chức năng đã kiểm
 
-## Điều kiện chưa thể chứng minh bằng mã cục bộ
+Skip link nhận focus đầu, vào main; bố cục 390px không tràn toàn trang; ảnh/tài nguyên nội bộ không trả lỗi; thêm/sửa giỏ và lưu qua reload; dialog giữ vòng Tab và Esc trả focus; bộ lọc mở/đóng/đổi chủ đề; tìm kiếm; mật khẩu xóa customError; lưu nháp; máy chủ từ chối dữ liệu sai và xử lý dữ liệu mẫu đúng.
 
-- Google lập chỉ mục, rich result và bản chia sẻ trên tên miền thật: cần triển khai URL công khai thuộc quyền sở hữu. Canonical .example hiện là cấu hình dự kiến.
-- Nghe bằng VoiceOver/NVDA và buổi đánh giá chéo với người khác: chưa xác nhận, không coi tự kiểm là peer review.
-- Tiến độ đọc trên LMS riêng với tiến độ bài làm. Web đã ghi nhận chương 1–3 hoàn tất; chương 4 đang đọc tại thời điểm ghi báo cáo.
+## Khảo sát ba trang bán sách
 
-## Sẵn sàng nối sang CSS
+| Trang | Lighthouse trợ năng | Lighthouse SEO | Quy tắc axe có lỗi | Điểm Tab đến khi lặp |
+|---|---:|---:|---:|---:|
+| https://pragprog.com/titles/elixir16/programming-elixir-1-6/ | 95 | 100 | 1 | 49 |
+| https://www.manning.com/books/grokking-algorithms-second-edition | 65 | 85 | 9 | 100 |
+| https://www.manning.com/books/grokking-ai-algorithms-second-edition | 60 | 77 | 9 | 95 |
 
-Khung chung, điểm gắn kiểu ổn định và thứ tự DOM đã có. CSS hiện chỉ trình bày tối thiểu/phản hồi và focus. Phần còn nợ: kiểm thủ công trợ năng, triển khai SEO và đánh giá chéo nêu trên. Chưa kết luận nghiệm thu toàn bộ tiêu chí đề.
+Số quy tắc axe có lỗi khác số phần tử lỗi. Quét Tab tự động ghi nhận thứ tự và chu kỳ, không thay cho người dùng đánh giá chất lượng từng tên/focus hay nghe trình đọc màn hình. Xem external-browser.json, lighthouse-external-*.html/json và ảnh external-*.png.
+
+## Còn cần làm ngoài mã nguồn
+
+- Google index/rich result và thẻ chia sẻ trên tên miền thật cần triển khai công khai; hiện chỉ có địa chỉ dự kiến .example.
+- Chưa nghe VoiceOver/NVDA và chưa có buổi đánh giá chéo với người khác; không coi kiểm tự động là peer review.
+- Rich Results Test/Schema Markup Validator chưa có bằng chứng giao diện của từng website ngoài; phần schema trong nguồn đã được khảo sát.
+- Tiến độ đọc LMS là trạng thái riêng: chương 1–4 đã hoàn tất; chương 5 đang đọc lúc ghi báo cáo này.
+
+Bằng chứng gốc: w3c-nu.json, static-check.json, lighthouse-*.html/json và ảnh trong anh/. Không tạo ảnh giả của công cụ kiểm định.
