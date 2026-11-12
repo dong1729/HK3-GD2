@@ -1,0 +1,156 @@
+[
+  {
+    "title": "Tài liệu HTML và metadata",
+    "summary": "DOCTYPE; UTF-8 sớm trong head; viewport theo thiết bị; lang theo ngôn ngữ. Mỗi trang có title, description, canonical và Open Graph riêng.",
+    "answers": [
+      "1. DOCTYPE chọn standards mode. Thiếu thường vào quirks mode: khác mô hình hộp, chiều cao phần trăm và căn ảnh trong ô bảng. Kiểm document.compatMode: CSS1Compat/BackCompat.",
+      "2. Ưu tiên thông thường: BOM → charset HTTP → meta dò sớm → dò đoán/mặc định; ghi đè người dùng là ngoại lệ. Byte UTF-8 phải nhất quán với HTTP/meta.",
+      "3. Toàn bộ meta charset phải nằm trong 1024 byte đầu để bộ dò sớm tìm được. Đặt muộn không hợp chuẩn, có thể đã giải mã sai và không thể dựa vào nó để sửa.",
+      "4. Layout viewport dùng tính bố cục; visual viewport là vùng đang thấy khi zoom. width=device-width đặt khổ bố cục, initial-scale=1 đặt mức phóng ban đầu.",
+      "5. lang giúp screen reader chọn giọng; trình duyệt ngắt từ/kiểm chính tả; CSS :lang(); công cụ dịch. Công cụ tìm kiếm có thể tham khảo nhưng không chỉ dựa vào lang.",
+      "6. Khóa zoom cản người thị lực kém, liên quan WCAG 1.4.4 và 1.4.10. Không dùng user-scalable=no hoặc maximum-scale=1.",
+      "7. title định danh tài liệu; og:title điều khiển tiêu đề preview Open Graph. Fallback tùy nền tảng nên khai báo tường minh.",
+      "8. Chữ Việt hỏng: kiểm byte tệp, HTTP charset, vị trí meta, dữ liệu nguồn cũ và cache/CDN. Đối chiếu Response Headers với bản nguồn."
+    ]
+  },
+  {
+    "title": "Cấu trúc nội dung và heading",
+    "summary": "header/nav/main/footer là khung; article độc lập, section nhóm chủ đề có heading, div hộp thuần bố cục.",
+    "answers": [
+      "1. Bốn lợi ích: dễ bảo trì, trợ năng điều hướng, tìm kiếm hiểu nội dung, CSS/JS ổn định. Cả bốn khai thác cùng DOM.",
+      "2. Một h1 là quy ước dự án để chủ đề chính rõ. Nhiều h1 không tự động sai cú pháp, nhưng có thể làm phân cấp mơ hồ; không chọn heading theo cỡ chữ.",
+      "3. Thuật toán outline từng đề xuất không được trợ năng triển khai như kỳ vọng. Viết cấp h1–h6 tường minh thay vì h1 ở mọi section.",
+      "4. header mở đầu/thương hiệu; nav menu; main nội dung chính; aside sách liên quan; footer kết/liên hệ. Vai trò theo nội dung, không theo vị trí hiển thị.",
+      "5. Tách riêng còn đủ nghĩa → article; nhóm chủ đề có heading → section; chỉ bọc bố cục/lập trình → div. Không đổi div hàng loạt.",
+      "6. main/nav/aside tạo main/navigation/complementary. Screen reader liệt kê để nhảy vùng; nhiều nav cần nhãn riêng.",
+      "7. Header/footer trong article chỉ mở đầu/kết bài, không là banner/contentinfo toàn tài liệu, tránh nhiễu landmark.",
+      "8. Không nhảy được tới main: kiểm thiếu main, hidden/aria-hidden/inert, nhiều main hiển thị, lồng sai. main trong div không tự mất landmark; xem cây Accessibility."
+    ]
+  },
+  {
+    "title": "Văn bản và ngữ nghĩa inline",
+    "summary": "Chọn thẻ theo ý nghĩa: strong/em, del/ins, code/kbd/samp/var. Không dùng br để dàn bố cục.",
+    "answers": [
+      "1. Mặc định khối xuống dòng mới và chiếm rộng khả dụng; inline đi trong dòng chữ. CSS display không đổi content model HTML.",
+      "2. p chỉ chứa phrasing content. div trong p khiến parser đóng p trước div và có thể sinh p rỗng, DOM khác bản nguồn.",
+      "3. br khi ngắt dòng là nội dung như thơ/địa chỉ. Xuống dòng theo màn hình/khoảng cách dùng CSS.",
+      "4. hr đánh dấu chuyển chủ đề; wbr gợi ý điểm ngắt chuỗi dài, không bắt xuống dòng và không tạo đường kẻ.",
+      "5. strong quan trọng; em nhấn giọng; b thu hút chú ý không tăng quan trọng; i giọng/thuật ngữ khác ngữ cảnh. CSS quyết định hình thức.",
+      "6. s thông tin không còn chính xác/liên quan; del phần xóa khi sửa; ins phần thêm. Chữ chèn bằng CSS không có ngữ nghĩa sửa đổi tương đương.",
+      "7. code mã; kbd đầu vào; samp đầu ra; var biến. pre giữ khoảng trắng/xuống dòng, code đánh dấu mã nên kết hợp.",
+      "8. &lt; hiển thị dấu nhỏ hơn không mở thẻ; &amp; biểu diễn &; &quot; cho nháy kép trong thuộc tính cùng dấu bao. Không escape hai lần."
+    ]
+  },
+  {
+    "title": "Liên kết, URL và điều hướng",
+    "summary": "a href chuyển đích; button thao tác. Skip link đầu body, nav có tên/aria-current, neo id duy nhất, _blank có noopener.",
+    "answers": [
+      "1. URL mẫu: scheme https, host sachsaomai.vn, port 443 ngầm, path /danh-muc-sach, query page=2, fragment danh-gia. Fragment do client xử lý, không gửi trong HTTP request target.",
+      "2. Tuyệt đối https://example.org/sach cho khác site; tương đối danh-muc theo trang; /danh-muc từ gốc tên miền. Chú ý site dưới thư mục con.",
+      "3. a thiếu href không là hyperlink đầy đủ: không tự nhận Tab như link, không có đích để mở tab mới/sao chép địa chỉ.",
+      "4. Reverse tabnabbing dùng window.opener điều hướng nguồn. noopener cắt opener; noreferrer bỏ Referer và cũng có hiệu lực noopener. Browser mới thường ngầm noopener cho _blank, vẫn khai báo rõ.",
+      "5. id duy nhất tránh neo sai. tabindex=-1 cho main nhận focus lập trình mà không thêm điểm Tab tự nhiên.",
+      "6. Menu: đi đâu; breadcrumb: ở đâu; skip link: vào main thế nào; phân trang: xem tập trước/sau ở đâu.",
+      "7. Skip link đầu body là điểm Tab đầu để bỏ khối lặp; display:none loại khỏi cây truy cập/Tab. Giấu trực quan và hiện khi focus.",
+      "8. Đúng: a tới chi tiết, button thêm giỏ. Sai: a href=# mở dialog; button đổi URL trang thường; làm mất hành vi chuẩn."
+    ]
+  },
+  {
+    "title": "Danh sách và bảng dữ liệu",
+    "summary": "ul tập không thứ tự; ol trình tự; dl tên–giá trị. Bảng có caption, nhóm hàng, th scope, lưới đúng và vùng cuộn.",
+    "answers": [
+      "1. Danh mục dùng ul vì đổi thứ tự vẫn hiểu; bước đặt hàng ol vì trình tự quan trọng; thông số dl vì tên gắn giá trị.",
+      "2. CSS có thể giấu số nhưng ol vẫn là trình tự. Chọn theo ngữ nghĩa, không theo ký hiệu nhìn thấy.",
+      "3. start=4 nối bước phần hai; reversed đếm ngược xếp hạng; li value=10 đặt lại số mục. Không dùng để căn lề.",
+      "4. dl cho thuật ngữ–định nghĩa/tên–giá trị như ISBN. Bảng so sánh nhiều trục hàng–cột; ul là tập mục.",
+      "5. caption đặt tên; thead đầu; tbody dữ liệu; tfoot tổng; th tiêu đề; td dữ liệu. Không dùng bảng để dàn trang.",
+      "6. scope=row/col đủ cho bảng đơn giản. Quan hệ tiêu đề phức tạp có thể cần id trên th và headers trên ô; không phải cứ colspan là cần headers.",
+      "7. Mở rộng colspan và giữ vị trí rowspan hàng trước chiếm. Mọi hàng phủ cùng số cột, không chồng/hở ô.",
+      "8. Table layout làm trợ năng hiểu nhầm quan hệ hai chiều. Dấu hiệu: ô chứa menu/trang trí; không có quan hệ hàng–cột dữ liệu."
+    ]
+  },
+  {
+    "title": "Hình ảnh và đa phương tiện",
+    "summary": "Alt theo vai trò; width/height giữ tỷ lệ; picture/srcset/sizes theo bố cục/DPR. Ảnh đầu ưu tiên; ảnh dưới lazy. Video có điều khiển/phụ đề.",
+    "answers": [
+      "1. Nội dung: alt mô tả thông tin; trang trí: alt rỗng; chức năng: hành động/đích. Icon cạnh chữ Giỏ hàng dùng alt rỗng tránh đọc lặp.",
+      "2. width/height dành tỷ lệ trước khi tải. CSS aspect-ratio cũng làm được; chỉ width:100%/height:auto chưa chắc dành chỗ khi chưa biết tỷ lệ gốc.",
+      "3. sizes cho rộng CSS dự kiến; kết hợp DPR ước lượng pixel rồi chọn srcset. Browser còn có thể cân mạng/cache.",
+      "4. w mô tả rộng nội tại; x mật độ cho kích thước hiển thị cố định. Trộn trong cùng srcset không hợp lệ.",
+      "5. Art direction thay cách cắt/bố cục ảnh, như banner ngang cắt trung tâm trên điện thoại; responsive resolution chỉ đổi độ phân giải cùng nội dung.",
+      "6. Cân chất lượng, dung lượng, hỗ trợ: JPEG ảnh chụp dự phòng; PNG lossless/alpha; WebP/AVIF nén hiện đại; SVG vector/icon.",
+      "7. Browser thường chặn autoplay có tiếng; muted giúp nhưng không bảo đảm. captions chép lời và âm thanh có nghĩa cho người khiếm thính/không bật tiếng.",
+      "8. Iframe bên thứ ba có thể theo dõi/chạy script. title mô tả đích; lazy hoãn tải; sandbox chỉ cấp quyền cần, kiểm chức năng sau hạn chế."
+    ]
+  },
+  {
+    "title": "Biểu mẫu chuyên sâu",
+    "summary": "GET truy vấn, POST gửi/thay đổi. label/name, kiểu đúng, autocomplete/fieldset, ràng buộc HTML + Constraint Validation API; kiểm phía máy chủ vẫn cần.",
+    "answers": [
+      "1. Tìm kiếm GET để chia sẻ URL; đặt hàng POST tránh tạo đơn qua URL, không đưa dữ liệu vào query. POST không tự mã hóa, cần HTTPS.",
+      "2. multipart/form-data gói trường và byte tệp theo boundary. Encoding mặc định không truyền nội dung tệp như multipart, thường chỉ còn biểu diễn tên tệp.",
+      "3. Điện thoại là chuỗi có +/số 0 đầu, không đại lượng: dùng tel+pattern. inputmode gợi ý bàn phím, không xác thực.",
+      "4. label for trỏ id duy nhất hoặc bao input. Bao radio/checkbox làm cả dòng chữ dễ bấm; for/id vẫn phù hợp.",
+      "5. fieldset gom trường, legend đặt tên nhóm. Radio cùng name cần ngữ cảnh chung như Hình thức nhận sách.",
+      "6. validity: valueMissing (required trống), typeMismatch (email sai), patternMismatch (regex sai), tooShort (nhập ngắn), rangeUnderflow/Overflow (ngoài min/max), customError (lỗi tùy chỉnh).",
+      "7. setCustomValidity('') xóa customError khi hợp lệ, nếu không form vẫn bị chặn. novalidate áp cả form; formnovalidate áp lượt gửi từ nút đó.",
+      "8. Có thể xóa ràng buộc DevTools hoặc gửi HTTP trực tiếp. Máy chủ kiểm dữ liệu/giá/quyền/chống CSRF; không tin tổng tiền client."
+    ]
+  },
+  {
+    "title": "Khả năng truy cập",
+    "summary": "POUR: nhận biết, vận hành, hiểu, vững. HTML gốc; thứ tự DOM đúng; focus rõ; tên truy cập đủ; live region có trước cập nhật.",
+    "answers": [
+      "1. Perceivable: alt (1.1.1); Operable: bàn phím (2.1.1); Understandable: gợi ý sửa lỗi (3.3.3); Robust: tên/vai trò/giá trị (4.1.2).",
+      "2. A/AA/AAA tăng dần; AA gồm A+AA, thường là mục tiêu sản phẩm khả thi. Công cụ tự động không chứng nhận toàn bộ AA.",
+      "3. 2.4.7: nguyên tắc Operable, nhóm Navigable, tiêu chí Focus Visible mức AA: thấy được phần tử focus.",
+      "4. Thứ tự Tab theo DOM/tabindex, không tự theo CSS order/grid. Sửa DOM, tránh tabindex dương để vá.",
+      "5. Skip link bỏ khối lặp để vào main; hiện khi focus, không display:none. Đích nhận focus để tiếp tục đúng chỗ.",
+      "6. Năm quy tắc: ưu tiên HTML gốc; không đổi ngữ nghĩa gốc vô cớ; dùng được bàn phím; không aria-hidden/role=presentation trên phần tử focus; điều khiển cần tên truy cập. ARIA sai che thông tin đúng.",
+      "7. aria-hidden bỏ cây truy cập nhưng vẫn có thể hiện/focus. display:none bỏ bố cục và focus thông thường. Không để nút focus được trong aria-hidden.",
+      "8. polite chờ lượt đọc; assertive ngắt cho khẩn. Tạo vùng rỗng trước rồi đổi text; thêm vùng cùng nội dung một lượt có thể không được thông báo."
+    ]
+  },
+  {
+    "title": "SEO kỹ thuật",
+    "summary": "Link giúp khám phá; canonical gom biến thể; robots/noindex đúng tầng. JSON-LD khớp nội dung; LCP/INP/CLS đo thực tế.",
+    "answers": [
+      "1. Crawl tải URL từ link; index phân tích/lưu; rank chọn kết quả liên quan. HTML cung cấp đích/ngữ nghĩa/mô tả, không bảo đảm thứ hạng.",
+      "2. Trang không link nội bộ khó khám phá và thiếu ngữ cảnh. Sitemap/backlink vẫn có thể giúp, nên không phải hoàn toàn không tồn tại.",
+      "3. robots.txt điều khiển crawl; meta noindex điều khiển index sau khi bot đọc. Chặn crawl có thể ngăn bot thấy noindex, URL vẫn xuất hiện từ nguồn khác.",
+      "4. Một nội dung chọn một URL chính. Canonical là tín hiệu gom biến thể, không là redirect/mệnh lệnh tuyệt đối. Nội bộ/sitemap/redirect cần nhất quán.",
+      "5. Noindex: tìm kiếm/lọc vô số biến thể; giỏ/thanh toán ít giá trị tìm kiếm; nháp/thử nghiệm. Nội dung riêng cần xác thực, noindex không bảo mật.",
+      "6. hreflang chỉ bản ngôn ngữ/vùng tương đương; tự tham chiếu và tham chiếu qua lại. x-default cho bản mặc định/chọn ngôn ngữ; không trỏ bản chưa tồn tại.",
+      "7. Book có name/author/isbn; sản phẩm bán có image/offers gồm price/priceCurrency/availability/url. Khớp giá/nội dung hiện; không bịa rating. Schema hợp lệ không bảo đảm rich result.",
+      "8. LCP hiển thị nội dung lớn; INP phản hồi tương tác; CLS dịch chuyển bố cục. Kích thước ảnh, ưu tiên LCP, lazy dưới, defer/module script. Đo lab khác dữ liệu người dùng."
+    ]
+  },
+  {
+    "title": "HTML hiện đại và API mở rộng",
+    "summary": "template khuôn chưa render; dialog.showModal; details/summary gấp mở; popover lớp nổi nhẹ; data-* công khai; defer/module không chặn parser.",
+    "answers": [
+      "1. Nội dung template nằm trong DocumentFragment ở template.content, chưa trong cây hiển thị: UI/điều khiển chưa hoạt động cho tới clone/chèn.",
+      "2. show() non-modal; showModal() lên top layer, nền inert. Chỉ open không tạo modal/khóa nền.",
+      "3. ::backdrop là pseudo-element sau phần tử top layer như dialog modal. show() không có backdrop modal; popover/fullscreen cũng có thể liên quan top layer.",
+      "4. Modal tự chế dễ thoát focus ra nền, nền còn đọc được, đóng xong lạc focus. dialog modal xử lý nền inert/Esc/focus, vẫn cần tên và kiểm focus đầu/khôi phục.",
+      "5. details là gấp mở theo luồng với summary; popover lớp nổi nhẹ, auto có light dismiss/Esc, không khóa nền như modal.",
+      "6. data-sm-book-id → dataset.smBookId. Tên thường/gạch nối; DOM ai cũng đọc được nên không đặt token/mật khẩu/dữ liệu riêng.",
+      "7. Classic chặn parser tải/chạy; defer tải song song, chạy theo thứ tự sau parse; async chạy khi tải xong không giữ thứ tự; module trì hoãn mặc định và theo đồ thị phụ thuộc.",
+      "8. progress mô tả mức hoàn thành công việc; rating 4.2/5 dùng meter min=0 max=5 value=4.2 kèm nhãn/chữ đọc được."
+    ]
+  },
+  {
+    "title": "Dự án hoàn thiện khung nhà sách",
+    "summary": "Bản đồ → khung ngữ nghĩa → trợ năng → SEO/kiểm định. Khung chung, bằng chứng thật, danh sách lỗi/trạng thái.",
+    "answers": [
+      "1. Chốt phạm vi/mục tiêu tránh thiếu trang/khối, link cụt và sửa cấu trúc sau định dạng.",
+      "2. Bản đồ: trang/URL, mục tiêu, khối, HTML, dữ liệu và link. Ngăn thẻ sai, heading thiếu, trùng nội dung và đích thiếu.",
+      "3. Điều hướng → nav; chính → main; độc lập → article; chủ đề → section có heading. Hộp thuần bố cục mới div.",
+      "4. Khung chung sửa head/menu/footer/skip link một nơi rồi dựng sáu trang. title/canonical/aria-current và main vẫn riêng từng trang.",
+      "5. Bốn nhóm: cấu trúc/điều hướng thiếu main; ảnh/tên alt sai; form thiếu nhãn/lỗi dạng chữ; bàn phím/focus có bẫy. Đối chiếu POUR.",
+      "6. W3C Nu kiểm HTML; Network kiểm tải; Lighthouse lab và một phần trợ năng/SEO; axe quy tắc trợ năng tự động. Ghi ngày/trang/lỗi/giới hạn; bổ sung nghe screen reader.",
+      "7. Đánh giá chéo do người khác tìm điểm mù tác giả; mã lỗi theo dõi trang/mức độ/người sửa/trạng thái. Không ghi tự kiểm thành peer review đã diễn ra.",
+      "8. Sang CSS khi cấu trúc sáu trang ổn định, điểm gắn kiểu rõ, thứ tự đọc DOM đúng không đảo nguồn. Ảnh có alt/tỷ lệ, form chia nhóm, trách nhiệm CSS/JS rõ."
+    ]
+  }
+]

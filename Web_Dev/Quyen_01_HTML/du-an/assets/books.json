@@ -1,0 +1,26 @@
+[
+  {
+    "id": "web",
+    "name": "Lập trình Web căn bản",
+    "author": "Nhóm Sao Mai",
+    "price": 98000,
+    "old": 120000,
+    "isbn": "9786040000001"
+  },
+  {
+    "id": "algo",
+    "name": "Tư duy giải thuật",
+    "author": "Nhóm Sao Mai",
+    "price": 125000,
+    "old": 145000,
+    "isbn": "9786040000002"
+  },
+  {
+    "id": "data",
+    "name": "Dữ liệu cho người mới",
+    "author": "Nhóm Sao Mai",
+    "price": 110000,
+    "old": 130000,
+    "isbn": "9786040000003"
+  }
+]

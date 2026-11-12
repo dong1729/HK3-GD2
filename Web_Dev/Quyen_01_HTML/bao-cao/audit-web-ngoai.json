@@ -1,0 +1,636 @@
+[
+  {
+    "url": "https://pragprog.com/titles/elixir16/programming-elixir-1-6/",
+    "status": 200,
+    "sha256": "f8ef771d1994bf76a1965b492e401e37cbef64d8615e729b0d26c3d6de763fc4",
+    "meta_keys": [
+      "utf-8",
+      "charset",
+      "viewport",
+      "description",
+      "keywords",
+      "twitter:card",
+      "twitter:site",
+      "twitter:image",
+      "twitter:image:",
+      "twitter:title",
+      "twitter:description",
+      "og:title",
+      "og:url",
+      "og:image",
+      "og:type",
+      "og:description",
+      "book:author",
+      "book:isbn"
+    ],
+    "link_rel": [
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet"
+    ],
+    "headings": [
+      [
+        "h1",
+        "Programming Elixir 1.6"
+      ],
+      [
+        "h2",
+        "Functional |> Concurrent |> Pragmatic |> Fun"
+      ],
+      [
+        "h2",
+        "by Dave Thomas"
+      ],
+      [
+        "h4",
+        "Free ebook of Programming Elixir ≥ 1.6 for Educational Domains"
+      ],
+      [
+        "h3",
+        "eBook Formats:"
+      ],
+      [
+        "h3",
+        "Paperback Formats:"
+      ],
+      [
+        "h3",
+        "What You Need"
+      ],
+      [
+        "h3",
+        "Resources"
+      ],
+      [
+        "h3",
+        "Contents & Extracts"
+      ],
+      [
+        "h3",
+        "Author"
+      ],
+      [
+        "h3",
+        "eBook Formats:"
+      ],
+      [
+        "h3",
+        "Paperback Formats:"
+      ],
+      [
+        "h2",
+        "Releases, Offers & More"
+      ],
+      [
+        "h3",
+        "Related categories:"
+      ],
+      [
+        "h3",
+        "Related Titles:"
+      ]
+    ],
+    "regions": [
+      "header:implicit",
+      "nav:implicit",
+      "footer:implicit"
+    ],
+    "skip_link_candidate": false,
+    "aria_current_page_count": 0,
+    "blank_without_explicit_noopener": 7,
+    "schemas": []
+  },
+  {
+    "url": "https://www.manning.com/books/grokking-algorithms-second-edition",
+    "status": 200,
+    "sha256": "5d101bcc2b8fa2406e5aa1485ef61be593f42075223f2f30e2071b88a5eb95fc",
+    "meta_keys": [
+      "theme-color",
+      "charset",
+      "viewport",
+      "application-name",
+      "apple-mobile-web-app-title",
+      "og:title",
+      "twitter:title",
+      "twitter:site",
+      "twitter:card",
+      "og:type",
+      "og:url",
+      "og:site_name",
+      "og:locale",
+      "sa_verification",
+      "description",
+      "og:description",
+      "twitter:description",
+      "keywords",
+      "og:image",
+      "og:image:alt",
+      "twitter:image",
+      "msapplication-TileColor",
+      "msapplication-square70x70logo",
+      "msapplication-square150x150logo",
+      "msapplication-wide310x150logo",
+      "msapplication-square310x310logo",
+      "layout"
+    ],
+    "link_rel": [
+      "canonical",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "shortcut icon preload",
+      "preconnect",
+      "stylesheet",
+      "stylesheet preload",
+      "preload",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet"
+    ],
+    "headings": [
+      [
+        "h1",
+        "Grokking Algorithms, Second Edition"
+      ],
+      [
+        "h3",
+        "pro $24.99 per month"
+      ],
+      [
+        "h3",
+        "lite $19.99 per month"
+      ],
+      [
+        "h3",
+        "team"
+      ],
+      [
+        "h3",
+        "pro $24.99 per month"
+      ],
+      [
+        "h3",
+        "lite $19.99 per month"
+      ],
+      [
+        "h3",
+        "team"
+      ],
+      [
+        "h2",
+        "about the technology"
+      ],
+      [
+        "h2",
+        "about the book"
+      ],
+      [
+        "h2",
+        "what's inside"
+      ],
+      [
+        "h2",
+        "about the reader"
+      ],
+      [
+        "h2",
+        "about the author"
+      ],
+      [
+        "h3",
+        "pro $24.99 per month"
+      ],
+      [
+        "h3",
+        "lite $19.99 per month"
+      ],
+      [
+        "h3",
+        "team"
+      ],
+      [
+        "h2",
+        "Add to Reading List"
+      ],
+      [
+        "h3",
+        ""
+      ],
+      [
+        "h2",
+        "related titles"
+      ],
+      [
+        "h2",
+        "related titles"
+      ],
+      [
+        "h2",
+        "pro"
+      ],
+      [
+        "h2",
+        "team"
+      ],
+      [
+        "h2",
+        "pro"
+      ],
+      [
+        "h2",
+        "team"
+      ],
+      [
+        "h2",
+        "pro"
+      ],
+      [
+        "h2",
+        "team"
+      ]
+    ],
+    "regions": [
+      "header:implicit",
+      "nav:implicit",
+      "div:listbox",
+      "div:button",
+      "div:button",
+      "div:button",
+      "div:button",
+      "aside:implicit",
+      "ul:tablist",
+      "ul:tablist",
+      "ul:tablist",
+      "div:dialog",
+      "div:document",
+      "footer:implicit",
+      "footer:implicit",
+      "footer:implicit",
+      "footer:implicit",
+      "div:button",
+      "div:button",
+      "div:button",
+      "div:listbox",
+      "div:button",
+      "div:dialog",
+      "div:dialog",
+      "div:document",
+      "div:dialog",
+      "div:document",
+      "div:contentinfo",
+      "div:button",
+      "svg:img"
+    ],
+    "skip_link_candidate": false,
+    "aria_current_page_count": 0,
+    "blank_without_explicit_noopener": 33,
+    "schemas": [
+      {
+        "type": "Product",
+        "offers": true,
+        "image": true
+      },
+      {
+        "type": "Brand",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Offer",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Offer",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Offer",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Book",
+        "offers": false,
+        "image": true
+      },
+      {
+        "type": "Organization",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Person",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Book",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "BreadcrumbList",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "ListItem",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "ListItem",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "ListItem",
+        "offers": false,
+        "image": false
+      }
+    ]
+  },
+  {
+    "url": "https://www.manning.com/books/grokking-ai-algorithms-second-edition",
+    "status": 200,
+    "sha256": "de7b1ccf1250a3c7dc749636501a384b4226bc9720859acc69f035fb8801bd45",
+    "meta_keys": [
+      "theme-color",
+      "charset",
+      "viewport",
+      "application-name",
+      "apple-mobile-web-app-title",
+      "og:title",
+      "twitter:title",
+      "twitter:site",
+      "twitter:card",
+      "og:type",
+      "og:url",
+      "og:site_name",
+      "og:locale",
+      "sa_verification",
+      "description",
+      "og:description",
+      "twitter:description",
+      "og:image",
+      "og:image:alt",
+      "twitter:image",
+      "msapplication-TileColor",
+      "msapplication-square70x70logo",
+      "msapplication-square150x150logo",
+      "msapplication-wide310x150logo",
+      "msapplication-square310x310logo",
+      "layout"
+    ],
+    "link_rel": [
+      "canonical",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "apple-touch-icon",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet",
+      "shortcut icon preload",
+      "preconnect",
+      "stylesheet",
+      "stylesheet preload",
+      "preload",
+      "stylesheet",
+      "stylesheet",
+      "stylesheet"
+    ],
+    "headings": [
+      [
+        "h1",
+        "Grokking AI Algorithms, Second Edition"
+      ],
+      [
+        "h3",
+        "pro $24.99 per month"
+      ],
+      [
+        "h3",
+        "lite $19.99 per month"
+      ],
+      [
+        "h3",
+        "team"
+      ],
+      [
+        "h3",
+        "pro $24.99 per month"
+      ],
+      [
+        "h3",
+        "lite $19.99 per month"
+      ],
+      [
+        "h3",
+        "team"
+      ],
+      [
+        "h2",
+        "about the technology"
+      ],
+      [
+        "h2",
+        "about the book"
+      ],
+      [
+        "h2",
+        "what's inside"
+      ],
+      [
+        "h2",
+        "about the reader"
+      ],
+      [
+        "h2",
+        "about the author"
+      ],
+      [
+        "h3",
+        "pro $24.99 per month"
+      ],
+      [
+        "h3",
+        "lite $19.99 per month"
+      ],
+      [
+        "h3",
+        "team"
+      ],
+      [
+        "h2",
+        "Add to Reading List"
+      ],
+      [
+        "h3",
+        ""
+      ],
+      [
+        "h2",
+        "related titles"
+      ],
+      [
+        "h2",
+        "related titles"
+      ],
+      [
+        "h2",
+        "pro"
+      ],
+      [
+        "h2",
+        "team"
+      ],
+      [
+        "h2",
+        "pro"
+      ],
+      [
+        "h2",
+        "team"
+      ],
+      [
+        "h2",
+        "pro"
+      ],
+      [
+        "h2",
+        "team"
+      ]
+    ],
+    "regions": [
+      "header:implicit",
+      "nav:implicit",
+      "div:listbox",
+      "div:button",
+      "div:button",
+      "div:button",
+      "div:button",
+      "aside:implicit",
+      "ul:tablist",
+      "ul:tablist",
+      "ul:tablist",
+      "div:dialog",
+      "div:document",
+      "footer:implicit",
+      "footer:implicit",
+      "footer:implicit",
+      "footer:implicit",
+      "footer:implicit",
+      "div:button",
+      "div:button",
+      "div:button",
+      "div:listbox",
+      "div:button",
+      "div:dialog",
+      "div:dialog",
+      "div:document",
+      "div:dialog",
+      "div:document",
+      "div:contentinfo",
+      "div:button",
+      "svg:img"
+    ],
+    "skip_link_candidate": false,
+    "aria_current_page_count": 0,
+    "blank_without_explicit_noopener": 36,
+    "schemas": [
+      {
+        "type": "Product",
+        "offers": true,
+        "image": true
+      },
+      {
+        "type": "Brand",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Offer",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Offer",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Offer",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Book",
+        "offers": false,
+        "image": true
+      },
+      {
+        "type": "Organization",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Person",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Book",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "VideoObject",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "Organization",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "BreadcrumbList",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "ListItem",
+        "offers": false,
+        "image": false
+      },
+      {
+        "type": "ListItem",
+        "offers": false,
+        "image": false
+      }
+    ]
+  }
+]

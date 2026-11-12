@@ -1,0 +1,42 @@
+name: Quyen 1 HTML
+on:
+  push:
+    paths:
+      - 'Web_Dev/Quyen_01_HTML/**'
+      - '.github/workflows/html-quyen-01.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: Web_Dev/Quyen_01_HTML
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: python3 scripts/build.py
+      - run: python3 scripts/check.py
+      - run: npm ci
+        working-directory: Web_Dev/Quyen_01_HTML/qa
+      - run: npx playwright install --with-deps chromium
+        working-directory: Web_Dev/Quyen_01_HTML/qa
+      - run: npm test
+        working-directory: Web_Dev/Quyen_01_HTML/qa
+      - name: Lighthouse six pages
+        working-directory: Web_Dev/Quyen_01_HTML/qa
+        run: |
+          python3 ../scripts/serve.py > /tmp/sao-mai-server.log 2>&1 &
+          npm run audit
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: html-quyen-01-evidence
+          path: |
+            Web_Dev/Quyen_01_HTML/bao-cao/
+            Web_Dev/Quyen_01_HTML/qa/playwright-report/
+            Web_Dev/Quyen_01_HTML/qa/test-results/

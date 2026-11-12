@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /*?sort=
+Disallow: /*?filter=
+Sitemap: https://sachsaomai.example/du-an/sitemap.xml

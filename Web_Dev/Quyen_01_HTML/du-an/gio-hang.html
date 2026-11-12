@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Giỏ hàng — Nhà sách Sao Mai</title>
+<meta name="description" content="Kiểm tra sách, số lượng và tổng tiền trong giỏ hàng minh họa.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://sachsaomai.example/du-an/gio-hang">
+<link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#173e36">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Giỏ hàng — Nhà sách Sao Mai">
+<meta property="og:description" content="Kiểm tra sách, số lượng và tổng tiền trong giỏ hàng minh họa.">
+<meta property="og:url" content="https://sachsaomai.example/du-an/gio-hang">
+<meta property="og:image" content="https://sachsaomai.example/du-an/assets/chia-se.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Giỏ hàng — Nhà sách Sao Mai">
+<meta name="twitter:description" content="Kiểm tra sách, số lượng và tổng tiền trong giỏ hàng minh họa.">
+<meta name="twitter:image" content="https://sachsaomai.example/du-an/assets/chia-se.jpg">
+<link rel="stylesheet" href="/du-an/assets/site.css">
+<script src="/du-an/assets/ui.js" defer></script>
+<script src="/du-an/assets/cards.js" type="module"></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Trang chủ", "item": "https://sachsaomai.example/du-an/trang-chu"}, {"@type": "ListItem", "position": 2, "name": "Giỏ hàng", "item": "https://sachsaomai.example/du-an/gio-hang"}]}</script>
+
+</head>
+<body>
+<a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
+<header class="site-header">
+<a class="brand" href="/du-an/trang-chu"><img src="/du-an/assets/icon.svg" alt="" width="32" height="32"> Nhà sách Sao Mai</a>
+<nav aria-label="Điều hướng chính"><ul><li><a href="/du-an/trang-chu">Trang chủ</a></li><li><a href="/du-an/danh-muc">Danh mục</a></li><li><a href="/du-an/gio-hang" aria-current="page">Giỏ hàng</a></li><li><a href="/du-an/thanh-toan">Thanh toán</a></li><li><a href="/du-an/lien-he">Liên hệ</a></li></ul></nav>
+<form action="/du-an/danh-muc" method="get" role="search"><label for="tim-sach">Tìm sách</label><input id="tim-sach" name="q" type="search" enterkeyhint="search"><button type="submit">Tìm kiếm</button></form>
+<button type="button" popovertarget="gio-nho">Giỏ hàng (<span data-cart-count>0</span>)</button>
+</header>
+<nav class="breadcrumb" aria-label="Đường dẫn vị trí"><ol><li><a href="/du-an/trang-chu">Trang chủ</a></li><li aria-current="page">Giỏ hàng</li></ol></nav>
+<main id="noi-dung" tabindex="-1"><h1>Giỏ hàng</h1><section><h2>Đơn hàng của bạn</h2><div class="table-scroll" role="region" aria-label="Bảng đơn hàng, có thể cuộn ngang" tabindex="0"><table><caption>Đơn hàng minh họa — cập nhật theo giỏ trên thiết bị</caption><thead><tr><th scope="col">Sách</th><th scope="col">Đơn giá</th><th scope="col">Số lượng</th><th scope="col">Thành tiền</th></tr></thead><tbody data-cart-body><tr><th scope="row">Chưa có sách</th><td>0 đ</td><td>0</td><td>0 đ</td></tr></tbody><tfoot><tr><th scope="row" colspan="3">Tổng cộng</th><td data-cart-total>0 đ</td></tr></tfoot></table></div><form id="sua-gio" action="/du-an/gio-hang" method="get"><label for="so-luong">Số lượng cuốn đầu tiên</label><input id="so-luong" name="quantity" type="number" min="1" max="99" value="1" required><button type="submit">Cập nhật số lượng</button><button type="button" data-clear-cart>Xóa giỏ hàng trên thiết bị</button></form><a class="button" href="/du-an/thanh-toan">Đến thanh toán minh họa</a></section></main>
+<footer class="site-footer"><p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p><address><a href="mailto:hotro@sachsaomai.example">hotro@sachsaomai.example</a></address><a href="https://html.spec.whatwg.org/" target="_blank" rel="noopener noreferrer external">HTML Standard (tab mới)</a></footer>
+<p role="status" aria-live="polite" aria-atomic="true" id="thong-bao" class="status"></p>
+<aside id="gio-nho" popover aria-label="Giỏ hàng nhanh"><h2>Giỏ hàng</h2><p data-cart-summary>Chưa có sách</p><a href="/du-an/gio-hang">Xem giỏ hàng</a><button type="button" popovertarget="gio-nho" popovertargetaction="hide">Đóng</button></aside>
+<dialog id="xem-nhanh" aria-labelledby="ten-hop"><h2 id="ten-hop">Xem nhanh</h2><p id="noi-dung-hop"></p><form method="dialog"><button type="submit">Đóng</button></form></dialog>
+</body></html>
