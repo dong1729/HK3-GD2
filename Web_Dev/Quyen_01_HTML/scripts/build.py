@@ -7,7 +7,7 @@ def esc(v): return html.escape(str(v),quote=True)
 pages=json.loads((ROOT/'nguon/pages.json').read_text())
 head=Template((ROOT/'nguon/head.html').read_text())
 frame=Template((ROOT/'nguon/khung.html').read_text())
-menu=[('trang-chu','Trang chủ','Home'),('danh-muc','Danh mục','Catalog'),('gio-hang','Giỏ hàng','Cart'),('thanh-toan','Thanh toán','Checkout'),('lien-he','Liên hệ','Contact')]
+menu=[('trang-chu','Trang chủ','Home'),('danh-muc','Danh mục','Catalog'),('chi-tiet','Chi tiết sách','Book details'),('gio-hang','Giỏ hàng','Cart'),('thanh-toan','Thanh toán','Checkout'),('lien-he','Liên hệ','Contact')]
 for slug,p in pages.items():
  lang=p.get('lang','vi');en=lang=='en';url=SITE+'/du-an/'+slug
  nav=''.join('<li><a href="/du-an/'+s+'"'+(' aria-current="page"' if slug==s or (s=='danh-muc' and slug=='danh-muc-trang-2') else '')+'>'+ (eng if en else vi)+'</a></li>' for s,vi,eng in menu)

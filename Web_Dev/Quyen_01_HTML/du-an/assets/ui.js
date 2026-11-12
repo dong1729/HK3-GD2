@@ -7,13 +7,14 @@ const money=n=>n.toLocaleString('vi-VN')+' đ';
 const announce=text=>{const el=document.getElementById('thong-bao');if(el)el.textContent=text;};
 function render(){
  let count=0,total=0;const rows=[];
- for(const[id,q]of Object.entries(cart)){let b=books[id];count+=q;total+=b.price*q;const tr=document.createElement('tr');const th=document.createElement('th');th.scope='row';th.textContent=b.name;tr.append(th);for(const val of [money(b.price),q,money(b.price*q)]){const td=document.createElement('td');td.textContent=val;tr.append(td);}rows.push(tr);}
+ for(const[id,q]of Object.entries(cart)){let b=books[id];count+=q;total+=b.price*q;const template=document.getElementById('sm-row');if(template){const node=template.content.cloneNode(true);for(const [slot,value]of Object.entries({name:b.name,price:money(b.price),quantity:q,subtotal:money(b.price*q)}))node.querySelector('[data-sm-slot='+slot+']').textContent=value;rows.push(node.querySelector('tr'));continue;}const tr=document.createElement('tr');const th=document.createElement('th');th.scope='row';th.textContent=b.name;tr.append(th);for(const val of [money(b.price),q,money(b.price*q)]){const td=document.createElement('td');td.textContent=val;tr.append(td);}rows.push(tr);}
  document.querySelectorAll('[data-cart-count]').forEach(e=>e.textContent=count);
  document.querySelectorAll('[data-cart-summary]').forEach(e=>e.textContent=count+' cuốn — '+money(total));
  document.querySelectorAll('[data-cart-total]').forEach(e=>e.textContent=money(total));
  document.querySelectorAll('[data-cart-body]').forEach(e=>{e.replaceChildren(...rows.map(r=>r.cloneNode(true)));if(!rows.length){const tr=document.createElement('tr'),th=document.createElement('th');th.scope='row';th.textContent='Chưa có sách';tr.append(th);for(const v of ['0 đ','0','0 đ']){const td=document.createElement('td');td.textContent=v;tr.append(td);}e.append(tr);}});
  try{localStorage.setItem(key,JSON.stringify(cart));}catch{announce('Trình duyệt không cho lưu giỏ, dữ liệu chỉ giữ trong phiên này.');}
 }
+document.addEventListener('sm-templates-ready',render);
 render();
 const modal=document.getElementById('xem-nhanh');
 modal?.addEventListener('keydown',event=>{
