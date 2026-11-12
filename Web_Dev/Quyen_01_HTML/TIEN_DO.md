@@ -11,7 +11,8 @@
 - Chương 4: LMS ghi Đã đọc xong, 10/10 phút, cuộn 100%.
 - Chương 5: LMS ghi Đã đọc xong, 12/10 phút, cuộn 100%.
 - Chương 6: LMS ghi Đã đọc xong, 10/10 phút, cuộn 100% trong lượt tiếp tục.
-- Chương 7–10: đang đọc tiếp, chưa ghi hoàn tất.
+- Chương 7: LMS ghi Đã đọc xong, 10/10 phút, cuộn 100%.
+- Chương 8–10: chưa xác nhận hoàn tất. Cửa sổ Cốc Cốc còn bị chuyển chương trong lúc đọc; đã mở trình duyệt riêng và chờ người học đăng nhập để tiếp tục.
 - Chương 11: mục lục LMS có nhãn đã đọc xong; chưa dùng thời gian dự kiến để suy ra số phút thực.
 
 Không chỉnh bộ đếm, gọi API tiến độ trực tiếp hoặc giả lập phút đọc. Trạng thái web có thể thay đổi sau bản ghi này; chỉ cập nhật theo quan sát mới.

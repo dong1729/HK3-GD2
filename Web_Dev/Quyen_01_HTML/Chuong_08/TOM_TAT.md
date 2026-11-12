@@ -14,6 +14,8 @@ Thứ tự đọc và Tab chủ yếu theo DOM. Đổi vị trí bằng CSS khô
 
 Nút icon cần tên đúng chức năng. Logo cạnh chữ có thể alt rỗng để tránh nghe trùng. Thông báo giỏ hàng dùng live polite đã tồn tại trước khi cập nhật, không chuyển focus đột ngột. Assertive chỉ dùng khi cần ngắt việc đọc vì khẩn cấp.
 
+Tương phản AA cho chữ thường là ít nhất 4,5:1, chữ lớn 3:1; chữ lớn trong chương là từ 24px thường hoặc khoảng 18,66px đậm. Các thành phần giao diện thuộc tiêu chí tương phản phi văn bản cần 3:1 khi áp dụng. Em đo bằng công cụ thay vì đoán bằng mắt, kiểm cả hover/focus và không chỉ dùng màu để báo lỗi hay tình trạng hàng: phải kèm chữ hoặc dấu hiệu khác.
+
 Dialog modal giữ focus bên trong khi mở; đóng bằng Esc và trả về nút mở. Đây là giới hạn focus có cách thoát, khác bẫy bàn phím không thoát được. Bộ lọc cần aria-expanded khớp trạng thái thật.
 
 ## Cách tự kiểm
