@@ -40,6 +40,7 @@
 </section>
 <section>
   <h2>Thông tin đặt hàng</h2>
+  <p>Họ tên, email, số điện thoại, địa chỉ và ô xác nhận là các mục bắt buộc.</p>
   <form action="/api/dat-hang" method="post" data-validate>
     <fieldset>
       <legend>Thông tin người nhận</legend>
@@ -77,6 +78,7 @@
           type="tel"
           autocomplete="tel"
           inputmode="tel"
+          enterkeyhint="next"
           pattern="(0[0-9]{9}|[+]84[0-9]{9})"
           title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số"
           required
@@ -90,6 +92,7 @@
           id="dia-chi"
           name="address"
           autocomplete="street-address"
+          enterkeyhint="next"
           minlength="10"
           maxlength="300"
           required

@@ -220,7 +220,7 @@
       field.setCustomValidity("");
       if (
         field.id === "dia-chi" &&
-        field.value.trim().length > 0 &&
+        field.value.length > 0 &&
         field.value.trim().length < 10
       )
         field.setCustomValidity(

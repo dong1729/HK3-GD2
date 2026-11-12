@@ -1,6 +1,19 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
+test("Địa chỉ chặn toàn dấu cách, báo lỗi rồi xóa lỗi khi sửa đúng", async ({ page }) => {
+  await page.goto("/du-an/thanh-toan");
+  const address = page.getByLabel("Địa chỉ giao hàng", { exact: true });
+  await address.fill("            ");
+  expect(await address.evaluate((e) => e.validity.customError)).toBe(true);
+  await expect(page.locator("#loi-dia-chi")).toContainText("10 ký tự");
+  await address.fill("  abc  ");
+  expect(await address.evaluate((e) => e.validity.customError)).toBe(true);
+  await address.fill("123 Đường Minh Họa, Phường 1");
+  expect(await address.evaluate((e) => e.validity.customError)).toBe(false);
+  await expect(page.locator("#loi-dia-chi")).toBeEmpty();
+});
+
 const exercises = [
   [6, "co-ban"],
   [6, "trung-binh"],
