@@ -17,3 +17,6 @@ Phân tích HTML phản hồi máy chủ; không suy diễn đây là DOM sau Ja
 - _blank thiếu noopener tường minh không đồng nghĩa browser hiện đại đang bị khai thác; thêm rel rõ để phòng tương thích.
 - Có schema Product/Book, offers/image chỉ là ứng viên kỹ thuật; không kết luận đủ điều kiện Google rich result nếu chưa chạy công cụ.
 - Bằng chứng chi tiết: audit-web-ngoai.json, gồm hash nguồn, heading, landmark, metadata và schema. Không lưu toàn văn nội dung có bản quyền.
+## Kiểm công cụ bổ sung cho chương 9
+
+Đã thử trực tiếp ba URL trên Google Rich Results Test; kết quả có cả mục hợp lệ, không có mục và lỗi kết nối. Xem [bảng kết quả và giới hạn](SCHEMA_VA_RICH_RESULTS.md). Bảng nguồn phía trên vẫn chỉ mô tả HTML phản hồi, không trộn với kết quả Google.

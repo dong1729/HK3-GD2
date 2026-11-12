@@ -714,11 +714,6 @@
           "label": null
         },
         {
-          "tag": "ASIDE",
-          "role": null,
-          "label": null
-        },
-        {
           "tag": "FOOTER",
           "role": null,
           "label": null
@@ -747,7 +742,6 @@
       "roles": {
         "banner": 1,
         "navigation": 1,
-        "complementary": 1,
         "contentinfo": 5
       },
       "headingLevels": [
@@ -919,7 +913,7 @@
       ],
       "incomplete": 1
     },
-    "loopAt": 100,
+    "loopAt": 97,
     "keyboard": [
       {
         "tag": "A",
@@ -1158,42 +1152,6 @@
       {
         "tag": "A",
         "id": "",
-        "name": "",
-        "href": "/books/acing-the-ccna-exam-fundamentals-and-protocols",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/learn-powershell-in-a-month-of-lunches",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/build-a-reasoning-model-from-scratch",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/build-a-large-language-model-from-scratch",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
         "name": "Become a Reviewer\n        \n            Help us create great books",
         "href": "/manuscript-reviews",
         "outline": "auto 5px",
@@ -1203,9 +1161,18 @@
       {
         "tag": "A",
         "id": "",
-        "name": "",
+        "name": "24 reviews",
         "href": "#reviews",
         "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "DIV",
+        "id": "sa_grp_9781633438538",
+        "name": "4.79125-star overall rating",
+        "href": null,
+        "outline": "auto 1px",
         "boxShadow": "none",
         "visible": true
       },
@@ -1411,7 +1378,7 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/grokking-parallel-programming",
+        "href": "/books/grokking-data-structures",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -1420,7 +1387,16 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/the-coder-cafe",
+        "href": "/books/advanced-algorithms-and-data-structures",
+        "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "name": "",
+        "href": "/books/grokking-parallel-programming",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -1438,16 +1414,7 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/fabulous-adventures-in-data-structures-and-algorithms",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/grokking-data-structures",
+        "href": "/books/classic-computer-science-problems-in-swift",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -2265,7 +2232,7 @@
       ],
       "incomplete": 2
     },
-    "loopAt": 97,
+    "loopAt": 96,
     "keyboard": [
       {
         "tag": "A",
@@ -2558,18 +2525,9 @@
       {
         "tag": "A",
         "id": "",
-        "name": "3 reviews",
+        "name": "",
         "href": "#reviews",
         "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "DIV",
-        "id": "sa_grp_9781633434813",
-        "name": "5-star overall rating",
-        "href": null,
-        "outline": "auto 1px",
         "boxShadow": "none",
         "visible": true
       },
@@ -2730,25 +2688,7 @@
         "tag": "A",
         "id": "",
         "name": "",
-        "href": "/books/deep-learning-with-python-third-edition",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/grokking-artificial-intelligence-algorithms",
-        "outline": "auto 5px",
-        "boxShadow": "none",
-        "visible": true
-      },
-      {
-        "tag": "A",
-        "id": "",
-        "name": "",
-        "href": "/books/deep-learning-patterns-and-practices",
+        "href": "/books/deep-learning-with-r-third-edition",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true
@@ -2758,6 +2698,24 @@
         "id": "",
         "name": "",
         "href": "/books/machine-learning-with-tensorflow-second-edition",
+        "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "name": "",
+        "href": "/books/deep-learning-with-python-third-edition",
+        "outline": "auto 5px",
+        "boxShadow": "none",
+        "visible": true
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "name": "",
+        "href": "/books/deep-learning-patterns-and-practices",
         "outline": "auto 5px",
         "boxShadow": "none",
         "visible": true

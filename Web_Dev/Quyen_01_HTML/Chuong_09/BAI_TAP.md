@@ -8,7 +8,7 @@ Lời giải: [co-ban.html](co-ban.html).
 
 ## Bài trung bình
 
-Bảng khảo sát ở KHAO_SAT_WEB.md ghi loại schema, ảnh/offers và lỗi quan sát trong nguồn của ba trang. Phần mở từng trang trong Rich Results Test và Schema Markup Validator chưa có bằng chứng giao diện, nên chưa coi bài khảo sát công cụ này hoàn tất.
+Bảng khảo sát ở KHAO_SAT_WEB.md ghi loại schema, ảnh/offers và lỗi quan sát trong nguồn của ba trang. Đã bổ sung lượt kiểm Google cho ba URL và ảnh kết quả; một trang không có mục, một trang lỗi kết nối, một trang có bốn mục hợp lệ. Schema Validator tìm nạp Manning gặp lỗi dịch vụ. Xem [kết quả công cụ](../bao-cao/SCHEMA_VA_RICH_RESULTS.md); không coi lỗi kết nối là lỗi schema.
 
 Lời giải: [báo cáo khảo sát](../bao-cao/KHAO_SAT_WEB.md).
 

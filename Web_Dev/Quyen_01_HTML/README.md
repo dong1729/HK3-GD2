@@ -32,3 +32,7 @@ Xem TIEN_DO.md và bao-cao/NGHIEM_THU.md. Báo cáo chỉ coi đạt những ki�
 ## Đọc và sửa mã nguồn
 
 Nội dung từng trang được tách thành tệp HTML dễ đọc trong `nguon/noi-dung/`, thay vì một chuỗi dài trong JSON. Sau khi cài công cụ bằng `cd qa && npm ci`, chạy `npm run format` để định dạng toàn bộ bài tập và mã HTML/CSS/JavaScript. Khi có công cụ này, `scripts/build.py` tự định dạng bản dựng để không trở lại một dòng.
+
+## Chương 6–11
+
+Mở [CHUONG_06_11.md](CHUONG_06_11.md) để xem bài tập, 48 câu ôn tập, sáu lời giải nâng cao, mốc dự án và tóm tắt. [Kế hoạch đọc](KE_HOACH_DOC.md) đã đếm đủ 11 chương; [tiến độ](TIEN_DO.md) ghi riêng trạng thái LMS thực tế.

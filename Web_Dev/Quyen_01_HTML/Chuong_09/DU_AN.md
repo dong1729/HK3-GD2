@@ -24,6 +24,6 @@ Em tiếp tục cùng dự án Nhà sách Sao Mai sáu trang. Phần việc chư
 | Book/Product | name, author, image, offers khớp dữ liệu trang; BreadcrumbList cho đường dẫn phân cấp. |
 | Ngôn ngữ | VI/EN danh mục và chi tiết có hreflang qua lại, không trỏ trang dịch rỗng. |
 | Ảnh và hiệu năng | Ảnh LCP có kích thước/high; ảnh dưới lazy; báo cáo lab tách khỏi field data. |
-| Kiểm trên dịch vụ thật | Chưa triển khai tên miền thật; index Google, preview và Rich Results/Schema Validator còn cần kiểm, không đánh dấu đạt giả. |
+| Kiểm trên dịch vụ thật | Chưa triển khai tên miền thật; index Google và preview còn mở. Đã kiểm mã bằng hai công cụ: schema hợp lệ, Google merchant listing còn lỗi URL ảnh .example. Xem SCHEMA_VA_RICH_RESULTS.md. |
 
 Bản đồ chung: [BAN_DO_NOI_DUNG.md](../bao-cao/BAN_DO_NOI_DUNG.md). Kết quả: [NGHIEM_THU.md](../bao-cao/NGHIEM_THU.md). Phần giao tiếp với người khác và kiểm triển khai chưa thực hiện thì em không ghi hoàn tất.

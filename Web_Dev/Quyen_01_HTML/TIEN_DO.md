@@ -10,7 +10,9 @@
 - Chương 3: web hiển thị Đã đọc xong, 11/10 phút, cuộn 100% tại lần kiểm.
 - Chương 4: LMS ghi Đã đọc xong, 10/10 phút, cuộn 100%.
 - Chương 5: LMS ghi Đã đọc xong, 12/10 phút, cuộn 100%.
-- Chương 6–11: chưa chốt đợt đọc/bài trong lần ưu tiên chương trước.
+- Chương 6: LMS ghi Đã đọc xong, 10/10 phút, cuộn 100% trong lượt tiếp tục.
+- Chương 7–10: đang đọc tiếp, chưa ghi hoàn tất.
+- Chương 11: mục lục LMS có nhãn đã đọc xong; chưa dùng thời gian dự kiến để suy ra số phút thực.
 
 Không chỉnh bộ đếm, gọi API tiến độ trực tiếp hoặc giả lập phút đọc. Trạng thái web có thể thay đổi sau bản ghi này; chỉ cập nhật theo quan sát mới.
 
@@ -18,3 +20,7 @@ Không chỉnh bộ đếm, gọi API tiến độ trực tiếp hoặc giả l�
 ## Đợt chốt chương 1–5
 
 40 câu ôn tập có câu hỏi và lời giải; 10 bài HTML cơ bản/trung bình được W3C Nu kiểm không lỗi; 5 ticket nâng cao và 5 mốc dự án có ánh xạ mã nguồn. 20 bài kiểm chức năng/trợ năng chạy thành công ở commit ea948ff; bằng chứng trong báo cáo. Không đồng nhất việc hoàn thiện mã với đã thực hiện buổi đánh giá chéo hoặc nghe VoiceOver/NVDA.
+
+## Đợt bài làm chương 6–11
+
+48 câu ôn tập đã đối chiếu thứ tự đề; sáu bản tóm tắt mở rộng, 10 bài HTML cơ bản/trung bình, sáu lời giải nâng cao và sáu mốc dự án. W3C 10 bài không lỗi; 35 kiểm tra qua ở cf34f1b, có bằng chứng Actions. Google/Schema Validator đã kiểm thực tế và ghi cả lỗi triển khai/kết nối. Phần cần tên miền thật, nghe trình đọc màn hình và đánh giá chéo vẫn để mở trong báo cáo.

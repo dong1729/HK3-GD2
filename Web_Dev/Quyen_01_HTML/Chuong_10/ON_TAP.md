@@ -4,7 +4,7 @@ Câu hỏi được diễn đạt gọn theo thứ tự trong giáo trình.
 
 ## 1. Vì sao template chưa hiển thị?
 
-Nội dung template nằm trong DocumentFragment ở template.content, chưa trong cây hiển thị: UI/điều khiển chưa hoạt động cho tới clone/chèn.
+Nội dung template nằm trong DocumentFragment ở template.content, chưa trong cây hiển thị. Hai hệ quả: (1) các thẻ/điều khiển mẫu chưa xuất hiện trong giao diện và luồng Tab; (2) có thể clone lại nhiều lần từ một khuôn mà không phải dán markup, nhưng phải chèn bản clone vào trang mới nhìn thấy.
 
 ## 2. show, showModal và open?
 

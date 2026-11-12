@@ -116,7 +116,7 @@
   {
     "tag": "BODY",
     "id": "",
-    "name": "Bỏ qua điều hướng đến nội dung\n\n Nhà sách Sao Mai\nTrang chủDanh mụcChi tiết sách",
+    "name": "Bỏ qua điều hướng đến nội dung\n    \n    \n       Nhà sách Sao\n        Mai\n      \n",
     "outline": "none 3px"
   },
   {
@@ -128,7 +128,7 @@
   {
     "tag": "A",
     "id": "",
-    "name": "Nhà sách Sao Mai",
+    "name": "Nhà sách Sao\n        Mai",
     "outline": "solid 3px"
   },
   {

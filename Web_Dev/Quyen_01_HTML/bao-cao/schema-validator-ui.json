@@ -6,10 +6,6 @@
     "items": 2
   },
   {
-    "page": "trang-chu",
-    "observed": ""
-  },
-  {
     "page": "danh-muc",
     "observed": "\t\t\t\t\t28 text BreadcrumbList 0 LỖI 0 CẢNH BÁO expand_less"
   },
@@ -22,7 +18,13 @@
     "observed": ""
   },
   {
+    "page": "trang-chu",
+    "observed": "\t\t\t26 text Không phát hiện thấy mục nào",
+    "tool": "Schema Markup Validator, nhập mã HTML"
+  },
+  {
     "page": "lien-he",
-    "observed": ""
+    "observed": "Đã quan sát BreadcrumbList 0 lỗi 0 cảnh báo ở lượt đầu; thử lại gặp lỗi dịch vụ.",
+    "tool": "Schema Markup Validator, nhập mã HTML"
   }
 ]
