@@ -15,9 +15,9 @@
     <main id="main" tabindex="-1">
       <h1>Bài trung bình chương 2 — Heading và landmark</h1>
       <p>
-        Ba trang sản phẩm được mở bằng Chromium; dữ liệu từ cây Accessibility
-        của Chrome DevTools Protocol. Không mặc định mọi header/footer lồng
-        trong bài đều là landmark cấp tài liệu.
+        Ba trang sản phẩm được mở bằng Chromium; dữ liệu từ cây Accessibility của Chrome
+        DevTools Protocol. Không mặc định mọi header/footer lồng trong bài đều là landmark
+        cấp tài liệu.
       </p>
       <div
         class="table-scroll"
@@ -50,9 +50,7 @@
                 >
               </th>
               <td>1</td>
-              <td>
-                h1 → h2 → h2 → h4 → h3 → h3 → h3 → h3 → h3 → h3 → h2 → h3 → h3
-              </td>
+              <td>h1 → h2 → h2 → h4 → h3 → h3 → h3 → h3 → h3 → h3 → h2 → h3 → h3</td>
               <td>1</td>
               <td>banner: 1, navigation: 1, contentinfo: 1</td>
               <td>0</td>
@@ -67,13 +65,9 @@
                 >
               </th>
               <td>1</td>
-              <td>
-                h1 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2
-              </td>
+              <td>h1 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2</td>
               <td>0</td>
-              <td>
-                banner: 1, navigation: 1, complementary: 1, contentinfo: 5
-              </td>
+              <td>banner: 1, navigation: 1, complementary: 1, contentinfo: 5</td>
               <td>0</td>
             </tr>
             <tr>
@@ -86,13 +80,9 @@
                 >
               </th>
               <td>1</td>
-              <td>
-                h1 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2
-              </td>
+              <td>h1 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2 → h2</td>
               <td>0</td>
-              <td>
-                banner: 1, navigation: 1, complementary: 1, contentinfo: 6
-              </td>
+              <td>banner: 1, navigation: 1, complementary: 1, contentinfo: 6</td>
               <td>0</td>
             </tr>
           </tbody>
@@ -102,28 +92,26 @@
         <h2>Nhận xét và hệ quả</h2>
         <ul>
           <li>
-            Cả ba trang có một h1 trong lần quét; một h1 là quy ước bài học,
-            không tự bảo đảm các cấp tiếp theo đúng.
+            Cả ba trang có một h1 trong lần quét; một h1 là quy ước bài học, không tự bảo
+            đảm các cấp tiếp theo đúng.
           </li>
           <li>
-            Có các lượt tăng cấp bỏ qua h2 hoặc h3 trong dữ liệu: nên sắp lại
-            theo quan hệ chủ đề thay vì chọn theo cỡ chữ.
+            Có các lượt tăng cấp bỏ qua h2 hoặc h3 trong dữ liệu: nên sắp lại theo quan hệ
+            chủ đề thay vì chọn theo cỡ chữ.
           </li>
           <li>
-            Nếu không có landmark main trong cây trợ năng, người dùng mất lối
-            nhảy nhanh tới nội dung chính. Bọc nội dung chính bằng main, không
-            dùng aria-hidden che phần cần đọc.
+            Nếu không có landmark main trong cây trợ năng, người dùng mất lối nhảy nhanh
+            tới nội dung chính. Bọc nội dung chính bằng main, không dùng aria-hidden che
+            phần cần đọc.
           </li>
           <li>
             Không tự thêm role lên mọi div. Ưu tiên
-            header/nav/main/article/section/aside/footer theo ngữ nghĩa và kiểm
-            lại cây trợ năng.
+            header/nav/main/article/section/aside/footer theo ngữ nghĩa và kiểm lại cây
+            trợ năng.
           </li>
         </ul>
         <p>
-          <a href="/bao-cao/external-browser.json"
-            >Dữ liệu và phương pháp kiểm</a
-          >
+          <a href="/bao-cao/external-browser.json">Dữ liệu và phương pháp kiểm</a>
           ·
           <a href="/bao-cao/BAN_PHIM.md">Đối chiếu kiểm bàn phím và công cụ</a>.
         </p>

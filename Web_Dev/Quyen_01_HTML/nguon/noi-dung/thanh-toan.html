@@ -1,0 +1,144 @@
+<h1>Thanh toán minh họa</h1>
+<p>Chỉ dùng dữ liệu mẫu. Máy chủ thực hành không lưu thông tin và không tạo đơn.</p>
+<section>
+  <h2>Tóm tắt đơn hàng</h2>
+  <div
+    class="table-scroll"
+    data-cart-region
+    role="region"
+    aria-label="Bảng đơn hàng, có thể cuộn ngang"
+    tabindex="0"
+  >
+    <table>
+      <caption>
+        Đơn hàng minh họa — cập nhật theo giỏ trên thiết bị
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Sách</th>
+          <th scope="col">Đơn giá</th>
+          <th scope="col">Số lượng</th>
+          <th scope="col">Thành tiền</th>
+        </tr>
+      </thead>
+      <tbody data-cart-body>
+        <tr>
+          <th scope="row">Chưa có sách</th>
+          <td>0 đ</td>
+          <td>0</td>
+          <td>0 đ</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="3">Tổng cộng</th>
+          <td data-cart-total>0 đ</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</section>
+<section>
+  <h2>Thông tin đặt hàng</h2>
+  <form action="/api/dat-hang" method="post" data-validate>
+    <fieldset>
+      <legend>Thông tin người nhận</legend>
+      <p>
+        <label for="ho-ten">Họ và tên</label
+        ><input
+          id="ho-ten"
+          name="name"
+          type="text"
+          autocomplete="name"
+          minlength="2"
+          maxlength="100"
+          required
+          enterkeyhint="next"
+          aria-describedby="loi-ho-ten"
+        ><span id="loi-ho-ten" class="error"></span>
+      </p>
+      <p>
+        <label for="email">Email</label
+        ><input
+          id="email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          required
+          enterkeyhint="next"
+          aria-describedby="loi-email"
+        ><span id="loi-email" class="error"></span>
+      </p>
+      <p>
+        <label for="dien-thoai">Số điện thoại</label
+        ><input
+          id="dien-thoai"
+          name="tel"
+          type="tel"
+          autocomplete="tel"
+          inputmode="tel"
+          pattern="(0[0-9]{9}|[+]84[0-9]{9})"
+          title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số"
+          required
+          aria-describedby="goi-y-tel loi-dien-thoai"
+        ><span id="goi-y-tel">Ví dụ: 0912345678 hoặc +84912345678</span
+        ><span id="loi-dien-thoai" class="error"></span>
+      </p>
+      <p>
+        <label for="dia-chi">Địa chỉ giao hàng</label
+        ><textarea
+          id="dia-chi"
+          name="address"
+          autocomplete="street-address"
+          minlength="10"
+          maxlength="300"
+          required
+          aria-describedby="loi-dia-chi"
+        ></textarea
+        ><span id="loi-dia-chi" class="error"></span>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Hình thức nhận sách</legend>
+      <p>
+        <label
+          ><input type="radio" name="delivery" value="ship" checked > Giao tận nơi</label
+        >
+      </p>
+      <p>
+        <label
+          ><input type="radio" name="delivery" value="pickup" > Nhận tại cửa hàng</label
+        >
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Thanh toán minh họa</legend>
+      <p>
+        <label
+          ><input type="radio" name="payment" value="cod" checked > Khi nhận hàng (mô
+          phỏng)</label
+        >
+      </p>
+      <p>
+        <label
+          ><input type="radio" name="payment" value="demo" > Chuyển khoản (mô phỏng,
+          không thu tiền)</label
+        >
+      </p>
+    </fieldset>
+    <p>
+      <label
+        ><input
+          type="checkbox"
+          id="dong-y"
+          name="confirm"
+          required
+          aria-describedby="loi-dong-y"
+        >
+        Tôi hiểu đây là biểu mẫu thực hành.</label
+      ><span id="loi-dong-y" class="error"></span>
+    </p>
+    <p id="loi-form" role="alert" aria-live="assertive"></p>
+    <button type="submit">Xác nhận minh họa</button>
+  </form>
+</section>

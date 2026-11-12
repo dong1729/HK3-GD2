@@ -18,10 +18,7 @@
       property="og:description"
       content="Điền thông tin nhận sách trong biểu mẫu thực hành, không tạo đơn thật."
     >
-    <meta
-      property="og:url"
-      content="https://sachsaomai.example/du-an/thanh-toan"
-    >
+    <meta property="og:url" content="https://sachsaomai.example/du-an/thanh-toan" >
     <meta
       property="og:image"
       content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
@@ -64,10 +61,11 @@
   </head>
   <body>
     <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
+    <!-- Phần đầu trang: tên nhà sách, menu và tìm kiếm. -->
     <header class="site-header">
       <a class="brand" href="/du-an/trang-chu"
-        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà
-        sách Sao Mai</a
+        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà sách Sao
+        Mai</a
       >
       <nav aria-label="Điều hướng chính">
         <ul>
@@ -75,20 +73,17 @@
           <li><a href="/du-an/danh-muc">Danh mục</a></li>
           <li><a href="/du-an/chi-tiet">Chi tiết sách</a></li>
           <li><a href="/du-an/gio-hang">Giỏ hàng</a></li>
-          <li>
-            <a href="/du-an/thanh-toan" aria-current="page">Thanh toán</a>
-          </li>
+          <li><a href="/du-an/thanh-toan" aria-current="page">Thanh toán</a></li>
           <li><a href="/du-an/lien-he">Liên hệ</a></li>
         </ul>
       </nav>
       <form action="/du-an/danh-muc" method="get" role="search">
         <label for="tim-sach">Tìm sách</label
-        ><input
-          id="tim-sach"
-          name="q"
-          type="search"
-          enterkeyhint="search"
-        ><button type="submit">Tìm kiếm</button>
+        ><input id="tim-sach" name="q" type="search" enterkeyhint="search" ><button
+          type="submit"
+        >
+          Tìm kiếm
+        </button>
       </form>
       <button type="button" popovertarget="gio-nho">
         Giỏ hàng (<span data-cart-count>0</span>)
@@ -100,12 +95,10 @@
         <li aria-current="page">Thanh toán</li>
       </ol>
     </nav>
+    <!-- Nội dung riêng của từng trang được đặt trong main. -->
     <main id="noi-dung" tabindex="-1">
       <h1>Thanh toán minh họa</h1>
-      <p>
-        Chỉ dùng dữ liệu mẫu. Máy chủ thực hành không lưu thông tin và không tạo
-        đơn.
-      </p>
+      <p>Chỉ dùng dữ liệu mẫu. Máy chủ thực hành không lưu thông tin và không tạo đơn.</p>
       <section>
         <h2>Tóm tắt đơn hàng</h2>
         <div
@@ -208,14 +201,14 @@
             <legend>Hình thức nhận sách</legend>
             <p>
               <label
-                ><input type="radio" name="delivery" value="ship" checked >
-                Giao tận nơi</label
+                ><input type="radio" name="delivery" value="ship" checked > Giao tận
+                nơi</label
               >
             </p>
             <p>
               <label
-                ><input type="radio" name="delivery" value="pickup" > Nhận tại
-                cửa hàng</label
+                ><input type="radio" name="delivery" value="pickup" > Nhận tại cửa
+                hàng</label
               >
             </p>
           </fieldset>
@@ -223,14 +216,14 @@
             <legend>Thanh toán minh họa</legend>
             <p>
               <label
-                ><input type="radio" name="payment" value="cod" checked > Khi
-                nhận hàng (mô phỏng)</label
+                ><input type="radio" name="payment" value="cod" checked > Khi nhận hàng
+                (mô phỏng)</label
               >
             </p>
             <p>
               <label
-                ><input type="radio" name="payment" value="demo" > Chuyển khoản
-                (mô phỏng, không thu tiền)</label
+                ><input type="radio" name="payment" value="demo" > Chuyển khoản (mô
+                phỏng, không thu tiền)</label
               >
             </p>
           </fieldset>
@@ -251,6 +244,7 @@
         </form>
       </section>
     </main>
+    <!-- Thông tin liên hệ ở cuối trang. -->
     <footer class="site-footer">
       <p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p>
       <address>

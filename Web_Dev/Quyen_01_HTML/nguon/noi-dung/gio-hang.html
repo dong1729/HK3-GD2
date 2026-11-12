@@ -1,0 +1,53 @@
+<h1>Giỏ hàng</h1>
+<section>
+  <h2>Đơn hàng của bạn</h2>
+  <div
+    class="table-scroll"
+    data-cart-region
+    role="region"
+    aria-label="Bảng đơn hàng, có thể cuộn ngang"
+    tabindex="0"
+  >
+    <table>
+      <caption>
+        Đơn hàng minh họa — cập nhật theo giỏ trên thiết bị
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Sách</th>
+          <th scope="col">Đơn giá</th>
+          <th scope="col">Số lượng</th>
+          <th scope="col">Thành tiền</th>
+        </tr>
+      </thead>
+      <tbody data-cart-body>
+        <tr>
+          <th scope="row">Chưa có sách</th>
+          <td>0 đ</td>
+          <td>0</td>
+          <td>0 đ</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row" colspan="3">Tổng cộng</th>
+          <td data-cart-total>0 đ</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <form id="sua-gio" action="/du-an/gio-hang" method="get">
+    <label for="so-luong">Số lượng cuốn đầu tiên</label
+    ><input
+      id="so-luong"
+      name="quantity"
+      type="number"
+      min="1"
+      max="99"
+      value="1"
+      required
+    ><button type="submit">Cập nhật số lượng</button
+    ><button type="button" data-clear-cart>Xóa giỏ hàng trên thiết bị</button>
+  </form>
+  <a class="button" href="/du-an/thanh-toan">Đến thanh toán minh họa</a>
+</section>

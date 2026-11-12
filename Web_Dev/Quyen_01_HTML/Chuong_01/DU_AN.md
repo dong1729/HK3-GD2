@@ -1,13 +1,15 @@
-# Mốc dự án chương 1
+# Dự án cuối chương 1
 
-nguon/head.html và scripts/build.py áp DOCTYPE/lang/charset/viewport, title/description/canonical riêng, favicon và Open Graph cho sáu trang. Ảnh chia sẻ assets/chia-se.jpg có 1200×630.
+## Mục tiêu
 
-## Tệp và cách chạy
+Áp dụng kiến thức chương 1 vào nhà sách gồm sáu trang: trang chủ, danh mục, chi tiết sách, giỏ hàng, thanh toán và liên hệ.
 
-Nguồn ở ../nguon, bản dựng ở ../du-an, dựng lại bằng python3 scripts/build.py từ thư mục Quyển 1. Mỗi chương đóng góp vào cùng nhà sách sáu trang thay vì 11 website rời; đối chiếu các tệp và tiêu chí ở báo cáo nghiệm thu.
+## Cách em thực hiện
 
-## Bằng chứng
+Em bổ sung DOCTYPE, ngôn ngữ, bảng mã, viewport và tiêu đề để trình duyệt hiểu đúng tài liệu. Em so sánh phần head của ba trang bán sách. Bảng trong bài nêu thẻ có hoặc thiếu và ảnh hưởng có thể xảy ra.
 
-[Kiểm định](../bao-cao/NGHIEM_THU.md), [quy ước](../bao-cao/QUY_UOC.md), [bản đồ](../bao-cao/BAN_DO_NOI_DUNG.md). Ảnh và kết quả trong bao-cao là từ bản thực tế; không tạo ảnh giả cho validator/Lighthouse.
+Phần yêu cầu nâng cao và vị trí mã nguồn được trình bày trong [NANG_CAO.md](NANG_CAO.md). Các trang của dự án nằm ở thư mục du-an; nội dung HTML từng trang nằm ở nguon/noi-dung.
 
-Tiến độ đọc chính thức do LMS ghi theo thời gian thực; phần này không thay bộ đếm hoặc đánh dấu đã đọc thay người học.
+## Kiểm tra kết quả
+
+Mở dự án bằng máy chủ theo README, xem trên máy tính và màn hình hẹp, kiểm tra liên kết và thử bàn phím. Bằng chứng kiểm tra có trong [báo cáo](../bao-cao/NGHIEM_THU.md). Dữ liệu cửa hàng là minh họa; không có đơn hàng hay thanh toán thật.

@@ -1,1 +1,61 @@
-<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bài trung bình chương 6 — Thực hành HTML</title><link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/du-an/assets/site.css"><style>.responsive-demo{width:calc((100vw - 60px)/2);max-width:calc((1240px - 60px)/2)}.responsive-demo img{max-width:none}@media(max-width:640px){.responsive-demo{width:calc(100vw - 40px);max-width:none}}</style></head><body><a class="skip-link" href="#main">Bỏ qua điều hướng</a><header><nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav></header><main id="main" tabindex="-1"><h1>Bài trung bình chương 6</h1><picture class="responsive-demo"><source srcset="/du-an/assets/anh-goc-400.webp 400w, /du-an/assets/anh-goc-800.webp 800w, /du-an/assets/anh-goc-1200.webp 1200w" type="image/webp" sizes="(max-width: 640px) calc(100vw - 40px), calc((100vw - 60px)/2)"><img src="/du-an/assets/anh-goc-800.jpg" srcset="/du-an/assets/anh-goc-400.jpg 400w, /du-an/assets/anh-goc-800.jpg 800w, /du-an/assets/anh-goc-1200.jpg 1200w" sizes="(max-width: 640px) calc(100vw - 40px), calc((100vw - 60px)/2)" alt="Minh họa kệ sách tự tạo để thử ảnh thích ứng" width="800" height="450"></picture><p>Gốc tự tạo rộng 2400px. Điện thoại 390px trừ lề 40px có slot 350px; DPR 2 cần khoảng 700px, thường chọn bản 800px. Browser có quyền chọn khác theo mạng/cache. Máy tính chia hai cột, lề 40px + gap 20px.</p></main><footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Bài trung bình chương 6 — Thực hành HTML</title>
+    <link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml" >
+    <link rel="stylesheet" href="/du-an/assets/site.css" >
+    <style>
+      .responsive-demo {
+        width: calc((100vw - 60px) / 2);
+        max-width: calc((1240px - 60px) / 2);
+      }
+      .responsive-demo img {
+        max-width: none;
+      }
+      @media (max-width: 640px) {
+        .responsive-demo {
+          width: calc(100vw - 40px);
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header>
+      <nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <h1>Bài trung bình chương 6</h1>
+      <picture class="responsive-demo"
+        ><source
+          srcset="
+            /du-an/assets/anh-goc-400.webp   400w,
+            /du-an/assets/anh-goc-800.webp   800w,
+            /du-an/assets/anh-goc-1200.webp 1200w
+          "
+          type="image/webp"
+          sizes="(max-width: 640px) calc(100vw - 40px), calc((100vw - 60px)/2)" >
+        <img
+          src="/du-an/assets/anh-goc-800.jpg"
+          srcset="
+            /du-an/assets/anh-goc-400.jpg   400w,
+            /du-an/assets/anh-goc-800.jpg   800w,
+            /du-an/assets/anh-goc-1200.jpg 1200w
+          "
+          sizes="(max-width: 640px) calc(100vw - 40px), calc((100vw - 60px)/2)"
+          alt="Minh họa kệ sách tự tạo để thử ảnh thích ứng"
+          width="800"
+          height="450"
+      ></picture>
+      <p>
+        Gốc tự tạo rộng 2400px. Điện thoại 390px trừ lề 40px có slot 350px; DPR 2 cần
+        khoảng 700px, thường chọn bản 800px. Browser có quyền chọn khác theo mạng/cache.
+        Máy tính chia hai cột, lề 40px + gap 20px.
+      </p>
+    </main>
+    <footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer>
+  </body>
+</html>

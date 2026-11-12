@@ -18,10 +18,7 @@
       property="og:description"
       content="Browse sample programming and data books at Sao Mai bookstore."
     >
-    <meta
-      property="og:url"
-      content="https://sachsaomai.example/du-an/en/catalog"
-    >
+    <meta property="og:url" content="https://sachsaomai.example/du-an/en/catalog" >
     <meta
       property="og:image"
       content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
@@ -79,10 +76,11 @@
   </head>
   <body>
     <a class="skip-link" href="#noi-dung">Skip to main content</a>
+    <!-- Phần đầu trang: tên nhà sách, menu và tìm kiếm. -->
     <header class="site-header">
       <a class="brand" href="/du-an/trang-chu"
-        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà
-        sách Sao Mai</a
+        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà sách Sao
+        Mai</a
       >
       <nav aria-label="Main navigation">
         <ul>
@@ -96,12 +94,11 @@
       </nav>
       <form action="/du-an/danh-muc" method="get" role="search">
         <label for="tim-sach">Find books</label
-        ><input
-          id="tim-sach"
-          name="q"
-          type="search"
-          enterkeyhint="search"
-        ><button type="submit">Search</button>
+        ><input id="tim-sach" name="q" type="search" enterkeyhint="search" ><button
+          type="submit"
+        >
+          Search
+        </button>
       </form>
       <button type="button" popovertarget="gio-nho">
         Cart (<span data-cart-count>0</span>)
@@ -113,17 +110,17 @@
         <li aria-current="page">Book catalog</li>
       </ol>
     </nav>
+    <!-- Nội dung riêng của từng trang được đặt trong main. -->
     <main id="noi-dung" tabindex="-1">
       <h1>Book catalog</h1>
       <section>
         <h2>Available books</h2>
         <ul>
-          <li>
-            <a href="/du-an/en/book">Web Programming Basics</a> — 98,000 VND
-          </li>
+          <li><a href="/du-an/en/book">Web Programming Basics</a> — 98,000 VND</li>
         </ul>
       </section>
     </main>
+    <!-- Thông tin liên hệ ở cuối trang. -->
     <footer class="site-footer">
       <p>© 2026 Nhà sách Sao Mai · Learning demo, no real orders</p>
       <address>

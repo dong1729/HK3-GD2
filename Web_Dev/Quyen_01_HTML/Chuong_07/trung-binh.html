@@ -1,1 +1,84 @@
-<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bài trung bình chương 7 — Thực hành HTML</title><link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/du-an/assets/site.css"></head><body><a class="skip-link" href="#main">Bỏ qua điều hướng</a><header><nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav></header><main id="main" tabindex="-1"><h1>Bài trung bình chương 7</h1><form action="/api/dang-ky" method="post" id="dang-ky"><fieldset><legend>Tài khoản thực hành</legend><label for="reg-name">Họ tên</label><input id="reg-name" name="name" type="text" required autocomplete="name"><label for="reg-email">Email</label><input id="reg-email" name="email" type="email" required autocomplete="email"><label for="mat-khau">Mật khẩu mẫu</label><input id="mat-khau" name="password" type="password" minlength="8" required autocomplete="new-password"><label for="nhap-lai">Nhập lại mật khẩu</label><input id="nhap-lai" name="confirmPassword" type="password" required autocomplete="new-password" aria-describedby="loi-khop"><p id="loi-khop" role="status"></p></fieldset><button type="submit">Đăng ký thực hành</button><button type="submit" name="draft" value="1" formnovalidate>Lưu nháp</button></form><p>setCustomValidity rỗng để xóa customError khi khớp; không xóa thì form vẫn bị chặn. Nút Lưu nháp bỏ kiểm tra trong lượt gửi đó.</p></main><footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer><script>const form=document.getElementById('dang-ky'),pw=document.getElementById('mat-khau'),again=document.getElementById('nhap-lai');function check(){const mismatch=again.value!==pw.value;again.setCustomValidity(mismatch?'Mật khẩu chưa khớp.':'');document.getElementById('loi-khop').textContent=mismatch?'Mật khẩu chưa khớp.':'';}pw.addEventListener('input',check);again.addEventListener('input',check);form.addEventListener('submit',e=>{if(e.submitter?.name==='draft'){e.preventDefault();document.getElementById('loi-khop').textContent='Đã nhận yêu cầu nháp trong bộ nhớ; không lưu mật khẩu.';}});</script></body></html>
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Bài trung bình chương 7 — Thực hành HTML</title>
+    <link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml" >
+    <link rel="stylesheet" href="/du-an/assets/site.css" >
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header>
+      <nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <h1>Bài trung bình chương 7</h1>
+      <form action="/api/dang-ky" method="post" id="dang-ky">
+        <fieldset>
+          <legend>Tài khoản thực hành</legend>
+          <label for="reg-name">Họ tên</label
+          ><input
+            id="reg-name"
+            name="name"
+            type="text"
+            required
+            autocomplete="name"
+          ><label for="reg-email">Email</label
+          ><input
+            id="reg-email"
+            name="email"
+            type="email"
+            required
+            autocomplete="email"
+          ><label for="mat-khau">Mật khẩu mẫu</label
+          ><input
+            id="mat-khau"
+            name="password"
+            type="password"
+            minlength="8"
+            required
+            autocomplete="new-password"
+          ><label for="nhap-lai">Nhập lại mật khẩu</label
+          ><input
+            id="nhap-lai"
+            name="confirmPassword"
+            type="password"
+            required
+            autocomplete="new-password"
+            aria-describedby="loi-khop"
+          >
+          <p id="loi-khop" role="status"></p>
+        </fieldset>
+        <button type="submit">Đăng ký thực hành</button
+        ><button type="submit" name="draft" value="1" formnovalidate>Lưu nháp</button>
+      </form>
+      <p>
+        setCustomValidity rỗng để xóa customError khi khớp; không xóa thì form vẫn bị
+        chặn. Nút Lưu nháp bỏ kiểm tra trong lượt gửi đó.
+      </p>
+    </main>
+    <footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer>
+    <script>
+      const form = document.getElementById("dang-ky"),
+        pw = document.getElementById("mat-khau"),
+        again = document.getElementById("nhap-lai");
+      function check() {
+        const mismatch = again.value !== pw.value;
+        again.setCustomValidity(mismatch ? "Mật khẩu chưa khớp." : "");
+        document.getElementById("loi-khop").textContent = mismatch
+          ? "Mật khẩu chưa khớp."
+          : "";
+      }
+      pw.addEventListener("input", check);
+      again.addEventListener("input", check);
+      form.addEventListener("submit", (e) => {
+        if (e.submitter?.name === "draft") {
+          e.preventDefault();
+          document.getElementById("loi-khop").textContent =
+            "Đã nhận yêu cầu nháp trong bộ nhớ; không lưu mật khẩu.";
+        }
+      });
+    </script>
+  </body>
+</html>

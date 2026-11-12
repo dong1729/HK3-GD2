@@ -1,18 +1,23 @@
-# Bài tập chương 4
+# Bài tập chương 4: Sửa liên kết và nút bấm
 
-## Cơ bản
+## 1. Mức cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em dùng a khi chuyển sang trang khác, button khi thực hiện thao tác. Các liên kết trong dự án dùng đường dẫn nội bộ.
 
-## Trung bình
+[Mở bài làm](co-ban.html). Trong VS Code có thể mở tệp để xem mã, còn cách chạy bằng trình duyệt được ghi trong README.
 
-[Lời giải chạy được](trung-binh.html). Với bài khảo sát, dữ liệu thực và nhận xét nằm ngay trong trang; nguồn gốc, phương pháp và giới hạn được ghi rõ.
+## 2. Mức trung bình
 
-## Nâng cao — Ticket Q1-04
+Em kiểm tra một trang bán sách về skip link, nav, trang hiện tại và liên kết mở tab mới; sau đó nêu cách sửa.
 
-[Mở lời giải trong dự án](../du-an/danh-muc.html). Skip link đầu body → main tabindex=-1; menu aria-current; breadcrumb ol có mục hiện tại không phải link; phân trang URL thật + prev/next trong head; external có noopener/noreferrer.
+[Mở bài làm](trung-binh.html). Với bài khảo sát, kết quả là tại thời điểm kiểm tra, vì trang bên ngoài có thể thay đổi.
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## 3. Mức nâng cao
 
+Em áp dụng yêu cầu vào dự án Nhà sách Sao Mai dùng chung, thay vì tạo lại một website khác.
 
-Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.
+[Xem cách làm và tệp liên quan](NANG_CAO.md).
+
+## Tự kiểm tra
+
+Em kiểm tra cú pháp HTML, liên kết, cách dùng heading và thao tác bàn phím. Kết quả công cụ được lưu ở thư mục bao-cao. Việc kiểm tự động không thay thế hoàn toàn việc dùng thử bằng trình đọc màn hình.

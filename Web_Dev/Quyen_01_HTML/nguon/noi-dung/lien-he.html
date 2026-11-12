@@ -1,0 +1,83 @@
+<h1>Liên hệ</h1>
+<p>
+  Không phải cửa hàng có thật. Bản đồ dưới là khu vực tham khảo, không xác định địa chỉ
+  kinh doanh.
+</p>
+<section>
+  <h2>Gửi tin nhắn thực hành</h2>
+  <form action="/api/lien-he" method="post" data-validate>
+    <fieldset>
+      <legend>Thông tin liên hệ</legend>
+      <p>
+        <label for="lh-ten">Họ tên</label
+        ><input
+          id="lh-ten"
+          name="name"
+          type="text"
+          minlength="2"
+          maxlength="100"
+          autocomplete="name"
+          required
+          aria-describedby="loi-lh-ten"
+        ><span id="loi-lh-ten" class="error"></span>
+      </p>
+      <p>
+        <label for="lh-email">Email</label
+        ><input
+          id="lh-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+          required
+          aria-describedby="loi-lh-email"
+        ><span id="loi-lh-email" class="error"></span>
+      </p>
+      <p>
+        <label for="lh-tel">Số điện thoại (không bắt buộc)</label
+        ><input
+          id="lh-tel"
+          name="tel"
+          type="tel"
+          autocomplete="tel"
+          pattern="(0[0-9]{9}|[+]84[0-9]{9})"
+          title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số"
+          aria-describedby="loi-lh-tel"
+        ><span id="loi-lh-tel" class="error"></span>
+      </p>
+      <p>
+        <label for="lh-noi-dung">Nội dung</label
+        ><textarea
+          id="lh-noi-dung"
+          name="message"
+          minlength="10"
+          maxlength="2000"
+          required
+          aria-describedby="loi-lh-noi-dung"
+        ></textarea
+        ><span id="loi-lh-noi-dung" class="error"></span>
+      </p>
+    </fieldset>
+    <p role="alert" id="loi-form"></p>
+    <button type="submit">Gửi liên hệ minh họa</button>
+  </form>
+</section>
+<section>
+  <h2>Bản đồ tham khảo</h2>
+  <iframe
+    title="Bản đồ khu vực trung tâm thành phố Hồ Chí Minh, chỉ minh họa"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=106.695%2C10.77%2C106.705%2C10.78&amp;layer=mapnik"
+    width="800"
+    height="350"
+    loading="lazy"
+    sandbox="allow-scripts allow-same-origin"
+    referrerpolicy="no-referrer"
+  ></iframe>
+  <p>
+    <a
+      href="https://www.openstreetmap.org/"
+      target="_blank"
+      rel="noopener noreferrer external"
+      >Mở OpenStreetMap (tab mới)</a
+    >
+  </p>
+</section>

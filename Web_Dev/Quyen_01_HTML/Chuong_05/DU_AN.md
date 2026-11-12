@@ -1,13 +1,15 @@
-# Mốc dự án chương 5
+# Dự án cuối chương 5
 
-Trang chủ ol cách đặt; danh mục nav/ul; chi tiết dl; giỏ và thanh toán có table caption/thead/tbody/tfoot, th scope row/col, tổng colspan=3 trong bảng 4 cột, vùng cuộn ngang.
+## Mục tiêu
 
-## Tệp và cách chạy
+Áp dụng kiến thức chương 5 vào nhà sách gồm sáu trang: trang chủ, danh mục, chi tiết sách, giỏ hàng, thanh toán và liên hệ.
 
-Nguồn ở ../nguon, bản dựng ở ../du-an, dựng lại bằng python3 scripts/build.py từ thư mục Quyển 1. Mỗi chương đóng góp vào cùng nhà sách sáu trang thay vì 11 website rời; đối chiếu các tệp và tiêu chí ở báo cáo nghiệm thu.
+## Cách em thực hiện
 
-## Bằng chứng
+Em dùng ul cho danh mục, ol cho các bước đặt hàng và dl cho thông số sách. Việc chọn thẻ dựa trên ý nghĩa dữ liệu. Em bổ sung caption, thead, tbody, tfoot và scope. Tổng tiền là 98.000 × 2 + 125.000 × 1 = 321.000 đồng. Hàng tổng vẫn chiếm đúng bốn cột.
 
-[Kiểm định](../bao-cao/NGHIEM_THU.md), [quy ước](../bao-cao/QUY_UOC.md), [bản đồ](../bao-cao/BAN_DO_NOI_DUNG.md). Ảnh và kết quả trong bao-cao là từ bản thực tế; không tạo ảnh giả cho validator/Lighthouse.
+Phần yêu cầu nâng cao và vị trí mã nguồn được trình bày trong [NANG_CAO.md](NANG_CAO.md). Các trang của dự án nằm ở thư mục du-an; nội dung HTML từng trang nằm ở nguon/noi-dung.
 
-Tiến độ đọc chính thức do LMS ghi theo thời gian thực; phần này không thay bộ đếm hoặc đánh dấu đã đọc thay người học.
+## Kiểm tra kết quả
+
+Mở dự án bằng máy chủ theo README, xem trên máy tính và màn hình hẹp, kiểm tra liên kết và thử bàn phím. Bằng chứng kiểm tra có trong [báo cáo](../bao-cao/NGHIEM_THU.md). Dữ liệu cửa hàng là minh họa; không có đơn hàng hay thanh toán thật.

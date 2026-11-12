@@ -1,23 +1,23 @@
-# Bài tập chương 5
+# Bài tập chương 5: Sử dụng danh sách và bảng
 
-## Cơ bản
+## 1. Mức cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em dùng ul cho danh mục, ol cho các bước đặt hàng và dl cho thông số sách. Việc chọn thẻ dựa trên ý nghĩa dữ liệu.
 
-## Trung bình
+[Mở bài làm](co-ban.html). Trong VS Code có thể mở tệp để xem mã, còn cách chạy bằng trình duyệt được ghi trong README.
 
-[Lời giải chạy được](trung-binh.html). Với bài khảo sát, dữ liệu thực và nhận xét nằm ngay trong trang; nguồn gốc, phương pháp và giới hạn được ghi rõ.
+## 2. Mức trung bình
 
-## Nâng cao — Ticket Q1-05
+Em bổ sung caption, thead, tbody, tfoot và scope. Tổng tiền là 98.000 × 2 + 125.000 × 1 = 321.000 đồng. Hàng tổng vẫn chiếm đúng bốn cột.
 
-[Mở lời giải trong dự án](../du-an/thanh-toan.html). Trang chủ ol cách đặt; danh mục nav/ul; chi tiết dl; giỏ và thanh toán có table caption/thead/tbody/tfoot, th scope row/col, tổng colspan=3 trong bảng 4 cột, vùng cuộn ngang.
+[Mở bài làm](trung-binh.html). Với bài khảo sát, kết quả là tại thời điểm kiểm tra, vì trang bên ngoài có thể thay đổi.
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## 3. Mức nâng cao
 
+Em áp dụng yêu cầu vào dự án Nhà sách Sao Mai dùng chung, thay vì tạo lại một website khác.
 
-## Kiểm cụ thể bài trung bình
+[Xem cách làm và tệp liên quan](NANG_CAO.md).
 
-Hai sách: 98.000 × 2 = 196.000 đ; 125.000 × 1 = 125.000 đ; tổng 321.000 đ. Mỗi hàng dữ liệu có th tên sách và ba td. Hàng tổng có th colspan=3 và một td, cùng lưới bốn cột với thead. caption mô tả nội dung; scope=col/row gắn tên hai chiều. Vùng cuộn ngang giữ bảng trong màn hình hẹp. Không dùng bảng để dàn menu hoặc cột trang.
+## Tự kiểm tra
 
-
-Xem [phân tích và ánh xạ ticket nâng cao](NANG_CAO.md) để mở đúng mã nguồn và tiêu chí nghiệm thu.
+Em kiểm tra cú pháp HTML, liên kết, cách dùng heading và thao tác bàn phím. Kết quả công cụ được lưu ở thư mục bao-cao. Việc kiểm tự động không thay thế hoàn toàn việc dùng thử bằng trình đọc màn hình.

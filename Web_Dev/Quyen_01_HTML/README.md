@@ -27,3 +27,8 @@ Xem TIEN_DO.md và bao-cao/NGHIEM_THU.md. Báo cáo chỉ coi đạt những ki�
 ## Đối chiếu kiến thức
 
 [HTML Living Standard](https://html.spec.whatwg.org/), [WCAG 2.2](https://www.w3.org/WAI/WCAG22/quickref/), [Google Product structured data](https://developers.google.com/search/docs/appearance/structured-data/product-snippet). Một h1 là quy ước dự án; main trong div không tự mất landmark; schema hợp lệ không bảo đảm index/rich result.
+
+
+## Đọc và sửa mã nguồn
+
+Nội dung từng trang được tách thành tệp HTML dễ đọc trong `nguon/noi-dung/`, thay vì một chuỗi dài trong JSON. Sau khi cài công cụ bằng `cd qa && npm ci`, chạy `npm run format` để định dạng toàn bộ bài tập và mã HTML/CSS/JavaScript. Khi có công cụ này, `scripts/build.py` tự định dạng bản dựng để không trở lại một dòng.

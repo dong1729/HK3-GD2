@@ -6,7 +6,7 @@ Bảng có caption/thead/tbody/tfoot, th scope=col/row; mỗi hàng phủ bốn 
 
 ## Mở mã và chạy
 
-[Trang lời giải](../du-an/thanh-toan.html). Nguồn dùng chung: nguon/pages.json; nguon/khuon.html; du-an/assets/ui.js. Chạy máy chủ theo README, mở đường dẫn không đuôi HTML để giữ URL dự án thống nhất.
+[Trang lời giải](../du-an/thanh-toan.html). Nguồn dùng chung: nguon/pages.json; nguon/noi-dung/; nguon/khuon.html; du-an/assets/ui.js. Chạy máy chủ theo README, mở đường dẫn không đuôi HTML để giữ URL dự án thống nhất.
 
 ## Nghiệm thu
 

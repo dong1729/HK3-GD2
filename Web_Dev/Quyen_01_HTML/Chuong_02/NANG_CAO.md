@@ -6,7 +6,7 @@ Một main và một h1 cho sách; article lớn chứa các section; từng nh�
 
 ## Mở mã và chạy
 
-[Trang lời giải](../du-an/chi-tiet.html). Nguồn dùng chung: nguon/pages.json; nguon/khung.html. Chạy máy chủ theo README, mở đường dẫn không đuôi HTML để giữ URL dự án thống nhất.
+[Trang lời giải](../du-an/chi-tiet.html). Nguồn dùng chung: nguon/pages.json; nguon/noi-dung/; nguon/khung.html. Chạy máy chủ theo README, mở đường dẫn không đuôi HTML để giữ URL dự án thống nhất.
 
 ## Nghiệm thu
 

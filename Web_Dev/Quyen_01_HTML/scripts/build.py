@@ -25,10 +25,15 @@ for slug,p in pages.items():
  for obj in schema:extra+='<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace('<','\u003c')+'</script>'
  h=head.substitute(title=esc(p['title']),description=esc(p['description']),canonical=esc(url),robots=p.get('robots','index, follow'),site=SITE,ogtype='book' if 'book' in p else 'website',extra=extra)
  crumb='' if slug=='trang-chu' else '<nav class="breadcrumb" aria-label="'+('Breadcrumb' if en else 'Đường dẫn vị trí')+'"><ol><li><a href="/du-an/trang-chu">'+('Home' if en else 'Trang chủ')+'</a></li><li aria-current="page">'+esc(p['title'])+'</li></ol></nav>'
- main=p['main'].replace('/du-an/chi-tiet?book=web','/du-an/chi-tiet').replace('/du-an/chi-tiet?book=algo','/du-an/sach/tu-duy-giai-thuat').replace('/du-an/chi-tiet?book=data','/du-an/sach/du-lieu-cho-nguoi-moi')
+ main=((ROOT/'nguon'/p['content_file']).read_text() if 'content_file' in p else p['main']).replace('/du-an/chi-tiet?book=web','/du-an/chi-tiet').replace('/du-an/chi-tiet?book=algo','/du-an/sach/tu-duy-giai-thuat').replace('/du-an/chi-tiet?book=data','/du-an/sach/du-lieu-cho-nguoi-moi')
  result=frame.substitute(lang=lang,head=h,main=main,menu=nav,breadcrumb=crumb,skip='Skip to main content' if en else 'Bỏ qua điều hướng đến nội dung',navlabel='Main navigation' if en else 'Điều hướng chính',searchlabel='Find books' if en else 'Tìm sách',search='Search' if en else 'Tìm kiếm',cartlabel='Cart' if en else 'Giỏ hàng',demo='Learning demo, no real orders' if en else 'Dự án học tập, không đặt hàng thật',newtab='new tab' if en else 'tab mới',minicart='Mini cart' if en else 'Giỏ hàng nhanh',empty='No books' if en else 'Chưa có sách',viewcart='View cart' if en else 'Xem giỏ hàng',close='Close' if en else 'Đóng',quick='Quick view' if en else 'Xem nhanh')
  out=ROOT/'du-an'/slug;out=out.with_name(out.name+'.html');out.parent.mkdir(parents=True,exist_ok=True);out.write_text(result)
 public=[s for s,p in pages.items() if 'noindex' not in p.get('robots','')]
 (ROOT/'du-an/sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+''.join('<url><loc>'+SITE+'/du-an/'+s+'</loc><lastmod>2026-11-12</lastmod></url>' for s in public)+'</urlset>')
 (ROOT/'du-an/robots.txt').write_text('User-agent: *\nAllow: /\nDisallow: /*?sort=\nDisallow: /*?filter=\nSitemap: '+SITE+'/du-an/sitemap.xml\n')
 print('Built',len(pages),'pages. Canonical base:',SITE)
+
+# Giu ban dung de doc khi bo dinh dang da duoc cai trong qa.
+if (ROOT/"qa/node_modules/prettier/index.mjs").is_file():
+ import subprocess
+ subprocess.run(["node",str(ROOT/"scripts/format.mjs")],check=True)

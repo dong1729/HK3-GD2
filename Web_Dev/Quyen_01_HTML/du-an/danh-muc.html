@@ -18,10 +18,7 @@
       property="og:description"
       content="Giáo trình lập trình, giải thuật và dữ liệu; lọc và tìm kiếm sách Sao Mai."
     >
-    <meta
-      property="og:url"
-      content="https://sachsaomai.example/du-an/danh-muc"
-    >
+    <meta property="og:url" content="https://sachsaomai.example/du-an/danh-muc" >
     <meta
       property="og:image"
       content="https://sachsaomai.example/du-an/assets/chia-se.jpg"
@@ -80,10 +77,11 @@
   </head>
   <body>
     <a class="skip-link" href="#noi-dung">Bỏ qua điều hướng đến nội dung</a>
+    <!-- Phần đầu trang: tên nhà sách, menu và tìm kiếm. -->
     <header class="site-header">
       <a class="brand" href="/du-an/trang-chu"
-        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà
-        sách Sao Mai</a
+        ><img src="/du-an/assets/icon.svg" alt="" width="32" height="32" > Nhà sách Sao
+        Mai</a
       >
       <nav aria-label="Điều hướng chính">
         <ul>
@@ -97,12 +95,11 @@
       </nav>
       <form action="/du-an/danh-muc" method="get" role="search">
         <label for="tim-sach">Tìm sách</label
-        ><input
-          id="tim-sach"
-          name="q"
-          type="search"
-          enterkeyhint="search"
-        ><button type="submit">Tìm kiếm</button>
+        ><input id="tim-sach" name="q" type="search" enterkeyhint="search" ><button
+          type="submit"
+        >
+          Tìm kiếm
+        </button>
       </form>
       <button type="button" popovertarget="gio-nho">
         Giỏ hàng (<span data-cart-count>0</span>)
@@ -114,15 +111,11 @@
         <li aria-current="page">Danh mục sách</li>
       </ol>
     </nav>
+    <!-- Nội dung riêng của từng trang được đặt trong main. -->
     <main id="noi-dung" tabindex="-1">
       <h1>Danh mục sách</h1>
       <p id="ket-qua" role="status"></p>
-      <button
-        type="button"
-        id="mo-loc"
-        aria-controls="bo-loc"
-        aria-expanded="false"
-      >
+      <button type="button" id="mo-loc" aria-controls="bo-loc" aria-expanded="false">
         Bộ lọc
       </button>
       <section id="bo-loc" hidden>
@@ -138,11 +131,7 @@
         <h2>Sách hiện có</h2>
         <ul class="books" id="danh-sach-sach">
           <li>
-            <article
-              class="book-card"
-              data-sm-book-id="web"
-              data-sm-price="98000"
-            >
+            <article class="book-card" data-sm-book-id="web" data-sm-price="98000">
               <picture
                 ><source
                   type="image/avif"
@@ -185,11 +174,7 @@
             </article>
           </li>
           <li>
-            <article
-              class="book-card"
-              data-sm-book-id="algo"
-              data-sm-price="125000"
-            >
+            <article class="book-card" data-sm-book-id="algo" data-sm-price="125000">
               <picture
                 ><source
                   type="image/avif"
@@ -221,24 +206,17 @@
                   loading="lazy"
                   decoding="async"
               ></picture>
-              <h3>
-                <a href="/du-an/sach/tu-duy-giai-thuat">Tư duy giải thuật</a>
-              </h3>
+              <h3><a href="/du-an/sach/tu-duy-giai-thuat">Tư duy giải thuật</a></h3>
               <p>Nhóm Sao Mai</p>
               <p><data value="125000">125.000 đ</data></p>
-              <button type="button" data-add="algo">
-                Thêm Tư duy giải thuật vào giỏ</button
+              <button type="button" data-add="algo">Thêm Tư duy giải thuật vào giỏ</button
               ><button type="button" data-quick="algo">
                 Xem nhanh Tư duy giải thuật
               </button>
             </article>
           </li>
           <li>
-            <article
-              class="book-card"
-              data-sm-book-id="data"
-              data-sm-price="110000"
-            >
+            <article class="book-card" data-sm-book-id="data" data-sm-price="110000">
               <picture
                 ><source
                   type="image/avif"
@@ -271,9 +249,7 @@
                   decoding="async"
               ></picture>
               <h3>
-                <a href="/du-an/sach/du-lieu-cho-nguoi-moi"
-                  >Dữ liệu cho người mới</a
-                >
+                <a href="/du-an/sach/du-lieu-cho-nguoi-moi">Dữ liệu cho người mới</a>
               </h3>
               <p>Nhóm Sao Mai</p>
               <p><data value="110000">110.000 đ</data></p>
@@ -293,6 +269,7 @@
         </ul>
       </nav>
     </main>
+    <!-- Thông tin liên hệ ở cuối trang. -->
     <footer class="site-footer">
       <p>© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật</p>
       <address>

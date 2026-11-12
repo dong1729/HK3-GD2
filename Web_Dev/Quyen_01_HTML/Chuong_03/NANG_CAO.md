@@ -6,7 +6,7 @@ Cảnh báo dùng strong, nhấn giọng dùng em. Giá cũ/mới dùng del/ins 
 
 ## Mở mã và chạy
 
-[Trang lời giải](../du-an/chi-tiet.html). Nguồn dùng chung: nguon/pages.json; bao-cao/QUY_UOC.md. Chạy máy chủ theo README, mở đường dẫn không đuôi HTML để giữ URL dự án thống nhất.
+[Trang lời giải](../du-an/chi-tiet.html). Nguồn dùng chung: nguon/pages.json; nguon/noi-dung/; bao-cao/QUY_UOC.md. Chạy máy chủ theo README, mở đường dẫn không đuôi HTML để giữ URL dự án thống nhất.
 
 ## Nghiệm thu
 

@@ -1,1 +1,75 @@
-<!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Bài cơ bản chương 7 — Thực hành HTML</title><link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="/du-an/assets/site.css"></head><body><a class="skip-link" href="#main">Bỏ qua điều hướng</a><header><nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav></header><main id="main" tabindex="-1"><h1>Bài cơ bản chương 7</h1><form action="/api/lien-he" method="post" data-validate><fieldset><legend>Thông tin liên hệ</legend><p><label for="lh-ten">Họ tên</label><input id="lh-ten" name="name" type="text" minlength="2" maxlength="100" autocomplete="name" required aria-describedby="loi-lh-ten"><span id="loi-lh-ten" class="error"></span></p><p><label for="lh-email">Email</label><input id="lh-email" name="email" type="email" autocomplete="email" required aria-describedby="loi-lh-email"><span id="loi-lh-email" class="error"></span></p><p><label for="lh-tel">Số điện thoại (không bắt buộc)</label><input id="lh-tel" name="tel" type="tel" autocomplete="tel" pattern="(0[0-9]{9}|[+]84[0-9]{9})" title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số" aria-describedby="loi-lh-tel"><span id="loi-lh-tel" class="error"></span></p><p><label for="lh-noi-dung">Nội dung</label><textarea id="lh-noi-dung" name="message" minlength="10" maxlength="2000" required aria-describedby="loi-lh-noi-dung"></textarea><span id="loi-lh-noi-dung" class="error"></span></p></fieldset><p role="alert" id="loi-form"></p><button type="submit">Gửi liên hệ minh họa</button></form></main><footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer></body></html>
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <title>Bài cơ bản chương 7 — Thực hành HTML</title>
+    <link rel="icon" href="/du-an/assets/icon.svg" type="image/svg+xml" >
+    <link rel="stylesheet" href="/du-an/assets/site.css" >
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+    <header>
+      <nav aria-label="Bài học"><a href="/">Mục lục bài tập</a></nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <h1>Bài cơ bản chương 7</h1>
+      <form action="/api/lien-he" method="post" data-validate>
+        <fieldset>
+          <legend>Thông tin liên hệ</legend>
+          <p>
+            <label for="lh-ten">Họ tên</label
+            ><input
+              id="lh-ten"
+              name="name"
+              type="text"
+              minlength="2"
+              maxlength="100"
+              autocomplete="name"
+              required
+              aria-describedby="loi-lh-ten"
+            ><span id="loi-lh-ten" class="error"></span>
+          </p>
+          <p>
+            <label for="lh-email">Email</label
+            ><input
+              id="lh-email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+              aria-describedby="loi-lh-email"
+            ><span id="loi-lh-email" class="error"></span>
+          </p>
+          <p>
+            <label for="lh-tel">Số điện thoại (không bắt buộc)</label
+            ><input
+              id="lh-tel"
+              name="tel"
+              type="tel"
+              autocomplete="tel"
+              pattern="(0[0-9]{9}|[+]84[0-9]{9})"
+              title="10 chữ số bắt đầu bằng 0 hoặc +84 kèm 9 chữ số"
+              aria-describedby="loi-lh-tel"
+            ><span id="loi-lh-tel" class="error"></span>
+          </p>
+          <p>
+            <label for="lh-noi-dung">Nội dung</label
+            ><textarea
+              id="lh-noi-dung"
+              name="message"
+              minlength="10"
+              maxlength="2000"
+              required
+              aria-describedby="loi-lh-noi-dung"
+            ></textarea
+            ><span id="loi-lh-noi-dung" class="error"></span>
+          </p>
+        </fieldset>
+        <p role="alert" id="loi-form"></p>
+        <button type="submit">Gửi liên hệ minh họa</button>
+      </form>
+    </main>
+    <footer><p>Bài thực hành Quyển 1 — Nguyễn Hoa Đông.</p></footer>
+  </body>
+</html>
