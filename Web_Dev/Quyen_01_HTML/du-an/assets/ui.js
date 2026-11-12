@@ -15,6 +15,15 @@ function render(){
  try{localStorage.setItem(key,JSON.stringify(cart));}catch{announce('Trình duyệt không cho lưu giỏ, dữ liệu chỉ giữ trong phiên này.');}
 }
 render();
+const modal=document.getElementById('xem-nhanh');
+modal?.addEventListener('keydown',event=>{
+ if(event.key!=='Tab'||!modal.open)return;
+ const items=[...modal.querySelectorAll('button:not([disabled]),a[href],input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex="0"]')].filter(el=>el.getClientRects().length);
+ if(!items.length){event.preventDefault();modal.focus();return;}
+ const first=items[0],last=items[items.length-1];
+ if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
+ else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
+});
 document.addEventListener('click',event=>{
  const add=event.target.closest('[data-add]');if(add){const id=add.dataset.add;if(!books[id])return;cart[id]=Math.min(99,(cart[id]||0)+1);render();announce('Đã thêm '+books[id].name+' vào giỏ.');}
  const clear=event.target.closest('[data-clear-cart]');if(clear){cart={};render();announce('Đã xóa giỏ hàng trên thiết bị.');}

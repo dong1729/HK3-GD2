@@ -27,6 +27,9 @@ jobs:
         working-directory: Web_Dev/Quyen_01_HTML/qa
       - run: npm test
         working-directory: Web_Dev/Quyen_01_HTML/qa
+      - name: Audit external examples
+        working-directory: Web_Dev/Quyen_01_HTML/qa
+        run: node external.mjs
       - name: Lighthouse six pages
         working-directory: Web_Dev/Quyen_01_HTML/qa
         run: |

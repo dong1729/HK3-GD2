@@ -8,3 +8,5 @@
 | SM-04 | SEO | Chưa có tên miền triển khai và kiểm index | Phụ thuộc triển khai | Chủ dự án | Còn mở |
 | SM-05 | Toàn bộ | Chưa có buổi đánh giá chéo/nghe screen reader | Kiểm định | Người học/nhóm khác | Còn mở |
 | SM-06 | Bài 8 trung bình | Chưa kiểm bàn phím và tool đủ ba trang bên ngoài | Bài tập | Người thực hiện | Còn mở |
+
+| SM-07 | Modal xem nhanh | Một chu kỳ Tab có thể đưa activeElement về body ở Chromium | Chặn bàn phím | Codex | Bổ sung vòng focus giới hạn trong dialog mở, chờ CI kiểm lại |
