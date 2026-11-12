@@ -23,4 +23,4 @@ Không chỉnh bộ đếm, gọi API tiến độ trực tiếp hoặc giả l�
 
 ## Đợt bài làm chương 6–11
 
-48 câu ôn tập đã đối chiếu thứ tự đề; sáu bản tóm tắt mở rộng, 10 bài HTML cơ bản/trung bình, sáu lời giải nâng cao và sáu mốc dự án. W3C 10 bài không lỗi; 35 kiểm tra qua ở cf34f1b, có bằng chứng Actions. Google/Schema Validator đã kiểm thực tế và ghi cả lỗi triển khai/kết nối. Phần cần tên miền thật, nghe trình đọc màn hình và đánh giá chéo vẫn để mở trong báo cáo.
+48 câu ôn tập đã đối chiếu thứ tự đề; sáu bản tóm tắt mở rộng, 10 bài HTML cơ bản/trung bình, sáu lời giải nâng cao và sáu mốc dự án. W3C 10 bài không lỗi; 36 kiểm tra qua ở 0674276, có bằng chứng Actions. Google/Schema Validator đã kiểm thực tế và ghi cả lỗi triển khai/kết nối. Phần cần tên miền thật, nghe trình đọc màn hình và đánh giá chéo vẫn để mở trong báo cáo.

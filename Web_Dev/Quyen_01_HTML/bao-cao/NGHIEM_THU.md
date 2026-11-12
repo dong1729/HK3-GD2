@@ -1,12 +1,12 @@
 # Kết quả kiểm định thực tế — 12/11/2026
 
-Mã nguồn đã kiểm: commit cf34f1b. [GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43195941804). **35/35 bài kiểm qua**, gồm các bài mới chương 6–11; html-validate toàn bộ bài 1–11 thành công.
+Mã nguồn đã kiểm: commit 0674276. [GitHub Actions thành công](https://github.com/dong1729/HK3-GD2/actions/runs/43198550658). **36/36 bài kiểm qua**, gồm các bài mới chương 6–11; html-validate toàn bộ bài 1–11 thành công.
 
 | Trang | Performance | Accessibility | SEO | LCP (giây) | CLS | W3C error |
 |---|---:|---:|---:|---:|---:|---:|
 | trang-chu | 100 | 100 | 100 | 1.73 | 0 | 0 |
 | danh-muc | 100 | 100 | 100 | 1.13 | 0 | 0 |
-| chi-tiet | 100 | 100 | 100 | 1.57 | 0 | 0 |
+| chi-tiet | 100 | 100 | 100 | 1.65 | 0 | 0 |
 | gio-hang | 100 | 100 | 69 | 0.75 | 0 | 0 |
 | thanh-toan | 100 | 100 | 69 | 0.75 | 0 | 0 |
 | lien-he | 100 | 100 | 100 | 0.75 | 0 | 0 |

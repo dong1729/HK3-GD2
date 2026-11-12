@@ -62,10 +62,36 @@
         }
       ],
       "childIds": [
-        "33"
+        "32"
       ],
       "backendDOMNodeId": 2,
-      "frameId": "42C89AD0A00BB963386E024C5BDFDE8D"
+      "frameId": "4E46D94702BE8A656EDE2D99DC6AB149"
+    },
+    {
+      "nodeId": "32",
+      "ignored": true,
+      "ignoredReasons": [
+        {
+          "name": "uninteresting",
+          "value": {
+            "type": "boolean",
+            "value": true
+          }
+        }
+      ],
+      "role": {
+        "type": "role",
+        "value": "none"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 0
+      },
+      "parentId": "2",
+      "childIds": [
+        "33"
+      ],
+      "backendDOMNodeId": 32
     },
     {
       "nodeId": "33",
@@ -87,46 +113,20 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "2",
+      "parentId": "32",
       "childIds": [
-        "34"
+        "34",
+        "36",
+        "70",
+        "4",
+        "167",
+        "23",
+        "27"
       ],
       "backendDOMNodeId": 33
     },
     {
       "nodeId": "34",
-      "ignored": true,
-      "ignoredReasons": [
-        {
-          "name": "uninteresting",
-          "value": {
-            "type": "boolean",
-            "value": true
-          }
-        }
-      ],
-      "role": {
-        "type": "role",
-        "value": "none"
-      },
-      "chromeRole": {
-        "type": "internalRole",
-        "value": 0
-      },
-      "parentId": "33",
-      "childIds": [
-        "5",
-        "36",
-        "70",
-        "4",
-        "165",
-        "24",
-        "28"
-      ],
-      "backendDOMNodeId": 34
-    },
-    {
-      "nodeId": "5",
       "ignored": false,
       "role": {
         "type": "role",
@@ -178,11 +178,11 @@
           }
         }
       ],
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [
         "35"
       ],
-      "backendDOMNodeId": 5
+      "backendDOMNodeId": 34
     },
     {
       "nodeId": "36",
@@ -214,12 +214,12 @@
         ]
       },
       "properties": [],
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [
         "37",
         "40",
         "60",
-        "10"
+        "9"
       ],
       "backendDOMNodeId": 36
     },
@@ -262,7 +262,7 @@
         ]
       },
       "properties": [],
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [
         "71"
       ],
@@ -313,7 +313,7 @@
           }
         }
       ],
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [
         "77",
         "79",
@@ -323,7 +323,7 @@
       "backendDOMNodeId": 4
     },
     {
-      "nodeId": "165",
+      "nodeId": "167",
       "ignored": false,
       "role": {
         "type": "role",
@@ -352,16 +352,16 @@
         ]
       },
       "properties": [],
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [
-        "166",
         "168",
-        "171"
+        "170",
+        "173"
       ],
-      "backendDOMNodeId": 165
+      "backendDOMNodeId": 167
     },
     {
-      "nodeId": "24",
+      "nodeId": "23",
       "ignored": false,
       "role": {
         "type": "role",
@@ -412,12 +412,12 @@
           }
         }
       ],
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [],
-      "backendDOMNodeId": 24
+      "backendDOMNodeId": 23
     },
     {
-      "nodeId": "28",
+      "nodeId": "27",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -436,14 +436,14 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "34",
+      "parentId": "33",
       "childIds": [
-        "180"
+        "182"
       ],
-      "backendDOMNodeId": 28
+      "backendDOMNodeId": 27
     },
     {
-      "nodeId": "180",
+      "nodeId": "182",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -462,9 +462,9 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "28",
+      "parentId": "27",
       "childIds": [],
-      "backendDOMNodeId": 180
+      "backendDOMNodeId": 182
     },
     {
       "nodeId": "35",
@@ -491,7 +491,7 @@
         ]
       },
       "properties": [],
-      "parentId": "5",
+      "parentId": "34",
       "childIds": [
         "-1000000002"
       ],
@@ -635,13 +635,13 @@
       "parentId": "36",
       "childIds": [
         "61",
-        "6",
+        "5",
         "64"
       ],
       "backendDOMNodeId": 60
     },
     {
-      "nodeId": "10",
+      "nodeId": "9",
       "ignored": false,
       "role": {
         "type": "role",
@@ -710,7 +710,7 @@
         "68",
         "69"
       ],
-      "backendDOMNodeId": 10
+      "backendDOMNodeId": 9
     },
     {
       "nodeId": "71",
@@ -903,12 +903,13 @@
       "parentId": "4",
       "childIds": [
         "115",
-        "117"
+        "117",
+        "119"
       ],
       "backendDOMNodeId": 114
     },
     {
-      "nodeId": "166",
+      "nodeId": "168",
       "ignored": false,
       "role": {
         "type": "role",
@@ -933,14 +934,14 @@
         ]
       },
       "properties": [],
-      "parentId": "165",
+      "parentId": "167",
       "childIds": [
-        "167"
+        "169"
       ],
-      "backendDOMNodeId": 166
+      "backendDOMNodeId": 168
     },
     {
-      "nodeId": "168",
+      "nodeId": "170",
       "ignored": false,
       "role": {
         "type": "role",
@@ -969,14 +970,14 @@
         ]
       },
       "properties": [],
-      "parentId": "165",
+      "parentId": "167",
       "childIds": [
-        "169"
+        "171"
       ],
-      "backendDOMNodeId": 168
+      "backendDOMNodeId": 170
     },
     {
-      "nodeId": "171",
+      "nodeId": "173",
       "ignored": false,
       "role": {
         "type": "role",
@@ -1028,11 +1029,11 @@
           }
         }
       ],
-      "parentId": "165",
+      "parentId": "167",
       "childIds": [
-        "172"
+        "174"
       ],
-      "backendDOMNodeId": 171
+      "backendDOMNodeId": 173
     },
     {
       "nodeId": "-1000000002",
@@ -1186,7 +1187,7 @@
       "backendDOMNodeId": 61
     },
     {
-      "nodeId": "6",
+      "nodeId": "5",
       "ignored": false,
       "role": {
         "type": "role",
@@ -1291,9 +1292,9 @@
       ],
       "parentId": "60",
       "childIds": [
-        "7"
+        "6"
       ],
-      "backendDOMNodeId": 6
+      "backendDOMNodeId": 5
     },
     {
       "nodeId": "64",
@@ -1383,7 +1384,7 @@
         ]
       },
       "properties": [],
-      "parentId": "10",
+      "parentId": "9",
       "childIds": [
         "-1000000012"
       ],
@@ -1414,7 +1415,7 @@
         ]
       },
       "properties": [],
-      "parentId": "10",
+      "parentId": "9",
       "childIds": [
         "-1000000013"
       ],
@@ -1445,7 +1446,7 @@
         ]
       },
       "properties": [],
-      "parentId": "10",
+      "parentId": "9",
       "childIds": [
         "-1000000014"
       ],
@@ -1763,6 +1764,38 @@
       "ignored": false,
       "role": {
         "type": "role",
+        "value": "paragraph"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 133
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "114",
+      "childIds": [
+        "118"
+      ],
+      "backendDOMNodeId": 117
+    },
+    {
+      "nodeId": "119",
+      "ignored": false,
+      "role": {
+        "type": "role",
         "value": "form"
       },
       "chromeRole": {
@@ -1790,17 +1823,17 @@
       "properties": [],
       "parentId": "114",
       "childIds": [
-        "118",
-        "138",
-        "149",
-        "160",
-        "23",
-        "163"
+        "120",
+        "140",
+        "151",
+        "162",
+        "22",
+        "165"
       ],
-      "backendDOMNodeId": 117
+      "backendDOMNodeId": 119
     },
     {
-      "nodeId": "167",
+      "nodeId": "169",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -1824,14 +1857,14 @@
         ]
       },
       "properties": [],
-      "parentId": "166",
+      "parentId": "168",
       "childIds": [
-        "-1000000046"
+        "-1000000047"
       ],
-      "backendDOMNodeId": 167
+      "backendDOMNodeId": 169
     },
     {
-      "nodeId": "169",
+      "nodeId": "171",
       "ignored": false,
       "role": {
         "type": "role",
@@ -1883,14 +1916,14 @@
           }
         }
       ],
-      "parentId": "168",
+      "parentId": "170",
       "childIds": [
-        "170"
+        "172"
       ],
-      "backendDOMNodeId": 169
+      "backendDOMNodeId": 171
     },
     {
-      "nodeId": "172",
+      "nodeId": "174",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -1914,11 +1947,11 @@
         ]
       },
       "properties": [],
-      "parentId": "171",
+      "parentId": "173",
       "childIds": [
-        "-1000000048"
+        "-1000000049"
       ],
-      "backendDOMNodeId": 172
+      "backendDOMNodeId": 174
     },
     {
       "nodeId": "-1000000003",
@@ -2235,7 +2268,7 @@
       "backendDOMNodeId": 62
     },
     {
-      "nodeId": "7",
+      "nodeId": "6",
       "ignored": true,
       "ignoredReasons": [],
       "role": {
@@ -2246,11 +2279,11 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "6",
+      "parentId": "5",
       "childIds": [
         "63"
       ],
-      "backendDOMNodeId": 7
+      "backendDOMNodeId": 6
     },
     {
       "nodeId": "63",
@@ -2286,7 +2319,7 @@
           }
         }
       ],
-      "parentId": "7",
+      "parentId": "6",
       "childIds": [],
       "backendDOMNodeId": 63
     },
@@ -2647,6 +2680,37 @@
       "nodeId": "118",
       "ignored": false,
       "role": {
+        "type": "internalRole",
+        "value": "StaticText"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 158
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Họ tên, email, số điện thoại, địa chỉ và ô xác nhận là các mục bắt buộc.",
+        "sources": [
+          {
+            "type": "contents",
+            "value": {
+              "type": "computedString",
+              "value": "Họ tên, email, số điện thoại, địa chỉ và ô xác nhận là các mục bắt buộc."
+            }
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "117",
+      "childIds": [
+        "-1000000032"
+      ],
+      "backendDOMNodeId": 118
+    },
+    {
+      "nodeId": "120",
+      "ignored": false,
+      "role": {
         "type": "role",
         "value": "group"
       },
@@ -2677,7 +2741,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 119,
+                  "backendDOMNodeId": 121,
                   "text": "Thông tin người nhận"
                 }
               ]
@@ -2704,25 +2768,25 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 119,
+                "backendDOMNodeId": 121,
                 "text": "Thông tin người nhận"
               }
             ]
           }
         }
       ],
-      "parentId": "117",
+      "parentId": "119",
       "childIds": [
-        "119",
         "121",
-        "125",
-        "129",
-        "134"
+        "123",
+        "127",
+        "131",
+        "136"
       ],
-      "backendDOMNodeId": 118
+      "backendDOMNodeId": 120
     },
     {
-      "nodeId": "138",
+      "nodeId": "140",
       "ignored": false,
       "role": {
         "type": "role",
@@ -2755,7 +2819,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 139,
+                  "backendDOMNodeId": 141,
                   "text": "Hình thức nhận sách"
                 }
               ]
@@ -2782,23 +2846,23 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 139,
+                "backendDOMNodeId": 141,
                 "text": "Hình thức nhận sách"
               }
             ]
           }
         }
       ],
-      "parentId": "117",
+      "parentId": "119",
       "childIds": [
-        "139",
         "141",
-        "145"
+        "143",
+        "147"
       ],
-      "backendDOMNodeId": 138
+      "backendDOMNodeId": 140
     },
     {
-      "nodeId": "149",
+      "nodeId": "151",
       "ignored": false,
       "role": {
         "type": "role",
@@ -2831,7 +2895,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 150,
+                  "backendDOMNodeId": 152,
                   "text": "Thanh toán minh họa"
                 }
               ]
@@ -2858,23 +2922,23 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 150,
+                "backendDOMNodeId": 152,
                 "text": "Thanh toán minh họa"
               }
             ]
           }
         }
       ],
-      "parentId": "117",
+      "parentId": "119",
       "childIds": [
-        "150",
         "152",
-        "156"
+        "154",
+        "158"
       ],
-      "backendDOMNodeId": 149
+      "backendDOMNodeId": 151
     },
     {
-      "nodeId": "160",
+      "nodeId": "162",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -2893,15 +2957,15 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "117",
+      "parentId": "119",
       "childIds": [
-        "161",
-        "22"
+        "163",
+        "21"
       ],
-      "backendDOMNodeId": 160
+      "backendDOMNodeId": 162
     },
     {
-      "nodeId": "161",
+      "nodeId": "163",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -2910,7 +2974,7 @@
             "type": "idref",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 21,
+                "backendDOMNodeId": 20,
                 "idref": "dong-y"
               }
             ]
@@ -2925,15 +2989,15 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "160",
+      "parentId": "162",
       "childIds": [
-        "21",
-        "162"
+        "20",
+        "164"
       ],
-      "backendDOMNodeId": 161
+      "backendDOMNodeId": 163
     },
     {
-      "nodeId": "21",
+      "nodeId": "20",
       "ignored": false,
       "role": {
         "type": "role",
@@ -2966,7 +3030,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 161,
+                  "backendDOMNodeId": 163,
                   "text": " Tôi hiểu đây là biểu mẫu thực hành."
                 }
               ]
@@ -3012,7 +3076,7 @@
             "value": "loi-dong-y",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 22,
+                "backendDOMNodeId": 21,
                 "idref": "loi-dong-y"
               }
             ]
@@ -3024,19 +3088,19 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 161,
+                "backendDOMNodeId": 163,
                 "text": " Tôi hiểu đây là biểu mẫu thực hành."
               }
             ]
           }
         }
       ],
-      "parentId": "161",
+      "parentId": "163",
       "childIds": [],
-      "backendDOMNodeId": 21
+      "backendDOMNodeId": 20
     },
     {
-      "nodeId": "162",
+      "nodeId": "164",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -3055,12 +3119,12 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "161",
+      "parentId": "163",
       "childIds": [],
-      "backendDOMNodeId": 162
+      "backendDOMNodeId": 164
     },
     {
-      "nodeId": "22",
+      "nodeId": "21",
       "ignored": false,
       "role": {
         "type": "role",
@@ -3085,12 +3149,12 @@
         ]
       },
       "properties": [],
-      "parentId": "160",
+      "parentId": "162",
       "childIds": [],
-      "backendDOMNodeId": 22
+      "backendDOMNodeId": 21
     },
     {
-      "nodeId": "23",
+      "nodeId": "22",
       "ignored": false,
       "role": {
         "type": "role",
@@ -3141,12 +3205,12 @@
           }
         }
       ],
-      "parentId": "117",
+      "parentId": "119",
       "childIds": [],
-      "backendDOMNodeId": 23
+      "backendDOMNodeId": 22
     },
     {
-      "nodeId": "163",
+      "nodeId": "165",
       "ignored": false,
       "role": {
         "type": "role",
@@ -3202,14 +3266,14 @@
           }
         }
       ],
-      "parentId": "117",
+      "parentId": "119",
       "childIds": [
-        "164"
+        "166"
       ],
-      "backendDOMNodeId": 163
+      "backendDOMNodeId": 165
     },
     {
-      "nodeId": "-1000000046",
+      "nodeId": "-1000000047",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -3224,11 +3288,11 @@
         "value": "© 2026 Nhà sách Sao Mai · Dự án học tập, không đặt hàng thật"
       },
       "properties": [],
-      "parentId": "167",
+      "parentId": "169",
       "childIds": []
     },
     {
-      "nodeId": "170",
+      "nodeId": "172",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -3252,14 +3316,14 @@
         ]
       },
       "properties": [],
-      "parentId": "169",
+      "parentId": "171",
       "childIds": [
-        "-1000000047"
+        "-1000000048"
       ],
-      "backendDOMNodeId": 170
+      "backendDOMNodeId": 172
     },
     {
-      "nodeId": "-1000000048",
+      "nodeId": "-1000000049",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -3274,7 +3338,7 @@
         "value": "HTML Standard (tab mới)"
       },
       "properties": [],
-      "parentId": "172",
+      "parentId": "174",
       "childIds": []
     },
     {
@@ -3927,7 +3991,26 @@
       "childIds": []
     },
     {
-      "nodeId": "119",
+      "nodeId": "-1000000032",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Họ tên, email, số điện thoại, địa chỉ và ô xác nhận là các mục bắt buộc."
+      },
+      "properties": [],
+      "parentId": "118",
+      "childIds": []
+    },
+    {
+      "nodeId": "121",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -3956,14 +4039,14 @@
         ]
       },
       "properties": [],
-      "parentId": "118",
+      "parentId": "120",
       "childIds": [
-        "120"
+        "122"
       ],
-      "backendDOMNodeId": 119
+      "backendDOMNodeId": 121
     },
     {
-      "nodeId": "121",
+      "nodeId": "123",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -3982,16 +4065,16 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "118",
+      "parentId": "120",
       "childIds": [
-        "122",
-        "11",
-        "12"
+        "124",
+        "10",
+        "11"
       ],
-      "backendDOMNodeId": 121
+      "backendDOMNodeId": 123
     },
     {
-      "nodeId": "122",
+      "nodeId": "124",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -4020,14 +4103,14 @@
         ]
       },
       "properties": [],
-      "parentId": "121",
+      "parentId": "123",
       "childIds": [
-        "123"
+        "125"
       ],
-      "backendDOMNodeId": 122
+      "backendDOMNodeId": 124
     },
     {
-      "nodeId": "11",
+      "nodeId": "10",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4060,7 +4143,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 122,
+                  "backendDOMNodeId": 124,
                   "text": "Họ và tên"
                 }
               ]
@@ -4145,7 +4228,7 @@
             "value": "loi-ho-ten",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 12,
+                "backendDOMNodeId": 11,
                 "idref": "loi-ho-ten"
               }
             ]
@@ -4157,21 +4240,21 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 122,
+                "backendDOMNodeId": 124,
                 "text": "Họ và tên"
               }
             ]
           }
         }
       ],
-      "parentId": "121",
+      "parentId": "123",
       "childIds": [
-        "124"
+        "126"
       ],
-      "backendDOMNodeId": 11
+      "backendDOMNodeId": 10
     },
     {
-      "nodeId": "12",
+      "nodeId": "11",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4196,12 +4279,12 @@
         ]
       },
       "properties": [],
-      "parentId": "121",
+      "parentId": "123",
       "childIds": [],
-      "backendDOMNodeId": 12
+      "backendDOMNodeId": 11
     },
     {
-      "nodeId": "125",
+      "nodeId": "127",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -4220,16 +4303,16 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "118",
+      "parentId": "120",
       "childIds": [
-        "126",
-        "13",
-        "14"
+        "128",
+        "12",
+        "13"
       ],
-      "backendDOMNodeId": 125
+      "backendDOMNodeId": 127
     },
     {
-      "nodeId": "126",
+      "nodeId": "128",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -4258,14 +4341,14 @@
         ]
       },
       "properties": [],
-      "parentId": "125",
+      "parentId": "127",
       "childIds": [
-        "127"
+        "129"
       ],
-      "backendDOMNodeId": 126
+      "backendDOMNodeId": 128
     },
     {
-      "nodeId": "13",
+      "nodeId": "12",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4298,7 +4381,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 126,
+                  "backendDOMNodeId": 128,
                   "text": "Email"
                 }
               ]
@@ -4383,7 +4466,7 @@
             "value": "loi-email",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 14,
+                "backendDOMNodeId": 13,
                 "idref": "loi-email"
               }
             ]
@@ -4395,21 +4478,21 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 126,
+                "backendDOMNodeId": 128,
                 "text": "Email"
               }
             ]
           }
         }
       ],
-      "parentId": "125",
+      "parentId": "127",
       "childIds": [
-        "128"
+        "130"
       ],
-      "backendDOMNodeId": 13
+      "backendDOMNodeId": 12
     },
     {
-      "nodeId": "14",
+      "nodeId": "13",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4434,12 +4517,12 @@
         ]
       },
       "properties": [],
-      "parentId": "125",
+      "parentId": "127",
       "childIds": [],
-      "backendDOMNodeId": 14
+      "backendDOMNodeId": 13
     },
     {
-      "nodeId": "129",
+      "nodeId": "131",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -4458,17 +4541,17 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "118",
+      "parentId": "120",
       "childIds": [
-        "130",
+        "132",
+        "14",
         "15",
-        "16",
-        "17"
+        "16"
       ],
-      "backendDOMNodeId": 129
+      "backendDOMNodeId": 131
     },
     {
-      "nodeId": "130",
+      "nodeId": "132",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -4497,14 +4580,14 @@
         ]
       },
       "properties": [],
-      "parentId": "129",
+      "parentId": "131",
       "childIds": [
-        "131"
+        "133"
       ],
-      "backendDOMNodeId": 130
+      "backendDOMNodeId": 132
     },
     {
-      "nodeId": "15",
+      "nodeId": "14",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4537,7 +4620,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 130,
+                  "backendDOMNodeId": 132,
                   "text": "Số điện thoại"
                 }
               ]
@@ -4642,11 +4725,11 @@
             "value": "goi-y-tel loi-dien-thoai",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 16,
+                "backendDOMNodeId": 15,
                 "idref": "goi-y-tel"
               },
               {
-                "backendDOMNodeId": 17,
+                "backendDOMNodeId": 16,
                 "idref": "loi-dien-thoai"
               }
             ]
@@ -4658,16 +4741,48 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 130,
+                "backendDOMNodeId": 132,
                 "text": "Số điện thoại"
               }
             ]
           }
         }
       ],
-      "parentId": "129",
+      "parentId": "131",
       "childIds": [
-        "132"
+        "134"
+      ],
+      "backendDOMNodeId": 14
+    },
+    {
+      "nodeId": "15",
+      "ignored": false,
+      "role": {
+        "type": "role",
+        "value": "generic"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 88
+      },
+      "name": {
+        "type": "computedString",
+        "value": "",
+        "sources": [
+          {
+            "type": "relatedElement",
+            "attribute": "aria-labelledby"
+          },
+          {
+            "type": "attribute",
+            "attribute": "aria-label"
+          }
+        ]
+      },
+      "properties": [],
+      "parentId": "131",
+      "childIds": [
+        "135"
       ],
       "backendDOMNodeId": 15
     },
@@ -4697,44 +4812,12 @@
         ]
       },
       "properties": [],
-      "parentId": "129",
-      "childIds": [
-        "133"
-      ],
+      "parentId": "131",
+      "childIds": [],
       "backendDOMNodeId": 16
     },
     {
-      "nodeId": "17",
-      "ignored": false,
-      "role": {
-        "type": "role",
-        "value": "generic"
-      },
-      "chromeRole": {
-        "type": "internalRole",
-        "value": 88
-      },
-      "name": {
-        "type": "computedString",
-        "value": "",
-        "sources": [
-          {
-            "type": "relatedElement",
-            "attribute": "aria-labelledby"
-          },
-          {
-            "type": "attribute",
-            "attribute": "aria-label"
-          }
-        ]
-      },
-      "properties": [],
-      "parentId": "129",
-      "childIds": [],
-      "backendDOMNodeId": 17
-    },
-    {
-      "nodeId": "134",
+      "nodeId": "136",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -4753,16 +4836,16 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "118",
+      "parentId": "120",
       "childIds": [
-        "135",
-        "18",
-        "20"
+        "137",
+        "17",
+        "19"
       ],
-      "backendDOMNodeId": 134
+      "backendDOMNodeId": 136
     },
     {
-      "nodeId": "135",
+      "nodeId": "137",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -4791,14 +4874,14 @@
         ]
       },
       "properties": [],
-      "parentId": "134",
+      "parentId": "136",
       "childIds": [
-        "136"
+        "138"
       ],
-      "backendDOMNodeId": 135
+      "backendDOMNodeId": 137
     },
     {
-      "nodeId": "18",
+      "nodeId": "17",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4831,7 +4914,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 135,
+                  "backendDOMNodeId": 137,
                   "text": "Địa chỉ giao hàng"
                 }
               ]
@@ -4916,7 +4999,7 @@
             "value": "loi-dia-chi",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 20,
+                "backendDOMNodeId": 19,
                 "idref": "loi-dia-chi"
               }
             ]
@@ -4928,21 +5011,21 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 135,
+                "backendDOMNodeId": 137,
                 "text": "Địa chỉ giao hàng"
               }
             ]
           }
         }
       ],
-      "parentId": "134",
+      "parentId": "136",
       "childIds": [
-        "137"
+        "139"
       ],
-      "backendDOMNodeId": 18
+      "backendDOMNodeId": 17
     },
     {
-      "nodeId": "20",
+      "nodeId": "19",
       "ignored": false,
       "role": {
         "type": "role",
@@ -4967,12 +5050,12 @@
         ]
       },
       "properties": [],
-      "parentId": "134",
+      "parentId": "136",
       "childIds": [],
-      "backendDOMNodeId": 20
+      "backendDOMNodeId": 19
     },
     {
-      "nodeId": "139",
+      "nodeId": "141",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -5001,14 +5084,14 @@
         ]
       },
       "properties": [],
-      "parentId": "138",
+      "parentId": "140",
       "childIds": [
-        "140"
+        "142"
       ],
-      "backendDOMNodeId": 139
+      "backendDOMNodeId": 141
     },
     {
-      "nodeId": "141",
+      "nodeId": "143",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5027,14 +5110,14 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "138",
+      "parentId": "140",
       "childIds": [
-        "142"
+        "144"
       ],
-      "backendDOMNodeId": 141
+      "backendDOMNodeId": 143
     },
     {
-      "nodeId": "142",
+      "nodeId": "144",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5043,7 +5126,7 @@
             "type": "idref",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 143
+                "backendDOMNodeId": 145
               }
             ]
           }
@@ -5057,15 +5140,15 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "141",
+      "parentId": "143",
       "childIds": [
-        "143",
-        "144"
+        "145",
+        "146"
       ],
-      "backendDOMNodeId": 142
+      "backendDOMNodeId": 144
     },
     {
-      "nodeId": "143",
+      "nodeId": "145",
       "ignored": false,
       "role": {
         "type": "role",
@@ -5098,7 +5181,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 142,
+                  "backendDOMNodeId": 144,
                   "text": " Giao tận nơi"
                 }
               ]
@@ -5143,19 +5226,19 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 142,
+                "backendDOMNodeId": 144,
                 "text": " Giao tận nơi"
               }
             ]
           }
         }
       ],
-      "parentId": "142",
+      "parentId": "144",
       "childIds": [],
-      "backendDOMNodeId": 143
+      "backendDOMNodeId": 145
     },
     {
-      "nodeId": "144",
+      "nodeId": "146",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5174,12 +5257,12 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "142",
+      "parentId": "144",
       "childIds": [],
-      "backendDOMNodeId": 144
+      "backendDOMNodeId": 146
     },
     {
-      "nodeId": "145",
+      "nodeId": "147",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5198,14 +5281,14 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "138",
+      "parentId": "140",
       "childIds": [
-        "146"
+        "148"
       ],
-      "backendDOMNodeId": 145
+      "backendDOMNodeId": 147
     },
     {
-      "nodeId": "146",
+      "nodeId": "148",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5214,7 +5297,7 @@
             "type": "idref",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 147
+                "backendDOMNodeId": 149
               }
             ]
           }
@@ -5228,15 +5311,15 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "145",
+      "parentId": "147",
       "childIds": [
-        "147",
-        "148"
+        "149",
+        "150"
       ],
-      "backendDOMNodeId": 146
+      "backendDOMNodeId": 148
     },
     {
-      "nodeId": "147",
+      "nodeId": "149",
       "ignored": false,
       "role": {
         "type": "role",
@@ -5269,7 +5352,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 146,
+                  "backendDOMNodeId": 148,
                   "text": " Nhận tại cửa hàng"
                 }
               ]
@@ -5314,19 +5397,19 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 146,
+                "backendDOMNodeId": 148,
                 "text": " Nhận tại cửa hàng"
               }
             ]
           }
         }
       ],
-      "parentId": "146",
+      "parentId": "148",
       "childIds": [],
-      "backendDOMNodeId": 147
+      "backendDOMNodeId": 149
     },
     {
-      "nodeId": "148",
+      "nodeId": "150",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5345,12 +5428,12 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "146",
+      "parentId": "148",
       "childIds": [],
-      "backendDOMNodeId": 148
+      "backendDOMNodeId": 150
     },
     {
-      "nodeId": "150",
+      "nodeId": "152",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -5379,14 +5462,14 @@
         ]
       },
       "properties": [],
-      "parentId": "149",
+      "parentId": "151",
       "childIds": [
-        "151"
+        "153"
       ],
-      "backendDOMNodeId": 150
+      "backendDOMNodeId": 152
     },
     {
-      "nodeId": "152",
+      "nodeId": "154",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5405,14 +5488,14 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "149",
+      "parentId": "151",
       "childIds": [
-        "153"
+        "155"
       ],
-      "backendDOMNodeId": 152
+      "backendDOMNodeId": 154
     },
     {
-      "nodeId": "153",
+      "nodeId": "155",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5421,7 +5504,7 @@
             "type": "idref",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 154
+                "backendDOMNodeId": 156
               }
             ]
           }
@@ -5435,15 +5518,15 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "152",
+      "parentId": "154",
       "childIds": [
-        "154",
-        "155"
+        "156",
+        "157"
       ],
-      "backendDOMNodeId": 153
+      "backendDOMNodeId": 155
     },
     {
-      "nodeId": "154",
+      "nodeId": "156",
       "ignored": false,
       "role": {
         "type": "role",
@@ -5476,7 +5559,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 153,
+                  "backendDOMNodeId": 155,
                   "text": " Khi nhận hàng (mô phỏng)"
                 }
               ]
@@ -5521,19 +5604,19 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 153,
+                "backendDOMNodeId": 155,
                 "text": " Khi nhận hàng (mô phỏng)"
               }
             ]
           }
         }
       ],
-      "parentId": "153",
+      "parentId": "155",
       "childIds": [],
-      "backendDOMNodeId": 154
+      "backendDOMNodeId": 156
     },
     {
-      "nodeId": "155",
+      "nodeId": "157",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5552,12 +5635,12 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "153",
+      "parentId": "155",
       "childIds": [],
-      "backendDOMNodeId": 155
+      "backendDOMNodeId": 157
     },
     {
-      "nodeId": "156",
+      "nodeId": "158",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5576,14 +5659,14 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "149",
+      "parentId": "151",
       "childIds": [
-        "157"
+        "159"
       ],
-      "backendDOMNodeId": 156
+      "backendDOMNodeId": 158
     },
     {
-      "nodeId": "157",
+      "nodeId": "159",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5592,7 +5675,7 @@
             "type": "idref",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 158
+                "backendDOMNodeId": 160
               }
             ]
           }
@@ -5606,15 +5689,15 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "156",
+      "parentId": "158",
       "childIds": [
-        "158",
-        "159"
+        "160",
+        "161"
       ],
-      "backendDOMNodeId": 157
+      "backendDOMNodeId": 159
     },
     {
-      "nodeId": "158",
+      "nodeId": "160",
       "ignored": false,
       "role": {
         "type": "role",
@@ -5647,7 +5730,7 @@
               "type": "nodeList",
               "relatedNodes": [
                 {
-                  "backendDOMNodeId": 157,
+                  "backendDOMNodeId": 159,
                   "text": " Chuyển khoản (mô phỏng, không thu tiền)"
                 }
               ]
@@ -5692,19 +5775,19 @@
             "type": "nodeList",
             "relatedNodes": [
               {
-                "backendDOMNodeId": 157,
+                "backendDOMNodeId": 159,
                 "text": " Chuyển khoản (mô phỏng, không thu tiền)"
               }
             ]
           }
         }
       ],
-      "parentId": "157",
+      "parentId": "159",
       "childIds": [],
-      "backendDOMNodeId": 158
+      "backendDOMNodeId": 160
     },
     {
-      "nodeId": "159",
+      "nodeId": "161",
       "ignored": true,
       "ignoredReasons": [
         {
@@ -5723,12 +5806,12 @@
         "type": "internalRole",
         "value": 0
       },
-      "parentId": "157",
+      "parentId": "159",
       "childIds": [],
-      "backendDOMNodeId": 159
+      "backendDOMNodeId": 161
     },
     {
-      "nodeId": "164",
+      "nodeId": "166",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -5752,14 +5835,14 @@
         ]
       },
       "properties": [],
-      "parentId": "163",
+      "parentId": "165",
       "childIds": [
-        "-1000000045"
+        "-1000000046"
       ],
-      "backendDOMNodeId": 164
+      "backendDOMNodeId": 166
     },
     {
-      "nodeId": "-1000000047",
+      "nodeId": "-1000000048",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -5774,7 +5857,7 @@
         "value": "hotro@sachsaomai.example"
       },
       "properties": [],
-      "parentId": "170",
+      "parentId": "172",
       "childIds": []
     },
     {
@@ -6281,7 +6364,7 @@
       "backendDOMNodeId": 109
     },
     {
-      "nodeId": "120",
+      "nodeId": "122",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6305,14 +6388,14 @@
         ]
       },
       "properties": [],
-      "parentId": "119",
+      "parentId": "121",
       "childIds": [
-        "-1000000032"
+        "-1000000033"
       ],
-      "backendDOMNodeId": 120
+      "backendDOMNodeId": 122
     },
     {
-      "nodeId": "123",
+      "nodeId": "125",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6336,14 +6419,14 @@
         ]
       },
       "properties": [],
-      "parentId": "122",
+      "parentId": "124",
       "childIds": [
-        "-1000000033"
+        "-1000000034"
       ],
-      "backendDOMNodeId": 123
+      "backendDOMNodeId": 125
     },
     {
-      "nodeId": "124",
+      "nodeId": "126",
       "ignored": false,
       "role": {
         "type": "role",
@@ -6376,12 +6459,12 @@
           }
         }
       ],
-      "parentId": "11",
+      "parentId": "10",
       "childIds": [],
-      "backendDOMNodeId": 124
+      "backendDOMNodeId": 126
     },
     {
-      "nodeId": "127",
+      "nodeId": "129",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6405,14 +6488,14 @@
         ]
       },
       "properties": [],
-      "parentId": "126",
+      "parentId": "128",
       "childIds": [
-        "-1000000034"
+        "-1000000035"
       ],
-      "backendDOMNodeId": 127
+      "backendDOMNodeId": 129
     },
     {
-      "nodeId": "128",
+      "nodeId": "130",
       "ignored": false,
       "role": {
         "type": "role",
@@ -6445,12 +6528,12 @@
           }
         }
       ],
-      "parentId": "13",
+      "parentId": "12",
       "childIds": [],
-      "backendDOMNodeId": 128
+      "backendDOMNodeId": 130
     },
     {
-      "nodeId": "131",
+      "nodeId": "133",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6474,14 +6557,14 @@
         ]
       },
       "properties": [],
-      "parentId": "130",
+      "parentId": "132",
       "childIds": [
-        "-1000000035"
+        "-1000000036"
       ],
-      "backendDOMNodeId": 131
+      "backendDOMNodeId": 133
     },
     {
-      "nodeId": "132",
+      "nodeId": "134",
       "ignored": false,
       "role": {
         "type": "role",
@@ -6514,12 +6597,12 @@
           }
         }
       ],
-      "parentId": "15",
+      "parentId": "14",
       "childIds": [],
-      "backendDOMNodeId": 132
+      "backendDOMNodeId": 134
     },
     {
-      "nodeId": "133",
+      "nodeId": "135",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6543,14 +6626,14 @@
         ]
       },
       "properties": [],
-      "parentId": "16",
+      "parentId": "15",
       "childIds": [
-        "-1000000036"
+        "-1000000037"
       ],
-      "backendDOMNodeId": 133
+      "backendDOMNodeId": 135
     },
     {
-      "nodeId": "136",
+      "nodeId": "138",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6574,14 +6657,14 @@
         ]
       },
       "properties": [],
-      "parentId": "135",
+      "parentId": "137",
       "childIds": [
-        "-1000000037"
+        "-1000000038"
       ],
-      "backendDOMNodeId": 136
+      "backendDOMNodeId": 138
     },
     {
-      "nodeId": "137",
+      "nodeId": "139",
       "ignored": false,
       "role": {
         "type": "role",
@@ -6614,12 +6697,12 @@
           }
         }
       ],
-      "parentId": "18",
+      "parentId": "17",
       "childIds": [],
-      "backendDOMNodeId": 137
+      "backendDOMNodeId": 139
     },
     {
-      "nodeId": "140",
+      "nodeId": "142",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6643,14 +6726,14 @@
         ]
       },
       "properties": [],
-      "parentId": "139",
+      "parentId": "141",
       "childIds": [
-        "-1000000038"
+        "-1000000039"
       ],
-      "backendDOMNodeId": 140
+      "backendDOMNodeId": 142
     },
     {
-      "nodeId": "151",
+      "nodeId": "153",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6674,14 +6757,14 @@
         ]
       },
       "properties": [],
-      "parentId": "150",
+      "parentId": "152",
       "childIds": [
-        "-1000000041"
+        "-1000000042"
       ],
-      "backendDOMNodeId": 151
+      "backendDOMNodeId": 153
     },
     {
-      "nodeId": "-1000000045",
+      "nodeId": "-1000000046",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -6696,7 +6779,7 @@
         "value": "Xác nhận minh họa"
       },
       "properties": [],
-      "parentId": "164",
+      "parentId": "166",
       "childIds": []
     },
     {
@@ -7296,7 +7379,7 @@
       "backendDOMNodeId": 112
     },
     {
-      "nodeId": "-1000000032",
+      "nodeId": "-1000000033",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -7311,26 +7394,7 @@
         "value": "Thông tin người nhận"
       },
       "properties": [],
-      "parentId": "120",
-      "childIds": []
-    },
-    {
-      "nodeId": "-1000000033",
-      "ignored": false,
-      "role": {
-        "type": "internalRole",
-        "value": "InlineTextBox"
-      },
-      "chromeRole": {
-        "type": "internalRole",
-        "value": 101
-      },
-      "name": {
-        "type": "computedString",
-        "value": "Họ và tên"
-      },
-      "properties": [],
-      "parentId": "123",
+      "parentId": "122",
       "childIds": []
     },
     {
@@ -7346,10 +7410,10 @@
       },
       "name": {
         "type": "computedString",
-        "value": "Email"
+        "value": "Họ và tên"
       },
       "properties": [],
-      "parentId": "127",
+      "parentId": "125",
       "childIds": []
     },
     {
@@ -7365,10 +7429,10 @@
       },
       "name": {
         "type": "computedString",
-        "value": "Số điện thoại"
+        "value": "Email"
       },
       "properties": [],
-      "parentId": "131",
+      "parentId": "129",
       "childIds": []
     },
     {
@@ -7384,7 +7448,7 @@
       },
       "name": {
         "type": "computedString",
-        "value": "Ví dụ: 0912345678 hoặc +84912345678"
+        "value": "Số điện thoại"
       },
       "properties": [],
       "parentId": "133",
@@ -7403,10 +7467,10 @@
       },
       "name": {
         "type": "computedString",
-        "value": "Địa chỉ giao hàng"
+        "value": "Ví dụ: 0912345678 hoặc +84912345678"
       },
       "properties": [],
-      "parentId": "136",
+      "parentId": "135",
       "childIds": []
     },
     {
@@ -7422,14 +7486,33 @@
       },
       "name": {
         "type": "computedString",
-        "value": "Hình thức nhận sách"
+        "value": "Địa chỉ giao hàng"
       },
       "properties": [],
-      "parentId": "140",
+      "parentId": "138",
       "childIds": []
     },
     {
-      "nodeId": "-1000000041",
+      "nodeId": "-1000000039",
+      "ignored": false,
+      "role": {
+        "type": "internalRole",
+        "value": "InlineTextBox"
+      },
+      "chromeRole": {
+        "type": "internalRole",
+        "value": 101
+      },
+      "name": {
+        "type": "computedString",
+        "value": "Hình thức nhận sách"
+      },
+      "properties": [],
+      "parentId": "142",
+      "childIds": []
+    },
+    {
+      "nodeId": "-1000000042",
       "ignored": false,
       "role": {
         "type": "internalRole",
@@ -7444,7 +7527,7 @@
         "value": "Thanh toán minh họa"
       },
       "properties": [],
-      "parentId": "151",
+      "parentId": "153",
       "childIds": []
     },
     {
