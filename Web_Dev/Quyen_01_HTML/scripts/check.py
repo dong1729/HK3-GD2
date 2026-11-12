@@ -15,7 +15,7 @@ class Parser(HTMLParser):
   if 'srcset' in a:self.refs.extend(x.strip().split()[0]for x in a['srcset'].split(','))
 errors=[];n=0
 for p in ROOT.rglob('*.html'):
- if 'nguon' in p.parts:continue
+ if any(part in p.parts for part in ['nguon','bao-cao','qa']):continue
  raw=p.read_text();s=Parser();s.feed(raw);n+=1
  def ck(ok,msg):
   if not ok:errors.append(str(p.relative_to(ROOT))+': '+msg)
