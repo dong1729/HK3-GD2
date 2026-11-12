@@ -1,15 +1,23 @@
 # Bài tập chương 11
 
-## Cơ bản
+## Bài cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em chọn trang chi tiết sách và lập bản đồ các khối nhận diện, ảnh, thông số, mô tả, giá và mua sách. Bảng đối chiếu năm câu hỏi mục 11.2 được ghi trong trang HTML và phần giải thích bên dưới.
 
-## Trung bình
+Lời giải: [co-ban.html](co-ban.html).
 
-Mở [trung-binh.html](trung-binh.html) bằng máy chủ thực hành; mã nằm trong cùng tệp hoặc module được tham chiếu.
+## Bài trung bình
 
-## Nâng cao — Ticket Q1-11
+Trang chủ và danh mục được dựng từ cùng khung.html và head.html. Bảng đối chiếu phân biệt phần dùng chung với main riêng; title/canonical và aria-current cần đổi đúng theo trang, không được sao chép y nguyên các giá trị đó.
 
-[Mở lời giải trong dự án](../du-an/trang-chu.html). bao-cao/BAN_DO_NOI_DUNG.md mô tả sáu trang. Build từ khung duy nhất. Chạy W3C, kiểm tĩnh, công cụ tự động và bàn phím. bao-cao/NGHIEM_THU.md chỉ ghi bằng chứng đã có; peer review và trình đọc màn hình chưa được xác nhận thì để mở.
+Lời giải: [trung-binh.html](trung-binh.html).
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## Bài nâng cao Q1-11
+
+Xem [lời giải và đối chiếu yêu cầu](NANG_CAO.md). Em gộp các phần nâng cao vào một nhà sách để các chương nối tiếp nhau.
+
+## Em kiểm lại như sau
+
+1. Đọc bản đồ sáu trang rồi mở từng trang đối chiếu main.
+2. Dựng lại, kiểm HTML, tài nguyên và metadata; xem báo cáo thật.
+3. Đi bằng phím, nghe một trang và nhờ bạn cùng lớp đánh giá chéo trước khi chốt toàn bộ bảng nghiệm thu.

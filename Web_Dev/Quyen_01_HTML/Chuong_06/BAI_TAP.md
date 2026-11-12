@@ -1,15 +1,23 @@
 # Bài tập chương 6
 
-## Cơ bản
+## Bài cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em dùng ba thẻ img cho bìa sách, hoa văn và biểu tượng giỏ. Bìa có alt mô tả; hai ảnh còn lại có alt rỗng vì chỉ trang trí hoặc đã có chữ đi kèm. Cả ba đều ghi kích thước đúng tỉ lệ.
 
-## Trung bình
+Lời giải: [co-ban.html](co-ban.html).
 
-Mở [trung-binh.html](trung-binh.html) bằng máy chủ thực hành; mã nằm trong cùng tệp hoặc module được tham chiếu.
+## Bài trung bình
 
-## Nâng cao — Ticket Q1-06
+Em dùng ảnh minh họa tự tạo rộng 2400px vì đề trên web không cung cấp tệp ảnh chụp để tải. Ba bản 400/800/1200px nằm trong du-an/assets. Trang dùng lưới hai cột, chuyển một cột khi rộng không quá 640px; sizes có giới hạn 590px ở màn hình lớn. Nếu được cấp ảnh chụp gốc, thay bộ ảnh này rồi giữ cùng cách xuất và khai báo.
 
-[Mở lời giải trong dự án](../du-an/chi-tiet.html). Bốn bộ ảnh tự tạo rộng 400/800/1200, AVIF/WebP/JPEG; ảnh gốc 2400 cho bài responsive. picture/sizes, width/height, alt, LCP ưu tiên, ảnh dưới lazy. Video MP4/WebM + track vi; bản đồ iframe có title/lazy/sandbox.
+Lời giải: [trung-binh.html](trung-binh.html).
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## Bài nâng cao Q1-06
+
+Xem [lời giải và đối chiếu yêu cầu](NANG_CAO.md). Em gộp các phần nâng cao vào một nhà sách để các chương nối tiếp nhau.
+
+## Em kiểm lại như sau
+
+1. Mở bài trung bình ở 390px và 1280px, đối chiếu ảnh với sizes.
+2. Mở chi tiết sách, kiểm nguồn picture, ảnh không bị méo và bật captions của video.
+3. Đối chiếu báo cáo CLS sáu trang; kiểm lại alt bằng trình đọc màn hình.

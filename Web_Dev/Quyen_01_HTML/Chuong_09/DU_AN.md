@@ -1,13 +1,29 @@
-# Mốc dự án chương 9
+# Dự án chương 9 — SEO kỹ thuật
 
-URL chữ thường không dấu/đuôi/slash cuối. robots/sitemap, metadata riêng, OG/Twitter, Book+Product/Offer và BreadcrumbList. Hai bản dịch en/catalog và en/book có hreflang đối xứng. Canonical .example là địa chỉ dự kiến, chưa chứng minh index/rich result.
+Em tiếp tục cùng dự án Nhà sách Sao Mai sáu trang. Phần việc chương này nằm ở các tệp sau:
 
-## Tệp và cách chạy
+- [Metadata Book tối thiểu](co-ban.html)
+- [Khảo sát schema ba trang](../bao-cao/KHAO_SAT_WEB.md)
+- [Mẫu head](../nguon/head.html)
+- [Metadata từng trang](../nguon/pages.json)
+- [Robots](../du-an/robots.txt)
+- [Sitemap](../du-an/sitemap.xml)
 
-Nguồn ở ../nguon, bản dựng ở ../du-an, dựng lại bằng python3 scripts/build.py từ thư mục Quyển 1. Mỗi chương đóng góp vào cùng nhà sách sáu trang thay vì 11 website rời; đối chiếu các tệp và tiêu chí ở báo cáo nghiệm thu.
+## Cách em thực hiện
 
-## Bằng chứng
+1. Xem nguồn head của sáu trang và so sánh title/description/canonical.
+2. Mở VI/EN để đối chiếu ngôn ngữ và hreflang.
+3. Khi có tên miền công khai, thay SITE_URL rồi dùng Rich Results Test/Schema Markup Validator và kiểm Google sau khi crawl.
 
-[Kiểm định](../bao-cao/NGHIEM_THU.md), [quy ước](../bao-cao/QUY_UOC.md), [bản đồ](../bao-cao/BAN_DO_NOI_DUNG.md). Ảnh và kết quả trong bao-cao là từ bản thực tế; không tạo ảnh giả cho validator/Lighthouse.
+## Đối chiếu mốc dự án
 
-Tiến độ đọc chính thức do LMS ghi theo thời gian thực; phần này không thay bộ đếm hoặc đánh dấu đã đọc thay người học.
+| Phần việc | Kết quả/việc cần kiểm thêm |
+|---|---|
+| Metadata riêng | title/description/canonical riêng; trang chi tiết công khai index,follow. |
+| Chia sẻ | OG/Twitter có ảnh 1200×630 và mô tả; ảnh nằm trong assets. |
+| Book/Product | name, author, image, offers khớp dữ liệu trang; BreadcrumbList cho đường dẫn phân cấp. |
+| Ngôn ngữ | VI/EN danh mục và chi tiết có hreflang qua lại, không trỏ trang dịch rỗng. |
+| Ảnh và hiệu năng | Ảnh LCP có kích thước/high; ảnh dưới lazy; báo cáo lab tách khỏi field data. |
+| Kiểm trên dịch vụ thật | Chưa triển khai tên miền thật; index Google, preview và Rich Results/Schema Validator còn cần kiểm, không đánh dấu đạt giả. |
+
+Bản đồ chung: [BAN_DO_NOI_DUNG.md](../bao-cao/BAN_DO_NOI_DUNG.md). Kết quả: [NGHIEM_THU.md](../bao-cao/NGHIEM_THU.md). Phần giao tiếp với người khác và kiểm triển khai chưa thực hiện thì em không ghi hoàn tất.

@@ -1,13 +1,28 @@
-# Mốc dự án chương 8
+# Dự án chương 8 — Khả năng truy cập
 
-Khung semantic, skip link/focus, logo alt rỗng cạnh chữ, nút có tên, filter aria-expanded, Esc đóng/trả focus, live region polite báo thêm giỏ. dialog modal quản lý nền/focus.
+Em tiếp tục cùng dự án Nhà sách Sao Mai sáu trang. Phần việc chương này nằm ở các tệp sau:
 
-## Tệp và cách chạy
+- [Sửa nút và nhãn](co-ban.html)
+- [Khảo sát ba website](../bao-cao/BAN_PHIM.md)
+- [Khung landmark và skip link](../nguon/khung.html)
+- [Bộ lọc, giỏ và dialog](../du-an/assets/ui.js)
+- [Kiểu focus](../du-an/assets/site.css)
 
-Nguồn ở ../nguon, bản dựng ở ../du-an, dựng lại bằng python3 scripts/build.py từ thư mục Quyển 1. Mỗi chương đóng góp vào cùng nhà sách sáu trang thay vì 11 website rời; đối chiếu các tệp và tiêu chí ở báo cáo nghiệm thu.
+## Cách em thực hiện
 
-## Bằng chứng
+1. Bấm Tab đầu trang rồi Enter để vào main.
+2. Mở bộ lọc bằng Enter, chọn nội dung, nhấn Esc và kiểm vị trí focus.
+3. Thêm giỏ, mở xem nhanh, thử Tab/Shift+Tab/Esc; kiểm live bằng trình đọc màn hình.
 
-[Kiểm định](../bao-cao/NGHIEM_THU.md), [quy ước](../bao-cao/QUY_UOC.md), [bản đồ](../bao-cao/BAN_DO_NOI_DUNG.md). Ảnh và kết quả trong bao-cao là từ bản thực tế; không tạo ảnh giả cho validator/Lighthouse.
+## Đối chiếu mốc dự án
 
-Tiến độ đọc chính thức do LMS ghi theo thời gian thực; phần này không thay bộ đếm hoặc đánh dấu đã đọc thay người học.
+| Phần việc | Kết quả/việc cần kiểm thêm |
+|---|---|
+| Bỏ qua điều hướng | Skip link đầu trang trỏ main tabindex=-1; landmark dùng HTML gốc. |
+| Tên ảnh và nút | Logo không lặp chữ, nút biểu tượng có tên và form có label. |
+| Bộ lọc | Mở/đóng bằng phím; aria-expanded đổi đúng; Esc đóng và trả focus. |
+| Giỏ hàng | Vùng polite báo thêm hàng; không tự kéo focus ra khỏi nút đang thao tác. |
+| Hộp thoại | showModal, Tab/Shift+Tab trong hộp; Esc đóng rồi trả focus, nền không tương tác. |
+| Báo cáo A/AA | axe và Lighthouse có báo cáo sáu trang; không suy rộng thành đạt mọi tiêu chí WCAG hoặc đã nghe VoiceOver. |
+
+Bản đồ chung: [BAN_DO_NOI_DUNG.md](../bao-cao/BAN_DO_NOI_DUNG.md). Kết quả: [NGHIEM_THU.md](../bao-cao/NGHIEM_THU.md). Phần giao tiếp với người khác và kiểm triển khai chưa thực hiện thì em không ghi hoàn tất.

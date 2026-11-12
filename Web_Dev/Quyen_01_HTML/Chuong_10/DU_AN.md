@@ -1,13 +1,29 @@
-# Mốc dự án chương 10
+# Dự án chương 10 — HTML hiện đại và API mở rộng
 
-nguon/khuon.html chứa sm-card/sm-row/sm-review; cards.js dùng cloneNode, dataset và textContent. Khung có dialog aria-labelledby/form method=dialog, details/summary, popover tự đóng; ui.js defer, cards.js module, inert lúc tải khuôn.
+Em tiếp tục cùng dự án Nhà sách Sao Mai sáu trang. Phần việc chương này nằm ở các tệp sau:
 
-## Tệp và cách chạy
+- [Details không cần JS](co-ban.html)
+- [Bốn thẻ từ khuôn](trung-binh.html)
+- [Khuôn thẻ/dòng giỏ/đánh giá](../nguon/khuon.html)
+- [Module nạp và clone khuôn](../du-an/assets/cards.js)
+- [Dialog/popover dùng chung](../nguon/lop-noi.html)
+- [Đóng và quản lý focus](../du-an/assets/ui.js)
 
-Nguồn ở ../nguon, bản dựng ở ../du-an, dựng lại bằng python3 scripts/build.py từ thư mục Quyển 1. Mỗi chương đóng góp vào cùng nhà sách sáu trang thay vì 11 website rời; đối chiếu các tệp và tiêu chí ở báo cáo nghiệm thu.
+## Cách em thực hiện
 
-## Bằng chứng
+1. Mở bài trung bình, kiểm đủ bốn thẻ và giá từng thẻ.
+2. Mở Xem nhanh bằng Enter, Tab và Shift+Tab nhiều lần rồi Esc.
+3. Mở giỏ nổi rồi Esc; tắt JS và thử details.
 
-[Kiểm định](../bao-cao/NGHIEM_THU.md), [quy ước](../bao-cao/QUY_UOC.md), [bản đồ](../bao-cao/BAN_DO_NOI_DUNG.md). Ảnh và kết quả trong bao-cao là từ bản thực tế; không tạo ảnh giả cho validator/Lighthouse.
+## Đối chiếu mốc dự án
 
-Tiến độ đọc chính thức do LMS ghi theo thời gian thực; phần này không thay bộ đếm hoặc đánh dấu đã đọc thay người học.
+| Phần việc | Kết quả/việc cần kiểm thêm |
+|---|---|
+| Khuôn dùng chung | sm-card, sm-row, sm-review trong khuon.html; quy ước data-sm ghi trong QUY_UOC.md. |
+| Dialog gốc | showModal, aria-labelledby, form method=dialog; không div giả modal. |
+| Bàn phím | Tab/Shift+Tab ở trong dialog, Esc đóng dialog/popover và dialog trả focus. |
+| Nội dung gấp mở | details/summary hoạt động bằng HTML; mô tả chi tiết không phụ thuộc JS. |
+| Nạp mã | ui.js defer, cards.js module; giỏ inert và aria-busy khi tải, được mở lại trong finally. |
+| Đúng chuẩn | Sáu trang có kết quả W3C; kiểm tương tác và ảnh màn hình lưu trong báo cáo. |
+
+Bản đồ chung: [BAN_DO_NOI_DUNG.md](../bao-cao/BAN_DO_NOI_DUNG.md). Kết quả: [NGHIEM_THU.md](../bao-cao/NGHIEM_THU.md). Phần giao tiếp với người khác và kiểm triển khai chưa thực hiện thì em không ghi hoàn tất.

@@ -1,15 +1,23 @@
 # Bài tập chương 9
 
-## Cơ bản
+## Bài cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em thay title chung bằng tên sách và nhà sách, thêm description, canonical và JSON-LD Book có name/author/image/offers khớp dữ liệu minh họa. Địa chỉ .example là ví dụ, không phải trang đã được Google lập chỉ mục.
 
-## Trung bình
+Lời giải: [co-ban.html](co-ban.html).
 
-Xem [khảo sát web](../bao-cao/KHAO_SAT_WEB.md) và [khảo sát bàn phím/công cụ](../bao-cao/BAN_PHIM.md). HTML nguồn khác DOM chạy thật; chỗ chưa kiểm không ghi đạt.
+## Bài trung bình
 
-## Nâng cao — Ticket Q1-09
+Bảng khảo sát ở KHAO_SAT_WEB.md ghi loại schema, ảnh/offers và lỗi quan sát trong nguồn của ba trang. Phần mở từng trang trong Rich Results Test và Schema Markup Validator chưa có bằng chứng giao diện, nên chưa coi bài khảo sát công cụ này hoàn tất.
 
-[Mở lời giải trong dự án](../du-an/chi-tiet.html). URL chữ thường không dấu/đuôi/slash cuối. robots/sitemap, metadata riêng, OG/Twitter, Book+Product/Offer và BreadcrumbList. Hai bản dịch en/catalog và en/book có hreflang đối xứng. Canonical .example là địa chỉ dự kiến, chưa chứng minh index/rich result.
+Lời giải: [báo cáo khảo sát](../bao-cao/KHAO_SAT_WEB.md).
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## Bài nâng cao Q1-09
+
+Xem [lời giải và đối chiếu yêu cầu](NANG_CAO.md). Em gộp các phần nâng cao vào một nhà sách để các chương nối tiếp nhau.
+
+## Em kiểm lại như sau
+
+1. Xem nguồn head của sáu trang và so sánh title/description/canonical.
+2. Mở VI/EN để đối chiếu ngôn ngữ và hreflang.
+3. Khi có tên miền công khai, thay SITE_URL rồi dùng Rich Results Test/Schema Markup Validator và kiểm Google sau khi crawl.

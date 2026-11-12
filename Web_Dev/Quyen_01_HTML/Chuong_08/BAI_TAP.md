@@ -1,15 +1,23 @@
 # Bài tập chương 8
 
-## Cơ bản
+## Bài cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em thay div giả nút bằng button type=button, thêm label cho ô tìm kiếm và một vùng status có sẵn để thông báo thao tác. Nút gốc dùng được bằng Enter/Space; nhãn giúp người dùng biết ô nhập cần gì.
 
-## Trung bình
+Lời giải: [co-ban.html](co-ban.html).
 
-Xem [khảo sát web](../bao-cao/KHAO_SAT_WEB.md) và [khảo sát bàn phím/công cụ](../bao-cao/BAN_PHIM.md). HTML nguồn khác DOM chạy thật; chỗ chưa kiểm không ghi đạt.
+## Bài trung bình
 
-## Nâng cao — Ticket Q1-08
+Em dùng báo cáo ba trang bán sách đã khảo sát bằng Chromium, Lighthouse và axe. Tệp BAN_PHIM.md có chuỗi Tab và lỗi công cụ. Một vòng Tab quay lại điểm đầu chưa phải bẫy; các nhận xét mất focus hoặc nghe sai chưa được xác nhận thủ công thì em để rõ là cần kiểm tiếp.
 
-[Mở lời giải trong dự án](../du-an/danh-muc.html). Khung semantic, skip link/focus, logo alt rỗng cạnh chữ, nút có tên, filter aria-expanded, Esc đóng/trả focus, live region polite báo thêm giỏ. dialog modal quản lý nền/focus.
+Lời giải: [báo cáo khảo sát](../bao-cao/KHAO_SAT_WEB.md).
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## Bài nâng cao Q1-08
+
+Xem [lời giải và đối chiếu yêu cầu](NANG_CAO.md). Em gộp các phần nâng cao vào một nhà sách để các chương nối tiếp nhau.
+
+## Em kiểm lại như sau
+
+1. Bấm Tab đầu trang rồi Enter để vào main.
+2. Mở bộ lọc bằng Enter, chọn nội dung, nhấn Esc và kiểm vị trí focus.
+3. Thêm giỏ, mở xem nhanh, thử Tab/Shift+Tab/Esc; kiểm live bằng trình đọc màn hình.

@@ -24,7 +24,7 @@ Art direction thay cách cắt/bố cục ảnh, như banner ngang cắt trung t
 
 ## 6. Ba tiêu chí chọn định dạng ảnh?
 
-Cân chất lượng, dung lượng, hỗ trợ: JPEG ảnh chụp dự phòng; PNG lossless/alpha; WebP/AVIF nén hiện đại; SVG vector/icon.
+Ba nhóm tiêu chí trong chương là cách nén, khả năng trong suốt/vector và mức hỗ trợ trình duyệt. JPEG nén mất dữ liệu, hợp ảnh chụp dự phòng; PNG nén không mất dữ liệu và có alpha, hợp hình nét/ảnh cần trong suốt; WebP/AVIF thường giảm dung lượng ảnh web, cần cân tương thích và chi phí mã hóa; SVG là vector, hợp logo/icon phóng lớn. Không mặc định AVIF luôn nhỏ nhất cho mọi tệp.
 
 ## 7. Autoplay, muted và captions?
 

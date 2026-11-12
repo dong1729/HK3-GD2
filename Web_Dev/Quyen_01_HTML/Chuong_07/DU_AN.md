@@ -1,13 +1,29 @@
-# Mốc dự án chương 7
+# Dự án chương 7 — Biểu mẫu chuyên sâu
 
-Tìm kiếm GET; thanh toán POST, fieldset/legend, nhãn, autocomplete, inputmode, enterkeyhint, required/pattern/min/max/minlength. ui.js hiện lỗi chữ/màu, aria-describedby và setCustomValidity xóa lỗi khi hợp lệ. Máy chủ kiểm dữ liệu mẫu, không lưu.
+Em tiếp tục cùng dự án Nhà sách Sao Mai sáu trang. Phần việc chương này nằm ở các tệp sau:
 
-## Tệp và cách chạy
+- [Form liên hệ](co-ban.html)
+- [Mật khẩu và Lưu nháp](trung-binh.html)
+- [Thanh toán](../nguon/noi-dung/thanh-toan.html)
+- [Kiểm lỗi phía trình duyệt](../du-an/assets/ui.js)
+- [Máy chủ thực hành](../scripts/serve.py)
 
-Nguồn ở ../nguon, bản dựng ở ../du-an, dựng lại bằng python3 scripts/build.py từ thư mục Quyển 1. Mỗi chương đóng góp vào cùng nhà sách sáu trang thay vì 11 website rời; đối chiếu các tệp và tiêu chí ở báo cáo nghiệm thu.
+## Cách em thực hiện
 
-## Bằng chứng
+1. Thử sai rồi đúng ở bài đăng ký, bấm Lưu nháp khi còn lỗi.
+2. Thử form thanh toán với điện thoại và địa chỉ sai rồi sửa lại.
+3. Đi bằng Tab qua nhóm radio, thử Space/chọn mũi tên và đọc các nhãn.
 
-[Kiểm định](../bao-cao/NGHIEM_THU.md), [quy ước](../bao-cao/QUY_UOC.md), [bản đồ](../bao-cao/BAN_DO_NOI_DUNG.md). Ảnh và kết quả trong bao-cao là từ bản thực tế; không tạo ảnh giả cho validator/Lighthouse.
+## Đối chiếu mốc dự án
 
-Tiến độ đọc chính thức do LMS ghi theo thời gian thực; phần này không thay bộ đếm hoặc đánh dấu đã đọc thay người học.
+| Phần việc | Kết quả/việc cần kiểm thêm |
+|---|---|
+| Gửi dữ liệu | Tìm kiếm GET, thanh toán POST với action rõ; bài này không tải tệp nên không cần multipart. |
+| Nhãn và nhóm trường | Label tường minh; ba fieldset: người nhận, nhận sách, thanh toán; radio cùng name. |
+| Nhập nhanh | autocomplete name/email/tel/street-address; inputmode/enterkeyhint phù hợp. |
+| Số điện thoại và ràng buộc | tel có pattern/title; required, min/max, minlength dùng nơi có ý nghĩa. |
+| Lỗi đọc được | Có chữ cùng màu, aria-describedby và vùng thông báo; customError được xóa khi sửa đúng. |
+| Thẻ thanh toán | Chọn COD trong bài mẫu, không thu số thẻ; vì vậy không thêm trường cc-number vô ích. |
+| Kiểm chuẩn và bàn phím | W3C và kiểm tự động có bằng chứng; phần nghe thực tế bằng trình đọc màn hình còn cần thực hiện. |
+
+Bản đồ chung: [BAN_DO_NOI_DUNG.md](../bao-cao/BAN_DO_NOI_DUNG.md). Kết quả: [NGHIEM_THU.md](../bao-cao/NGHIEM_THU.md). Phần giao tiếp với người khác và kiểm triển khai chưa thực hiện thì em không ghi hoàn tất.

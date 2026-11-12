@@ -6,7 +6,8 @@ SITE=os.environ.get('SITE_URL','https://sachsaomai.example').rstrip('/')
 def esc(v): return html.escape(str(v),quote=True)
 pages=json.loads((ROOT/'nguon/pages.json').read_text())
 head=Template((ROOT/'nguon/head.html').read_text())
-frame=Template((ROOT/'nguon/khung.html').read_text())
+# Chèn lớp nổi dùng chung trước khi thay các giá trị ngôn ngữ.
+frame=Template((ROOT/'nguon/khung.html').read_text().replace('$layers',(ROOT/'nguon/lop-noi.html').read_text()))
 menu=[('trang-chu','Trang chủ','Home'),('danh-muc','Danh mục','Catalog'),('chi-tiet','Chi tiết sách','Book details'),('gio-hang','Giỏ hàng','Cart'),('thanh-toan','Thanh toán','Checkout'),('lien-he','Liên hệ','Contact')]
 for slug,p in pages.items():
  lang=p.get('lang','vi');en=lang=='en';url=SITE+'/du-an/'+slug

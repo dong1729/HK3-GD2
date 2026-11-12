@@ -1,15 +1,23 @@
 # Bài tập chương 10
 
-## Cơ bản
+## Bài cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em dùng details open và summary “Mô tả chi tiết”. Trình duyệt tự quản lý trạng thái mở/đóng nên không cần script.
 
-## Trung bình
+Lời giải: [co-ban.html](co-ban.html).
 
-Mở [trung-binh.html](trung-binh.html) bằng máy chủ thực hành; mã nằm trong cùng tệp hoặc module được tham chiếu.
+## Bài trung bình
 
-## Nâng cao — Ticket Q1-10
+Một template thẻ sách được clone để dựng ba sách từ dữ liệu, sau đó thêm sách thứ tư theo cùng cách. Mã và giá nằm ở data-sm-book-id/data-sm-price, phần chữ được điền bằng textContent; không dán lặp markup.
 
-[Mở lời giải trong dự án](../du-an/chi-tiet.html). nguon/khuon.html chứa sm-card/sm-row/sm-review; cards.js dùng cloneNode, dataset và textContent. Khung có dialog aria-labelledby/form method=dialog, details/summary, popover tự đóng; ui.js defer, cards.js module, inert lúc tải khuôn.
+Lời giải: [trung-binh.html](trung-binh.html).
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## Bài nâng cao Q1-10
+
+Xem [lời giải và đối chiếu yêu cầu](NANG_CAO.md). Em gộp các phần nâng cao vào một nhà sách để các chương nối tiếp nhau.
+
+## Em kiểm lại như sau
+
+1. Mở bài trung bình, kiểm đủ bốn thẻ và giá từng thẻ.
+2. Mở Xem nhanh bằng Enter, Tab và Shift+Tab nhiều lần rồi Esc.
+3. Mở giỏ nổi rồi Esc; tắt JS và thử details.

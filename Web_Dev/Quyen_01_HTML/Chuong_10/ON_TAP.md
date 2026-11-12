@@ -30,6 +30,16 @@ data-sm-book-id → dataset.smBookId. Tên thường/gạch nối; DOM ai cũng 
 
 Classic chặn parser tải/chạy; defer tải song song, chạy theo thứ tự sau parse; async chạy khi tải xong không giữ thứ tự; module trì hoãn mặc định và theo đồ thị phụ thuộc.
 
+```text
+Classic: HTML ─ gặp script ─ tải + chạy ─ tiếp tục HTML
+Defer:   HTML ───────────────── xong ─ chạy A ─ chạy B
+         tải A/B song song với HTML, giữ thứ tự defer
+Async:   HTML ─── [script nào tải xong chạy trước] ───
+Module:  HTML ───────────────── xong ─ chạy đồ thị module
+```
+
+Async làm thứ tự giữa các tệp không đoán trước theo vị trí thẻ. Không dựa vào thứ tự giữa script async/defer/module trộn lẫn để truyền dữ liệu ngầm; module nên import phụ thuộc tường minh.
+
 ## 8. Rating nên dùng progress hay meter?
 
 progress mô tả mức hoàn thành công việc; rating 4.2/5 dùng meter min=0 max=5 value=4.2 kèm nhãn/chữ đọc được.

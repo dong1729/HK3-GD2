@@ -13,4 +13,12 @@ Mốc lập kế hoạch: 180–220 đơn vị/phút cho văn bản kỹ thuật
 | 5 | 6284 | 21917 | 14 | 3 | 34–43 |
 | 6 | 7554 | 27078 | 19 | 4 | 41–52 |
 
-Chương 7–11 chưa đếm trong lượt này. Thời gian dự kiến khác thời gian LMS ghi nhận: không ghi đè/bù phút quá khứ và không tự đánh dấu đạt dựa vào bảng này. Ngưỡng tối thiểu 7–10 phút của website không phải thời gian học phù hợp cho mọi chương.
+| 7 | 6288 | 23510 | 17 | 3 | 35–44 |
+| 8 | 8464 | 31230 | 23 | 3 | 46–59 |
+| 9 | 7634 | 28188 | 21 | 3 | 42–53 |
+| 10 | 7131 | 26753 | 20 | 3 | 39–50 |
+| 11 | 7011 | 24967 | 5 | 3 | 35–43 |
+
+Chương 6–11 tổng cộng khoảng **238–301 phút** đọc và xem mã/hình theo giả định trên, chưa tính thời gian tự làm bài. Không ép mọi chương vào 15–30 phút. Có thể chia mỗi chương thành 3–5 lượt 10–15 phút, nghỉ giữa các lượt và thử lại ví dụ khó.
+
+Thời gian dự kiến khác số phút web ghi nhận. Ngưỡng tối thiểu 10 phút của LMS không chứng minh đã học đủ cả chương. Không bù phút quá khứ hoặc ghi nhận thời gian dự kiến thành thời gian thực đọc.

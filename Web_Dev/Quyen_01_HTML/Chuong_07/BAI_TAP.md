@@ -1,15 +1,23 @@
 # Bài tập chương 7
 
-## Cơ bản
+## Bài cơ bản
 
-[Lời giải chạy được](co-ban.html). Xem nguồn HTML để đối chiếu thẻ; phần giải thích nằm trong nội dung trang. Đề không kèm tệp đầu vào riêng nên ví dụ lỗi được tái tạo trong tài liệu, lời giải dùng dữ liệu minh họa.
+Em tạo form liên hệ có họ tên, email, số điện thoại và nội dung. Mỗi trường có for/id, name và ràng buộc tương ứng. Nội dung dài dùng textarea; điện thoại dùng tel để giữ số 0 đầu.
 
-## Trung bình
+Lời giải: [co-ban.html](co-ban.html).
 
-Mở [trung-binh.html](trung-binh.html) bằng máy chủ thực hành; mã nằm trong cùng tệp hoặc module được tham chiếu.
+## Bài trung bình
 
-## Nâng cao — Ticket Q1-07
+Hai ô mật khẩu được so sánh mỗi khi input. Nếu khác nhau, em đặt customError; nếu khớp, em xóa bằng chuỗi rỗng. Nút Lưu nháp có formnovalidate và chỉ báo trong bộ nhớ, không lưu mật khẩu.
 
-[Mở lời giải trong dự án](../du-an/thanh-toan.html). Tìm kiếm GET; thanh toán POST, fieldset/legend, nhãn, autocomplete, inputmode, enterkeyhint, required/pattern/min/max/minlength. ui.js hiện lỗi chữ/màu, aria-describedby và setCustomValidity xóa lỗi khi hợp lệ. Máy chủ kiểm dữ liệu mẫu, không lưu.
+Lời giải: [trung-binh.html](trung-binh.html).
 
-Xem [nghiệm thu](../bao-cao/NGHIEM_THU.md) để phân biệt đã kiểm, còn mở và điều kiện phụ thuộc triển khai. Không chép nhãn đạt khi thiếu bằng chứng.
+## Bài nâng cao Q1-07
+
+Xem [lời giải và đối chiếu yêu cầu](NANG_CAO.md). Em gộp các phần nâng cao vào một nhà sách để các chương nối tiếp nhau.
+
+## Em kiểm lại như sau
+
+1. Thử sai rồi đúng ở bài đăng ký, bấm Lưu nháp khi còn lỗi.
+2. Thử form thanh toán với điện thoại và địa chỉ sai rồi sửa lại.
+3. Đi bằng Tab qua nhóm radio, thử Space/chọn mũi tên và đọc các nhãn.

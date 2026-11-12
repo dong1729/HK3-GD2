@@ -24,7 +24,7 @@ Bốn nhóm: cấu trúc/điều hướng thiếu main; ảnh/tên alt sai; form
 
 ## 6. Bốn công cụ kiểm định?
 
-W3C Nu kiểm HTML; Network kiểm tải; Lighthouse lab và một phần trợ năng/SEO; axe quy tắc trợ năng tự động. Ghi ngày/trang/lỗi/giới hạn; bổ sung nghe screen reader.
+Theo mục 11.5: W3C Validator kiểm cú pháp HTML; tab Network tìm tài nguyên lỗi/404; đối chiếu thẻ mô tả trang kiểm title, description, canonical riêng; trình đọc màn hình kiểm cấu trúc, nhãn và thứ tự đọc bằng cách nghe. Kết quả mong muốn là HTML không lỗi, không thiếu tài nguyên, metadata không trùng và nghe hiểu trang không cần nhìn. Lighthouse và axe là công cụ bổ sung, không thay thế bốn bước này.
 
 ## 7. Đánh giá chéo và mã lỗi?
 

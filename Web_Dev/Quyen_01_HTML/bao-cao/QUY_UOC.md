@@ -13,3 +13,7 @@ nguon/khuon.html có sm-card, sm-row, sm-review. data-sm-book-id là mã công k
 SITE_URL mặc định https://sachsaomai.example, chưa là tên miền triển khai thật. URL chữ thường/không dấu/gạch nối/không đuôi/không slash cuối. Máy chủ ánh xạ URL sang HTML. Giỏ/thanh toán noindex; robots không chặn hai trang này để bot đọc noindex. Chặn tham số sort/filter; sitemap chỉ chứa trang công khai. hreflang vi/en/x-default trỏ bản dịch thật và đối xứng.
 
 Không cam kết Google lập chỉ mục hoặc rich result trước triển khai. ISBN và đánh giá chỉ minh họa; schema bỏ ISBN giả và rating không xác minh. Product/Book có offers/image thật trong dữ liệu mẫu.
+
+## Lớp nổi dùng chung
+
+nguon/lop-noi.html chứa popover giỏ nhanh và dialog xem nhanh, được chèn vào $layers của khung.html khi dựng. ui.js chỉ gắn hành vi và quản lý focus. Sửa cấu trúc lớp nổi một lần rồi dựng lại mọi trang.
